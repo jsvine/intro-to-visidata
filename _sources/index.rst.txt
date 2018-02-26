@@ -2,7 +2,7 @@
 An Introduction to VisiData
 ===========================
 
-VisiData is a free tool for exploring data in your computer's terminal. Very quickly, it has become the tool I reach for first when I encounter a new dataset. I think you might enjoy it, too.
+`VisiData <http://visidata.org/>`_ is a free tool for exploring data in your computer's terminal. Very quickly, it has become the tool I reach for first when I encounter a new dataset. I think you might enjoy it, too.
 
 About this tutorial
 -------------------

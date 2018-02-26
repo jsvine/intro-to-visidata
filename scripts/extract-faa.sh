@@ -1,0 +1,4 @@
+#!/bin/bash
+mdb-export $HOME/Downloads/wildlife.accdb "STRIKE_REPORTS (2010-Current)" \
+    | csvcut -c "OPERATOR,ATYPE,INCIDENT_DATE,STATE,AIRPORT,PHASE_OF_FLT,HEIGHT,SPEED,SPECIES,BIRDS_STRUCK,EFFECT,DAMAGE,COST_REPAIRS,PERSON,REMAINS_COLLECTED,REMARKS" \
+    > datasets/faa-wildlife-strikes.csv

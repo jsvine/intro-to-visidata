@@ -1,0 +1,45 @@
+=================
+What Is VisiData?
+=================
+
+VisiData is a free, open-source tool that lets you **quickly open, explore, summarize, and analyze** datasets in your computer's terminal.
+
+This introductory guide is not officially affiliated with VisiData, and is not intended as a comprehensive reference. You can learn more about VisiData from these official sources:
+
+- `VisiData.org <http://visidata.org/>`_
+- `VisiData's GitHub repository <https://github.com/saulpw/visidata>`_
+
+.. note::
+
+    You **don't need to be a programmer** to use VisiData. Knowing `a little bit of Python <https://docs.python.org/3/tutorial/introduction.html>`_, however, will make VisiData even more powerful for you.
+
+
+
+Why use VisiData?
+-----------------
+
+- It's fast.
+    - VisiData opens in a blink of an eye, and can load multi-megabyte datasets nearly instantly.
+- It's nimble.
+    - VisiData makes it easy to search, filter, sort, and join any table.
+- It's great for getting a grasp of new datasets.
+    - With just a few keystrokes, you can summarize any column.
+- It works with :ref:`lots of data formats <compatible-filetypes>`.
+    - CSV, Excel, JSON, and more.
+- It's keyboard-driven.
+    - You never have to reach for a mouse.
+
+
+Why not use VisiData?
+---------------------
+
+VisiData isn't for every task. You might want to choose another tool for:
+
+- Complex analysis.
+    - You're probably better off using Python, R, or another programming language.
+- "Literate" analysis.
+    - Although VisiData lets you save and replay your analyses, it's not as legible/flexible as Jupyter notebooks, R Markdown, or other tools.
+- Mission-critical analysis.
+    - VisiData is well-engineered, but still a relatively young piece of software.
+- Geospatial analysis.
+    - VisiData *can* read geospatial data, but doesn't have many features for analyzing it.

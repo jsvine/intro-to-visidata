@@ -74,13 +74,13 @@ By default, frequency tables are sorted by the "count" column, but you can sort 
 One-off calculations
 --------------------
 
-From any data sheet, you can also run a single calculation on all rows — or all selected rows — in a column. To do that, navigate to the column and type :kbd:`z+`, which will bring up the same aggregator-choice prompt as above. Type the aggregator you want, and press :kbd:`Enter`. At the bottom of the screen, you'll see the result of the calculation.
+From any data sheet, you can also run a single calculation on all rows — or all selected rows — in a column. To do that, navigate to the column and type :kbd:`z+`, which will bring up the same aggregator-choice prompt as above. Type the aggregator you want, and press :kbd:`Enter`. At the bottom of the screen, you'll see the result of the calculation.
 
 You can try this on the FAA data sheet we've been working with. Navigate to the "COST_REPAIRS" column, and then do the following:
 
 - Press :kbd:`#` to tell VisiData this is an integer column (if you haven't already)
-- Type :kbd:`z+` to tell VisiData you want to add an aggregator
-- Type ``sum`` and then hit :kbd:`Enter` to add the summation aggregator
+- Type :kbd:`z+` to see the result of an aggregator
+- Type ``sum`` and then hit :kbd:`Enter`
 
 At the bottom of the screen, you should see something like this, indicating that the total *reported* cost of repairs is $161,868,071:
 

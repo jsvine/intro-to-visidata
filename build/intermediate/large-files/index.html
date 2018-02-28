@@ -124,7 +124,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#by-halting-the-loading-process">By halting the loading process</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#freeze-dynamic-columns">Freeze dynamic columns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#caching-dynamic-columns">Caching dynamic columns</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../reshaping-data/">Reshaping Data</a></li>
@@ -227,11 +227,11 @@
 <p>This approach works well if you’re a data source that’s more complex than a CSV file, and if you don’t care exactly how many lines are loaded.</p>
 </div>
 </div>
-<div class="section" id="freeze-dynamic-columns">
-<h2>Freeze dynamic columns<a class="headerlink" href="#freeze-dynamic-columns" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="caching-dynamic-columns">
+<h2>Caching dynamic columns<a class="headerlink" href="#caching-dynamic-columns" title="Permalink to this headline">¶</a></h2>
 <p>Dynamic columns (for instance, those created with the <kbd class="kbd docutils literal notranslate">=</kbd> command) are calculated “lazily” — i.e., only when they’re needed.</p>
-<p>If you’re running a lot of operations on a dynamic column — perhaps calculating its average, median, and sum — you can save some time by first “freezing” it. When you freeze a dynamic column, VisiData calculates its current state and never recomputes it.</p>
-<p>To freeze a column, navigate to it in your sheet and press <kbd class="kbd docutils literal notranslate">'</kbd>.</p>
+<p>If you’re running a lot of operations on a dynamic column — perhaps calculating its average, median, and sum — you can save some time by first “caching” it. When you cache a dynamic column, VisiData calculates its current state and never recomputes it.</p>
+<p>To cache (or re-cache) a column, navigate to it in your sheet and type <kbd class="kbd docutils literal notranslate">z'</kbd>.</p>
 </div>
 </div>
 

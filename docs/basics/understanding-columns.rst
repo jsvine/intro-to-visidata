@@ -182,7 +182,12 @@ We'd like to make them all numeric columns, so we type :kbd:`g#`, which results 
 .. raw:: html
     :file: ../../terminal/output/columns-sheet-02-assign-type.output.html
 
-And we'd like to make them uniformly narrow, so we navigate to the width column and type :kbd:`ge5` + :kbd:`Enter`, which gives us this:
+And we'd like to make them uniformly narrow, so we navigate to the width column and type :kbd:`ge8` + :kbd:`Enter`, which gives us this:
 
 .. raw:: html
     :file: ../../terminal/output/columns-sheet-03-assign-width.output.html
+
+To see how these changes have affected your data sheet, press :kbd:`q` to exit the Columns Sheet, and then navigate over to the ``HEIGHT`` column:
+
+.. raw:: html
+    :file: ../../terminal/output/columns-sheet-04-after-changes.output.html

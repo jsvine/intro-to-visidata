@@ -18,7 +18,15 @@ SEND "g#"
 PAUSE 0.25
 CAPTURE terminal/output/columns-sheet-02-assign-type.output
 
-SEND lge5
+SEND lge8
 ENTER
 PAUSE 0.25
 CAPTURE terminal/output/columns-sheet-03-assign-width.output
+
+SEND q
+AWAIT " rows" --start-line -1
+SEND cHEIGHT
+ENTER
+SEND lllhhh
+PAUSE 1
+CAPTURE terminal/output/columns-sheet-04-after-changes.output

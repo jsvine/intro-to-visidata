@@ -70,7 +70,7 @@ Tabular data
 
 - CSV files, and any other delimiter-separated format (TSVs, pipe-separated files, etc.)
 - Fixed-width files
-- Excel (both ``.xls`` and ``.xlsx``)
+- Excel (requires ``pip3 install xlrd openpyxl``)
 - SQLite
 - Postgres (requires ``pip3 install psycopg2``)
 - HDF5 (requires  ``pip3 install h5py``)

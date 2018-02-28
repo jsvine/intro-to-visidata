@@ -37,11 +37,11 @@ You can also just press :kbd:`Control-c` while the data is loading, which will h
 This approach works well if you're a data source that's more complex than a CSV file, and if you don't care exactly how many lines are loaded.
 
 
-Freeze dynamic columns
-----------------------
+Caching dynamic columns
+-----------------------
 
 Dynamic columns (for instance, those created with the :kbd:`=` command) are calculated "lazily" — i.e., only when they're needed.
 
-If you're running a lot of operations on a dynamic column — perhaps calculating its average, median, and sum — you can save some time by first "freezing" it. When you freeze a dynamic column, VisiData calculates its current state and never recomputes it.
+If you're running a lot of operations on a dynamic column — perhaps calculating its average, median, and sum — you can save some time by first "caching" it. When you cache a dynamic column, VisiData calculates its current state and never recomputes it.
 
-To freeze a column, navigate to it in your sheet and press :kbd:`'`.
+To cache (or re-cache) a column, navigate to it in your sheet and type :kbd:`z'`.

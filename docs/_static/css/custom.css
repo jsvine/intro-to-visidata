@@ -40,6 +40,7 @@ kbd {
     padding: 2px 5px;
     margin-bottom: 20px;
     line-height: 14px;
+    min-width: 696px;
 }
 
 .ansi2html pre {

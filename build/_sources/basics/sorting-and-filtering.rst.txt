@@ -81,7 +81,7 @@ From there, pressing :kbd:`Enter` should create the filtered sheet we wanted:
     :file: ../../terminal/output/filtering-03-freq-after.output.html
 
 
-Using frequency tables to select (and filter) for mulitple values
+Using frequency tables to select (and filter) for multiple values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The approach above is great if you want to drill down on rows where a field equals one particular value. But what if you want to include a few different values? You can do this through a combination of the techniques above. Specifically: Select the rows of the frequency table you want to include, move back to the main data sheet, and then filter with :kbd:`"`.

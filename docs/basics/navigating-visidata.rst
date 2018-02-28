@@ -29,12 +29,12 @@ You can use these keystrokes to move more than one column or row at a time:
 =================================  =======================
 Keystroke(s)                       Moves cursor ...
 =================================  =======================
-:kbd:`gj`/:kbd:`G`                 to last row
-:kbd:`gk`/:kbd:`gg`                to first row
+:kbd:`gj`                          to last row
+:kbd:`gk`                          to first row
 :kbd:`gh`                          to leftmost column
 :kbd:`gl`                          to rightmost column
-:kbd:`PageDown`/:kbd:`Control-B`   one page down (forward)
-:kbd:`PageUp`/:kbd:`Control-F`     one page up (backward)
+:kbd:`PageDown`/:kbd:`Control-F`   one page down (forward)
+:kbd:`PageUp`/:kbd:`Control-B`     one page up (backward)
 =================================  =======================
 
 .. note::

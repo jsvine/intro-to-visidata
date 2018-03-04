@@ -32,12 +32,15 @@ About the author
 
 `Jeremy Singer-Vine <https://www.jsvine.com/>`_ is the `data editor <https://github.com/BuzzFeedNews/everything>`_ at `BuzzFeed News <https://www.buzzfeed.com/news>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
 
-
 Feedback / questions / corrections?
 -----------------------------------
 
 `File an issue on GitHub <https://github.com/jsvine/intro-to-visidata/issues>`_ or email the author at `jsvine@gmail.com <mailto:jsvine@gmail.com>`_.
 
+Acknowledgments
+---------------
+
+Many thanks to the following people for their feedback and suggestions: `Saul Pwanson <http://saul.pw/>`_, `Anja Kefala <https://github.com/anjakefala>`_, `John Templon <https://twitter.com/jtemplon>`_, `Scott Pham <https://twitter.com/scottpham>`_.
 
 .. toctree::
    :hidden:

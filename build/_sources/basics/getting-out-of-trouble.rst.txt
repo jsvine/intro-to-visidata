@@ -8,7 +8,8 @@ Before starting, it's helpful to know these keystrokes:
 Keystroke(s)                       Action
 =================================  =======================
 :kbd:`Control-c`                   Abort the current command
-:kbd:`Control-q`                   Force-quit VisiData  
+:kbd:`Control-q`                   Force-quit VisiData entirely
+:kbd:`q`                           Quit the current VisiData "sheet"
 :kbd:`z?`                          Display the "Quick Reference Guide"
 =================================  =======================
 

@@ -2,7 +2,7 @@
 An Introduction to VisiData
 ===========================
 
-`VisiData <http://visidata.org/>`_ is a free, open-source tool that lets you **quickly open, explore, summarize, and analyze** datasets in your computer's terminal. The interface looks like this:
+`VisiData <http://visidata.org/>`_ is a free, open-source tool that lets you **quickly open, explore, summarize, and analyze** datasets in your computer's terminal. VisiData works with CSV files, Excel spreadsheets, SQL databases, and `many other data sources <basics/opening-files/#compatible-filetypes>`_. The interface looks like this:
 
 .. raw:: html
     :file: ../terminal/output/faa-operator-frequency.output.html

@@ -68,12 +68,12 @@ VisiData can open a range of filetypes, including:
 Tabular data
 ^^^^^^^^^^^^
 
-- CSV files, and any other delimiter-separated format (TSVs, pipe-separated files, etc.)
+- CSV files, and any other delimiter-separated formats
+- Excel spreadsheets (requires ``pip3 install xlrd openpyxl``)
 - Fixed-width files
-- Excel (requires ``pip3 install xlrd openpyxl``)
-- SQLite
-- Postgres (requires ``pip3 install psycopg2``)
-- HDF5 (requires  ``pip3 install h5py``)
+- SQLite databases
+- Postgres databases (requires ``pip3 install psycopg2``)
+- HDF5 files (requires  ``pip3 install h5py``)
 
 Geospatial data
 ^^^^^^^^^^^^^^^
@@ -90,6 +90,6 @@ Directories
 Misc.
 ^^^^^
 
-- JSON / JSONL (works best if data is not nested)
+- JSON / JSONL
 - HTML (looks for ``<table>`` tags; requires ``pip3 install lxml``)
 - Website URLs (downloads the HTML, and then looks for ``<table>`` tags; requires ``pip3 install lxml``)

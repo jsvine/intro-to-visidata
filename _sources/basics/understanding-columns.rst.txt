@@ -162,7 +162,7 @@ You can do nearly all of the above from the Columns Sheet (:kbd:`Shift-C`). When
 
 - **Editing column names**: In the Columns Sheet, you can edit each column's name like you would any other row cell. Just navigate to the name, and press :kbd:`e` to start editing.
 
-- **Setting column types**: You can select multiple rows of the Columns Sheet and typign :kbd:`g$`, for example, to set all of the selected columns' type to ``currency``. 
+- **Setting column types**: You can select multiple rows of the Columns Sheet and type :kbd:`g$`, for example, to set all of the selected columns' types to ``currency``. 
 
 - **Setting column widths**: You can edit the ``width`` field of the Columns Sheet to adjust any column's width. You can also give multiple columns to the same width by selecting each of their rows, and typing :kbd:`ge` + *number*, where *number* is the desired width. 
 

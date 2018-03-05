@@ -8,7 +8,7 @@ VisiData handles moderately large files reasonably well. But if a particularly l
 Select a random sample of rows
 ------------------------------
 
-In VisiData, you can create a randomly-sampled copy of any sheet. To do create a random-sample sheet, press :kbd:`Shift-R`. At the the prompt, type the number of rows you'd like to include, and then press :kbd:`Enter`.
+In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press :kbd:`Shift-R`. At the the prompt, type the number of rows you'd like to include, and then press :kbd:`Enter`.
 
 
 
@@ -34,7 +34,7 @@ By halting the loading process
 
 You can also just press :kbd:`Control-c` while the data is loading, which will halt the loading process. VisiData handles this gracefully, and you can continue using the program just as you would if you hadn't halted the loading proces.
 
-This approach works well if you're a data source that's more complex than a CSV file, and if you don't care exactly how many lines are loaded.
+This approach works well if you're using a data source that's more complex than a CSV file, and if you don't care exactly how many lines are loaded.
 
 
 Caching dynamic columns

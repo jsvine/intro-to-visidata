@@ -8,7 +8,7 @@ VisiData makes it pleasantly easy to summarize your data. There are three main t
 Frequency tables
 ----------------
 
-Frequency tables are dead-simple, but also quite powerful. For the dead-simple usage: Navigate to any column, and then press :kbd:`F`. If you did that on the first column ("OPERATOR") of the FAA dataset, you should get something like this:
+Frequency tables are dead-simple, but also quite powerful. For the dead-simple usage: Navigate to any column, and then press :kbd:`Shift-F`. If you did that on the first column ("OPERATOR") of the FAA dataset, you should get something like this:
 
 .. raw:: html
     :file: ../../terminal/output/faa-operator-frequency.output.html
@@ -61,7 +61,7 @@ For example, let's go back to the original FAA data sheet. Let's navigate to the
 - Press :kbd:`#` to tell VisiData this is an integer column
 - Press :kbd:`+` to tell VisiData you want to add an aggregator
 - Type ``sum`` and then hit :kbd:`Enter` to add the summation aggregator
-- Navigate to the "AIRPORT" column, and press :kbd:`F`
+- Navigate to the "AIRPORT" column, and press :kbd:`Shift-F`
 
 You should see something like this:
 

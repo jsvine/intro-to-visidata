@@ -68,7 +68,7 @@ Finally, let's un-select all the rows in our filtered sheet, by typing :kbd:`gu`
 Rename the filtered sheet
 -------------------------
 
-By default, our will be titled "faa-wildlife-strikes_selectedref". To make it slightly easier to distinguish from other sheets, let's rename it. To rename a sheet, do the following:
+By default, our sheet will be titled "faa-wildlife-strikes_selectedref". To make it slightly easier to distinguish from other sheets, let's rename it. To rename a sheet, do the following:
 
 - Press :kbd:`Shift-S` to open the Sheets Sheet
 - Press :kbd:`_` to widen the ``name`` column so that we read all the names

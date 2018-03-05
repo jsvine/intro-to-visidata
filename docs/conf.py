@@ -57,7 +57,7 @@ author = 'Jeremy Singer-Vine'
 # built documents.
 #
 # The short X.Y version.
-version = '2018-02-21'
+version = ''
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -93,7 +93,10 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'display_version': False,
+    'canonical_url': 'https://jsvine.github.io/intro-to-visidata/'
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -116,7 +119,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AnIntroductiontoVisiDatadoc'
+htmlhelp_basename = 'intro-to-visidata'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -143,7 +146,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AnIntroductiontoVisiData.tex', 'An Introduction to VisiData',
+    (master_doc, 'intro-to-visidata.tex', 'An Introduction to VisiData',
      'Jeremy Singer-Vine', 'manual'),
 ]
 
@@ -153,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'anintroductiontovisidata', 'An Introduction to VisiData',
+    (master_doc, 'intro-to-visidata', 'An Introduction to VisiData',
      [author], 1)
 ]
 
@@ -164,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AnIntroductiontoVisiData', 'An Introduction to VisiData',
-     author, 'AnIntroductiontoVisiData', 'One line description of project.',
+    (master_doc, 'intro-to-visidata', 'An Introduction to VisiData',
+     author, 'intro-to-visidata', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -175,6 +178,7 @@ texinfo_documents = [
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 html_show_sourcelink = False
+html_title = "An Introduction to VisiData"
 
 def setup(app):
     app.add_stylesheet('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700')

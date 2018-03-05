@@ -6,7 +6,7 @@ Working with Excel spreadsheets in VisiData isn't *much* different than working 
 
 - When you open an Excel file, the first thing you'll see is a listing of the sheets it contains. (Navigate to the sheet you want to explore, and then press :kbd:`Enter` to open it.)
 
-- For a range of reasons, VisiData sheets loaded from Excel won't initially have names.
+- For a range of reasons, VisiData sheets loaded from Excel won't initially have column names.
 
 How to auto-name unnamed columns
 --------------------------------

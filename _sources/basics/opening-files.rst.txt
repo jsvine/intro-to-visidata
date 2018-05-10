@@ -73,7 +73,11 @@ Tabular data
 - Fixed-width files
 - SQLite databases
 - Postgres databases (requires ``pip3 install psycopg2``)
-- HDF5 files (requires  ``pip3 install h5py``)
+- HDF5 files (requires ``pip3 install h5py``)
+- .sas7bdat files (requires ``pip3 install sas7bdat``)
+- .xpt files (requires ``pip3 install xport``)
+- .sav files (requires ``pip3 install savReaderWriter``)
+- .dta files (requires ``pip3 install pandas``)
 
 Geospatial data
 ^^^^^^^^^^^^^^^

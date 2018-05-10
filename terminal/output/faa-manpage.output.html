@@ -7,17 +7,17 @@ vd(1)                        Quick Reference Guide                       vd(1)
      <span class="ansi1">vd</span> [<span class="ansi4">options</span>] [<span class="ansi4">input</span> ...]                     
      <span class="ansi1">vd</span> [<span class="ansi4">options</span>] <span class="ansi1">--play</span> <span class="ansi4">cmdlog</span> [<span class="ansi1">-w</span> <span class="ansi4">waitsecs</span>] [<span class="ansi1">--batch</span>] [<span class="ansi1">-o</span> <span class="ansi4">output</span>] [<span class="ansi4">field</span><span class="ansi1"></span><span class="ansi1"></span><span class="ansi1">=</span><span class="ansi4"></span><span class="ansi4"></span><span class="ansi4">value</span> ...]               
 <span class="ansi1">DESCRIPTION</span>              
-     <span class="ansi1">VisiData</span> is a multipurpose tool for exploring, cleaning, editing, and restructuring            
-     data.  Rows can be selected, filtered, and grouped; columns can be rearranged, trans-          
-     formed, and derived via regex or Python expressions; workflows can be saved, docu-             
-     mented, and replayed.  <span class="ansi1">VisiData</span> is built on the <span class="ansi1">vdtui</span> platform.                                
+     <span class="ansi1">VisiData</span> is a multipurpose tool built on the <span class="ansi1">vdtui</span> platform that can be used to                
+     explore, clean, edit, and restructure data. Rows can be selected, filtered, and                
+     grouped; columns can be rearranged, transformed, and derived via regex or Python               
+     expressions; and workflows can be saved, documented, and replayed.                             
    <span class="ansi1">REPLAY</span> <span class="ansi1">MODE</span>           
-     <span class="ansi1">-p</span>, <span class="ansi1">--play</span>=<span class="ansi4">cmdlog</span>       replays a saved <span class="ansi4">cmdlog</span> within the interface                            
+     <span class="ansi1">-p</span>, <span class="ansi1">--play</span>=<span class="ansi4">cmdlog</span>       replay a saved <span class="ansi4">cmdlog</span> within the interface                             
      <span class="ansi1">-w</span>, <span class="ansi1">--replay-wait</span>=<span class="ansi4">seconds</span>                    
-                             waits <span class="ansi4">seconds</span> between commands                                         
-     <span class="ansi1">-b</span>, <span class="ansi1">--batch</span>             replays in batch mode (with no interface)                              
-     <span class="ansi1">-o</span>, <span class="ansi1">--output</span>=<span class="ansi4">file</span>       saves final visible sheet to <span class="ansi4">file</span> as .tsv                              
-     <span class="ansi1">--replay-movement=</span><span class="ansi4"></span><span class="ansi4"></span><span class="ansi4">bool</span>  toggles <span class="ansi1">--play</span> to move cursor cell-by-cell                             
+                             wait <span class="ansi4">seconds</span> between commands                                          
+     <span class="ansi1">-b</span>, <span class="ansi1">--batch</span>             replay in batch mode (with no interface)                               
+     <span class="ansi1">-o</span>, <span class="ansi1">--output</span>=<span class="ansi4">file</span>       save final visible sheet to <span class="ansi4">file</span> as .tsv                               
+     <span class="ansi1">--replay-movement=</span><span class="ansi4"></span><span class="ansi4"></span><span class="ansi4">bool</span>  toggle <span class="ansi1">--play</span> to move cursor cell-by-cell                              
 :
 </pre>
 </div>

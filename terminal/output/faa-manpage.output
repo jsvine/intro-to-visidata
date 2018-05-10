@@ -5,15 +5,15 @@ vd(1)                        Quick Reference Guide                       vd(1)
      [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [[4minput[0m[39m[49m ...]                     
      [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [1m--play[0m[39m[49m [4mcmdlog[0m[39m[49m [[1m-w[0m[39m[49m [4mwaitsecs[0m[39m[49m] [[1m--batch[0m[39m[49m] [[1m-o[0m[39m[49m [4moutput[0m[39m[49m] [[4mfield[0;1m[39m[49m=[0;4m[39m[49mvalue[0m[39m[49m ...]               
 [1mDESCRIPTION[0m[39m[49m              
-     [1mVisiData[0m[39m[49m is a multipurpose tool for exploring, cleaning, editing, and restructuring            
-     data.  Rows can be selected, filtered, and grouped; columns can be rearranged, trans-          
-     formed, and derived via regex or Python expressions; workflows can be saved, docu-             
-     mented, and replayed.  [1mVisiData[0m[39m[49m is built on the [1mvdtui[0m[39m[49m platform.                                
+     [1mVisiData[0m[39m[49m is a multipurpose tool built on the [1mvdtui[0m[39m[49m platform that can be used to                
+     explore, clean, edit, and restructure data. Rows can be selected, filtered, and                
+     grouped; columns can be rearranged, transformed, and derived via regex or Python               
+     expressions; and workflows can be saved, documented, and replayed.                             
    [1mREPLAY[0m[39m[49m [1mMODE[0m[39m[49m           
-     [1m-p[0m[39m[49m, [1m--play[0m[39m[49m=[4mcmdlog[0m[39m[49m       replays a saved [4mcmdlog[0m[39m[49m within the interface                            
+     [1m-p[0m[39m[49m, [1m--play[0m[39m[49m=[4mcmdlog[0m[39m[49m       replay a saved [4mcmdlog[0m[39m[49m within the interface                             
      [1m-w[0m[39m[49m, [1m--replay-wait[0m[39m[49m=[4mseconds[0m[39m[49m                    
-                             waits [4mseconds[0m[39m[49m between commands                                         
-     [1m-b[0m[39m[49m, [1m--batch[0m[39m[49m             replays in batch mode (with no interface)                              
-     [1m-o[0m[39m[49m, [1m--output[0m[39m[49m=[4mfile[0m[39m[49m       saves final visible sheet to [4mfile[0m[39m[49m as .tsv                              
-     [1m--replay-movement=[0;4m[39m[49mbool[0m[39m[49m  toggles [1m--play[0m[39m[49m to move cursor cell-by-cell                             
+                             wait [4mseconds[0m[39m[49m between commands                                          
+     [1m-b[0m[39m[49m, [1m--batch[0m[39m[49m             replay in batch mode (with no interface)                               
+     [1m-o[0m[39m[49m, [1m--output[0m[39m[49m=[4mfile[0m[39m[49m       save final visible sheet to [4mfile[0m[39m[49m as .tsv                               
+     [1m--replay-movement=[0;4m[39m[49mbool[0m[39m[49m  toggle [1m--play[0m[39m[49m to move cursor cell-by-cell                              
 :

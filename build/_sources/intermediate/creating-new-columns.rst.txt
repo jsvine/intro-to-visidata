@@ -45,7 +45,7 @@ You should see something like the following:
 
 .. note::
 
-   If VisiData encounters an error for the computation of a new cell (e.g., if you try to add ``"dog" + 42``), VisiData will display that cell's value as ``¿``.
+   If VisiData encounters an error for the computation of a new cell (e.g., if you try to add ``"dog" + 42``), VisiData will display that cell's value as ``!``.
 
 
 How to create new columns by splitting another one

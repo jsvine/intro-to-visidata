@@ -47,7 +47,7 @@ Keystroke(s)         Action
 :kbd:`g|` + *term*   Select all rows where *term* matches **any** column
 :kbd:`g\\` + *term*  Unselect all rows where *term* matches **any** column
 :kbd:`,`             Select all rows where the **current column** matches this rows' value for that column
-:kbd:`g,`            Select all rows where the **any column** matches this rows' value for the current column
+:kbd:`g,`            Select all rows matching **the current row** (for all non-hidden columns)
 ===================  ============
 
 For instance, if you take the following steps:

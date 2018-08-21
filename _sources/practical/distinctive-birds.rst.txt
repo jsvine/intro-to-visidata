@@ -60,21 +60,15 @@ Now that we've selected our desired columns, let's create a new sheet containing
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-03-filtered.output.html
 
-Finally, let's un-select all the rows in our filtered sheet, by typing :kbd:`gu` (mnemonic: "global unselect"):
-
-.. raw:: html
-	:file: ../../terminal/output/practical-distinctive-03b-unselected.output.html
 
 Rename the filtered sheet
 -------------------------
 
 By default, our sheet will be titled "faa-wildlife-strikes_selectedref". To make it slightly easier to distinguish from other sheets, let's rename it. To rename a sheet, do the following:
 
-- Press :kbd:`Shift-S` to open the Sheets Sheet
-- Press :kbd:`_` to widen the ``name`` column so that we read all the names
-- Navigate down to our sheet of interest
-- Press :kbd:`e` to begin editing the name
-- Type the new name we want; in this case ``known_species``
+- Press :kbd:`Space` to raise the type-a-command prompt
+- Type ``rename-sheet`` (the command we want to use) and press :kbd:`Enter`
+- At the next prompt, type the new name we want; in this case ``known_species``
 
 At this point, you should see something like this:
 
@@ -83,7 +77,6 @@ At this point, you should see something like this:
 
 When you've entered the name, press :kbd:`Enter` to complete the edit (or :kbd:`Control-c` to cancel the edit).
 
-Then, either (a) press :kbd:`q` to leave the Sheets Sheet, or (b) navigate back to the row representing our ``known_species`` and press :kbd:`Enter` to return to it.
 
 Count the number of collisions per state
 ----------------------------------------
@@ -157,7 +150,7 @@ Join the two frequency tables
 
 Now, for the moment we've all been waiting for: Let's join the tables!
 
-First, press :kbd:`Shift-S` to open the Sheets Sheet, and then press :kbd:`_` to widen the ``name`` column so that we read all the names:
+First, press :kbd:`Shift-S` to open the Sheets Sheet:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-12-sheets-sheet.output.html
@@ -213,19 +206,19 @@ Limit to rows with at least 20 collisions
 
 Hmmm, many of the highest-ranking species-state combinations seem to come from "states" — like the striped skunk that was struck in Nova Scotia — with very few reported collisions. So let's limit the results to species-state combinations with at least 20 reports.
 
-To do that, we'll create a new ``True/False`` that indicates whether a row represents 20 or more reports, and then select only the rows for which that's true. Here's how:
+To do that, we'll use :kbd:`z|`, VisiData's "select by expression" command.
 
-First, press :kbd:`=` to raise the new-column prompt. Then, type ``count >= 20`` at the prompt, and then press :kbd:`Enter` to complete the action. Now you should see something like this:
-
-.. raw:: html
-	:file: ../../terminal/output/practical-distinctive-18-new-col-cutoff.output.html
-
-Then, navigate to the new column and press :kbd:`Shift-F` to create a frequency table of it, and navigate to the ``True`` row:
+First, type :kbd:`z|` to raise the selection prompt. Then, type ``count >= 20``:
 
 .. raw:: html
-	:file: ../../terminal/output/practical-distinctive-19-new-col-cutoff-freq.output.html
+	:file: ../../terminal/output/practical-distinctive-18-select-expr-input.output.html
 
-Finally, press :kbd:`Enter` to see just the rows for which ``count`` is at least 20:
+Next, press :kbd:`Enter` to complete the action. Now you should see something like this:
+
+.. raw:: html
+	:file: ../../terminal/output/practical-distinctive-19-select-expr-result.output.html
+
+Finally, press :kbd:`"` to create a new sheet containing only the selected rows: 
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-20-limited.output.html

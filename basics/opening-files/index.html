@@ -26,8 +26,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -98,6 +97,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#how-to-specify-the-file-s-format">How to specify the file’s format</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#compatible-filetypes">Compatible filetypes</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#tabular-data">Tabular data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nested-data">Nested Data</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#geospatial-data">Geospatial data</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#directories">Directories</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#misc">Misc.</a></li>
@@ -231,7 +231,7 @@
 </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40"> BUSINESS           </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> C-172</span><span class="ansi40">          </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> 05/08/15 00:00:00  </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> FL</span><span class="ansi40">      </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> ORLANDO SANFORD IN…</span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> APPROACH</span><span class="ansi40"> 
 </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40"> SPIRIT AIRLINES    </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> A-319</span><span class="ansi40">          </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> 05/10/15 00:00:00  </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> IL</span><span class="ansi40">      </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> CHICAGO O'HARE INT…</span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> CLIMB</span><span class="ansi40">    
 </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40"> EXPRESSJET AIRLINES</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> EMB-145</span><span class="ansi40">        </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> 05/11/15 00:00:00  </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> AL</span><span class="ansi40">      </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> BIRMINGHAM-SHUTTLE…</span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> LANDING…</span><span class="ansi40"> 
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">faa-wildlife-strikes| Do ya feel lucky, textpunk? | saul.pw/VisiData v1.2 | opening</span><span class="ansi37"></span><span class="ansi37 ansi40"> </span><span class="ansi1 ansi37 ansi40">     73448 rows</span><span class="ansi40"> </span>
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">faa-wildlife-strikes| saul.pw/VisiData v1.3.1 | opening faa-wildlife-strikes as cs</span><span class="ansi37"></span><span class="ansi37 ansi40"> </span><span class="ansi1 ansi37 ansi40">     73448 rows…</span><span class="ansi40"> </span>
 </pre>
 </div>
 <p>Let’s break it down:</p>
@@ -300,6 +300,14 @@
 <li>.dta files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">pandas</span></code>)</li>
 </ul>
 </div>
+<div class="section" id="nested-data">
+<h3>Nested Data<a class="headerlink" href="#nested-data" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>JSON / JSONL</li>
+<li>XML (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">lxml</span></code>)</li>
+<li>YAML (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">PyYAML</span></code>)</li>
+</ul>
+</div>
 <div class="section" id="geospatial-data">
 <h3>Geospatial data<a class="headerlink" href="#geospatial-data" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
@@ -317,9 +325,9 @@
 <div class="section" id="misc">
 <h3>Misc.<a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>JSON / JSONL</li>
 <li>HTML (looks for <code class="docutils literal notranslate"><span class="pre">&lt;table&gt;</span></code> tags; requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">lxml</span></code>)</li>
 <li>Website URLs (downloads the HTML, and then looks for <code class="docutils literal notranslate"><span class="pre">&lt;table&gt;</span></code> tags; requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">lxml</span></code>)</li>
+<li>.pcap files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">dpkt</span> <span class="pre">dnslib</span></code>)</li>
 </ul>
 </div>
 </div>
@@ -381,10 +389,7 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

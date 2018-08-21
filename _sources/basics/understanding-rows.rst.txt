@@ -62,6 +62,36 @@ For instance, if you take the following steps:
 .. raw:: html
    :file: ../../terminal/output/rows-01-select-pattern.output.html
 
+Via expressions
+^^^^^^^^^^^^^^^
+
+In VisiData, you can select rows by evaluating a given Python **expression** for every row in your dataset.
+
+.. note::
+
+   If you're unfamiliar with Python, no worries. You can find an overview of simple and handy expressions `here <https://docs.python.org/3/tutorial/introduction.html>`_.
+
+These expressions can reference any column in your dataset (so long as the column name contains only letters, underscores, and numbers, and doesn't start with a number; in the next chapter, you'll learn how to rename columns). The two keystrokes for this are :kbd:`z|` and :kbd:`z\\`:
+
+===================  ============
+Keystroke(s)         Action
+===================  ============
+:kbd:`z|` + *expr*   Select all rows where *expr* evaluates to ``True``
+:kbd:`z\\` + *expr*  Unselect all rows where *expr* evaluates to ``True``
+===================  ============
+
+For instance, if you take the following steps:
+
+- Type :kbd:`gu` to unselect all rows
+- Type :kbd:`z|`
+- Type ``OPERATOR == "BUSINESS" and STATE == "FL"``
+- Press :kbd:`Enter`
+
+... you should see this:
+
+.. raw:: html
+   :file: ../../terminal/output/rows-02-select-expr.output.html
+
 
 Moving Rows
 -----------

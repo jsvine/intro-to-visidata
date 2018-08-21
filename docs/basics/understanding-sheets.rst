@@ -36,12 +36,19 @@ You can navigate the Sheets Sheet just like you would any other sheet, with one 
 
 .. warning::
 
-   Pressing :kbd:`d` on a Sheets Sheet row will permanently close that row's sheet.
+   Pressing :kbd:`d` on a Sheets Sheet row will send the corresponding sheet to the "sheets graveyard".
 
-Quickly toggling between sheets
--------------------------------
 
-To flip back and forth between your current sheet and the previous one, press :kbd:`Control-^`.
+
+How to rename a sheet
+---------------------
+
+There are two ways to rename a sheet:
+
+- Go to the **Sheets Sheet**, and navigate to the row representing the sheet you want to rename. Press :kbd:`e` to go into editing mode, type the new name, and then press :kbd:`Enter` to complete the renaming.
+
+- Alternatively, while **in the sheet you want to rename**, press :kbd:`Space` to raise the type-a-command prompt. Then, type ``rename-sheet`` and press :kbd:`Enter`. At the next prompt, type the new name, and press :kbd:`Enter` to complete the renaming.
+
 
 How to close/remove a sheet
 ---------------------------
@@ -49,3 +56,12 @@ How to close/remove a sheet
 To close the current sheet (removing it from VisiData), press :kbd:`q`.
 
 To close all sheets (and, hence, quitting VisiData in its entirety), type :kbd:`gq`.
+
+To access the "sheets graveyard", a listing of recently-closed sheets, type :kbd:`gS`.
+
+
+Quickly toggling between sheets
+-------------------------------
+
+To flip back and forth between your current sheet and the previous one, press :kbd:`Control-^`.
+

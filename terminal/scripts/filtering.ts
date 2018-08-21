@@ -7,7 +7,7 @@ SEND cSPECIES
 ENTER
 SEND |hawk
 ENTER
-AWAIT "selected" --start-line -1
+AWAIT "2164 matches" --start-line -1
 CAPTURE terminal/output/filtering-00-search.output
 
 SEND '"'
@@ -45,7 +45,7 @@ PAUSE 0.25
 CAPTURE terminal/output/filtering-05-freq-multiselect.output
 
 SEND q
-AWAIT rows
+AWAIT "73448 rows"
 CAPTURE terminal/output/filtering-06-freq-data-post-multiselect.output
 
 SEND '"'

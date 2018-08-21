@@ -10,7 +10,8 @@ Keystroke(s)                       Action
 :kbd:`Control-c`                   Abort the current command
 :kbd:`Control-q`                   Force-quit VisiData entirely
 :kbd:`q`                           Quit the current VisiData "sheet"
-:kbd:`z?`                          Display the "Quick Reference Guide"
+:kbd:`Control-h`                   Display the "Quick Reference Guide"
+:kbd:`z` + :kbd:`Control-h`        Display list of commands available on the current sheet
 =================================  =======================
 
 .. note::

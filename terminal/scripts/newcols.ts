@@ -5,7 +5,7 @@ AWAIT "rows"
 
 SEND =1
 ENTER
-AWAIT '=\s+73' --start-line -1
+AWAIT '1  #\| PA-28'
 CAPTURE terminal/output/newcols-00-simple.output
 SEND l-
 

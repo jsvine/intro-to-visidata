@@ -9,11 +9,13 @@ SEND F
 AWAIT "bins"
 CAPTURE terminal/output/faa-operator-frequency.output
 
-SEND z?
+SEND 
 AWAIT "a terminal utility"
 CAPTURE terminal/output/faa-manpage.output
 
 SEND qq
 AWAIT "VERO BEACH"
+
 SEND S
+AWAIT "2 sheets"
 CAPTURE terminal/output/faa-simple-sheets-sheet.output

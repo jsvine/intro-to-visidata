@@ -10,22 +10,17 @@ SEND "llhh#"
 AWAIT '#\s+73' --start-line -1
 CAPTURE terminal/output/practical-hfb-01-integer.output
 
-SEND =HEIGHT > 0
-ENTER
-AWAIT '=\s+73' --start-line -1
-CAPTURE terminal/output/practical-hfb-02-new-col.output
-
-SEND lF
-AWAIT 'bins' --start-line -1
-CAPTURE terminal/output/practical-hfb-03-new-col-freq.output --end-line 6
-
-SEND j
-PAUSE 0.25
-CAPTURE terminal/output/practical-hfb-04-new-col-freq-true.output --end-line 6
+SEND z|HEIGHT > 0
+AWAIT "z|HEIGHT > 0" --start-line -1
+CAPTURE terminal/output/practical-hfb-02-select-expr-input.output
 
 ENTER
-AWAIT 'rows' --start-line -1
-CAPTURE terminal/output/practical-hfb-04-new-col-true-only.output
+AWAIT '"HEIGHT > 0".* rows' --start-line -1
+CAPTURE terminal/output/practical-hfb-03-select-expr-result.output
+
+SEND '"'
+AWAIT '"\s+ 22883 rows' --start-line -1
+CAPTURE terminal/output/practical-hfb-04-filtered.output
 
 SEND cHEIGHT
 ENTER
@@ -46,18 +41,16 @@ SEND ]
 AWAIT ']\s+42' --start-line -1
 CAPTURE terminal/output/practical-hfb-07-sorted.output
 
-SEND =count >= 20
-ENTER
-AWAIT '=\s+42' --start-line -1
-CAPTURE terminal/output/practical-hfb-08-new-count-col.output
+SEND z|count >= 20
+AWAIT "z|count >= 20" --start-line -1
+CAPTURE terminal/output/practical-hfb-08-select-expr-input.output
 
-SEND lF
-AWAIT '\s+2 bins' --start-line -1
-CAPTURE terminal/output/practical-hfb-09-new-count-col-freq.output
-
-SEND j
 ENTER
-AWAIT '\s75 bins' --start-line -1
+AWAIT '"count >= 20".* rows' --start-line -1
+CAPTURE terminal/output/practical-hfb-09-select-expr-result.output --start-line -3
+
+SEND '"'
+AWAIT 75 bins
 CAPTURE terminal/output/practical-hfb-10-limited.output
 
 SEND g_

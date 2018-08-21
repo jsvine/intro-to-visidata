@@ -11,7 +11,9 @@ In any VisiData sheet, you can create new columns based on pre-existing columns.
 How to create an expression column
 ----------------------------------
 
-Expression columns **evaluate** a given Python expression for every row in your dataset. They can reference any column in your dataset.
+Expression columns **evaluate** a given Python expression for every row in your dataset.
+
+These expressions can reference any column in your dataset (so long as the column name contains only letters, underscores, and numbers, and doesn't start with a number).
 
 .. note::
 
@@ -42,10 +44,6 @@ You should see something like the following:
 
 .. raw:: html
     :file: ../../terminal/output/newcols-01-operator.output.html
-
-.. note::
-
-   If VisiData encounters an error for the computation of a new cell (e.g., if you try to add ``"dog" + 42``), VisiData will display that cell's value as ``!``.
 
 
 How to create new columns by splitting another one

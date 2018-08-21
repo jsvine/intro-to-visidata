@@ -65,7 +65,7 @@ For instance, here's what you should see if you navigate to the wildlife-strike 
 
 .. note::
 
-   As you can see above, if a cell cannot be converted into the type you've assigned it, VisiData will display ``?`` in the right-side margin of that cell.
+   As you can see above, if a cell cannot be converted into the type you've assigned it, VisiData will display ``!`` in the right-side margin of that cell.
 
 How to rename columns
 ---------------------

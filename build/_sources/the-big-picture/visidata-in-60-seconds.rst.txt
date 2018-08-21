@@ -37,7 +37,7 @@ If it worked, you should see something like this:
 Step 3: Read VisiData's manual page
 -----------------------------------
 
-VisiData's "`quick reference guide <http://visidata.org/man/>`_" enumerates all of VisiData's commands and features. You can `read it online <http://visidata.org/man/>`_ or access it from anywhere within VisiData by pressing the :kbd:`F1` key or typing :kbd:`z?`:
+VisiData's "`quick reference guide <http://visidata.org/man/>`_" enumerates all of VisiData's commands and features. You can `read it online <http://visidata.org/man/>`_ or access it from anywhere within VisiData by pressing the :kbd:`F1` key or typing :kbd:`Control-h`:
 
 .. raw:: html
     :file: ../../terminal/output/faa-manpage.output.html

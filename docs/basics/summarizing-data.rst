@@ -47,6 +47,7 @@ By default, frequency tables just count the number of times each value appears. 
 - ``max``
 - ``avg`` / ``mean``
 - ``median``
+- ``q3``/``q4``/``q5``/``q10`` (terciles/quartiles/quintiles/deciles)
 - ``sum``
 - ``distinct``
 - ``count``

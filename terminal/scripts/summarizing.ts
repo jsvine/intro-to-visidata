@@ -55,4 +55,5 @@ ENTER
 SEND "#"
 SEND I
 AWAIT columns
+PAUSE 0.25
 CAPTURE terminal/output/summarizing-06-describe-sheet-typed.output

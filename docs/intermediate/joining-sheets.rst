@@ -28,6 +28,7 @@ outer             ``LEFT OUTER JOIN``  Keeps all rows from first selected sheet
 full              ``FULL OUTER JOIN``  Keeps all rows from all sheets (union)
 diff                                   Keeps only rows NOT in all sheets
 append            ``UNION ALL``        Keeps all rows from all sheets (concatenation)
+extend                                 Copy first selected sheet, keeping all rows and sheet type, and extend with columns from other sheets
 ================  ===================  =======================
 
 (Descriptions above come from VisiData's `Quick Reference <http://visidata.org/man/>`_.)

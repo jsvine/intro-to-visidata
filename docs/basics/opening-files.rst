@@ -79,6 +79,13 @@ Tabular data
 - .sav files (requires ``pip3 install savReaderWriter``)
 - .dta files (requires ``pip3 install pandas``)
 
+Nested Data
+^^^^^^^^^^^
+
+- JSON / JSONL
+- XML (requires ``pip3 install lxml``)
+- YAML (requires ``pip3 install PyYAML``)
+
 Geospatial data
 ^^^^^^^^^^^^^^^
 
@@ -94,6 +101,6 @@ Directories
 Misc.
 ^^^^^
 
-- JSON / JSONL
 - HTML (looks for ``<table>`` tags; requires ``pip3 install lxml``)
 - Website URLs (downloads the HTML, and then looks for ``<table>`` tags; requires ``pip3 install lxml``)
+- .pcap files (requires ``pip3 install dpkt dnslib``)

@@ -49,39 +49,27 @@ As you can see, many of the reported collisions are missing height data, or appe
 So, let's focus only on collsions reported to have occurred above the ground.
 
 
-Create a column that says if ``HEIGHT`` is greater than zero
-------------------------------------------------------------
+Select only rows where ``HEIGHT`` is greater than zero
+------------------------------------------------------
 
-To do that, press :kbd:`=` and then, at the prompt, type ``HEIGHT > 0`` followed by :kbd:`Enter`.
-
-You should see something like this:
+To do that, we'll use :kbd:`z|`, VisiData's "select by expression" command. Type :kbd:`z|` and then, at the prompt, type ``HEIGHT > 0``. You should see something like this:
 
 .. raw:: html
-    :file: ../../terminal/output/practical-hfb-02-new-col.output.html
+    :file: ../../terminal/output/practical-hfb-02-select-expr-input.output.html
 
-
-Create a frequency table with our new column
---------------------------------------------
-
-Navigate one column to the right, so that our new column is selected, and press :kbd:`Shift-F` to create a frequency sheet for it.
-
-You should see something like this:
+Then press :kbd:`Enter`. Now you you should see the above-ground collisions selected:
 
 .. raw:: html
-    :file: ../../terminal/output/practical-hfb-03-new-col-freq.output.html
+    :file: ../../terminal/output/practical-hfb-03-select-expr-result.output.html
 
-Select only the ``True`` rows
------------------------------
+Create a new sheet with only the selected rows
+----------------------------------------------
 
-You can do that by navigating down one row ...
-
-.. raw:: html
-    :file: ../../terminal/output/practical-hfb-04-new-col-freq-true.output.html
-
-\.\.\. and then pressing :kbd:`Enter`. After that, you should see something like this:
+To do so, press :kbd:`"`. Once you do that, you should see something like this:
 
 .. raw:: html
-    :file: ../../terminal/output/practical-hfb-04-new-col-true-only.output.html
+    :file: ../../terminal/output/practical-hfb-04-filtered.output.html
+
 
 Get the average collision height for each species
 -------------------------------------------------
@@ -120,21 +108,17 @@ Limit the results to relatively common species
 
 This step will seem familiar; it's a lot like how we selected only above-the-ground collisions.
 
-First, let's create a new column indicating whether a species has at least 20 collision-height observations. To do that, press :kbd:`=` and then, in the ``new column expr=`` prompt, type ``count >= 20``.
-
-You should see something like this:
+First, type :kbd:`z|` to raise the "select by expression" prompt. Then, type ``count >= 20``:
 
 .. raw:: html
-    :file: ../../terminal/output/practical-hfb-08-new-count-col.output.html
+	:file: ../../terminal/output/practical-hfb-08-select-expr-input.output.html
 
-Then, navigate one column the right, so that our new column is selected, and press :kbd:`Shift-F` to create a frequency sheet for it.
+Next, press :kbd:`Enter` to complete the action. Because there are no high-count species in the visible part of the sheet, you won't notice much of effect at first; just a confirmation in the status bar at the bottom: 
 
 .. raw:: html
-    :file: ../../terminal/output/practical-hfb-09-new-count-col-freq.output.html
+	:file: ../../terminal/output/practical-hfb-09-select-expr-result.output.html
 
-Finally, navigate to the ``True`` row, and press :kbd:`Enter`.
-
-Tada!:
+Now press :kbd:`"` to create a new sheet containing only the selected rows. Tada!:
 
 .. raw:: html
     :file: ../../terminal/output/practical-hfb-10-limited.output.html

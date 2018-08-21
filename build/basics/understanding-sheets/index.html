@@ -26,8 +26,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -96,8 +95,9 @@
 <li class="toctree-l1"><a class="reference internal" href="../navigating-visidata/">Navigating VisiData</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Understanding Sheets</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-the-sheets-sheet">How to use the Sheets Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#quickly-toggling-between-sheets">Quickly toggling between sheets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-rename-a-sheet">How to rename a sheet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-close-remove-a-sheet">How to close/remove a sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quickly-toggling-between-sheets">Quickly toggling between sheets</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../understanding-rows/">Understanding Rows</a></li>
@@ -209,9 +209,9 @@
 <p>If you’ve just launched VisiData with a single dataset, pressing <kbd class="kbd docutils literal notranslate">Shift-S</kbd> will open a Sheets Sheet that looks something like this:</p>
 <div class='ansi2html'>
 <pre>
-<span class="ansi1 ansi4 inv_background inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv40"> name               </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">‖</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nRows  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nVisibleCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> cursorDisplay   </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> keyColNames   </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> sourc</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">&gt;</span><span class="ansi40"> 
-</span><span class="ansi1 inv_background inv40"></span><span class="ansi1 inv38-81 inv40"> sheets             </span><span class="inv_background inv_foreground"></span><span class="inv37 inv_foreground"></span><span class="inv37 inv40">‖       2 |       9 |              9 | sheets          | name          |       </span><span class="ansi40"> 
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> faa-wildlife-strik…</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">‖</span><span class="ansi37 ansi40">   73448 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40">      16 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40">             16 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> BUSINESS        </span><span class="ansi38-246 ansi40">|</span><span class="ansi40">               </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> datas…</span><span class="ansi40"> 
+<span class="ansi1 ansi4 inv_background inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv40"> name                         </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">‖</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nRows  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nVisibleCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> cursorDisplay   </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> keyColNames</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">&gt;</span><span class="ansi40"> 
+</span><span class="ansi1 inv_background inv40"></span><span class="ansi1 inv38-81 inv40"> sheets                       </span><span class="inv_background inv_foreground"></span><span class="inv37 inv_foreground"></span><span class="inv37 inv40">‖       2 |       8 |              8 | sheets          | name        </span><span class="ansi40"> 
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> faa-wildlife-strikes         </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">‖</span><span class="ansi37 ansi40">   73448 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40">      16 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40">             16 </span><span class="ansi38-246 ansi40">|</span><span class="ansi37 ansi40"> BUSINESS        </span><span class="ansi38-246 ansi40">|</span><span class="ansi40">              
                                                                                                     
                                                                                                     
                                                                                                     
@@ -232,24 +232,33 @@
                                                                                                     
                                                                                                     
                                                                                                     
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">sheets|</span><span class="ansi40">                                                                         </span><span class="ansi37 ansi40"> S</span><span class="ansi1 ansi37 ansi40">         2 sheets</span><span class="ansi40"> </span>
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">sheets|</span><span class="ansi40">                                                              </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">          </span><span class="ansi37"></span><span class="ansi37 ansi40"> S</span><span class="ansi1 ansi37 ansi40">         2 sheets </span><span class="ansi40"> </span>
 </pre>
 </div>
 <p>Not very exciting. But as you start juggling more sheets — frequency tables, multiple datasets, et cetera — the Sheets Sheet becomes very handy.</p>
 <p>You can navigate the Sheets Sheet just like you would any other sheet, with one main difference: Pressing <kbd class="kbd docutils literal notranslate">Enter</kbd> takes you to whatever sheet you’ve highlighted.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">Pressing <kbd class="kbd docutils literal notranslate">d</kbd> on a Sheets Sheet row will permanently close that row’s sheet.</p>
+<p class="last">Pressing <kbd class="kbd docutils literal notranslate">d</kbd> on a Sheets Sheet row will send the corresponding sheet to the “sheets graveyard”.</p>
 </div>
 </div>
-<div class="section" id="quickly-toggling-between-sheets">
-<h2>Quickly toggling between sheets<a class="headerlink" href="#quickly-toggling-between-sheets" title="Permalink to this headline">¶</a></h2>
-<p>To flip back and forth between your current sheet and the previous one, press <kbd class="kbd docutils literal notranslate">Control-^</kbd>.</p>
+<div class="section" id="how-to-rename-a-sheet">
+<h2>How to rename a sheet<a class="headerlink" href="#how-to-rename-a-sheet" title="Permalink to this headline">¶</a></h2>
+<p>There are two ways to rename a sheet:</p>
+<ul class="simple">
+<li>Go to the <strong>Sheets Sheet</strong>, and navigate to the row representing the sheet you want to rename. Press <kbd class="kbd docutils literal notranslate">e</kbd> to go into editing mode, type the new name, and then press <kbd class="kbd docutils literal notranslate">Enter</kbd> to complete the renaming.</li>
+<li>Alternatively, while <strong>in the sheet you want to rename</strong>, press <kbd class="kbd docutils literal notranslate">Space</kbd> to raise the type-a-command prompt. Then, type <code class="docutils literal notranslate"><span class="pre">rename-sheet</span></code> and press <kbd class="kbd docutils literal notranslate">Enter</kbd>. At the next prompt, type the new name, and press <kbd class="kbd docutils literal notranslate">Enter</kbd> to complete the renaming.</li>
+</ul>
 </div>
 <div class="section" id="how-to-close-remove-a-sheet">
 <h2>How to close/remove a sheet<a class="headerlink" href="#how-to-close-remove-a-sheet" title="Permalink to this headline">¶</a></h2>
 <p>To close the current sheet (removing it from VisiData), press <kbd class="kbd docutils literal notranslate">q</kbd>.</p>
 <p>To close all sheets (and, hence, quitting VisiData in its entirety), type <kbd class="kbd docutils literal notranslate">gq</kbd>.</p>
+<p>To access the “sheets graveyard”, a listing of recently-closed sheets, type <kbd class="kbd docutils literal notranslate">gS</kbd>.</p>
+</div>
+<div class="section" id="quickly-toggling-between-sheets">
+<h2>Quickly toggling between sheets<a class="headerlink" href="#quickly-toggling-between-sheets" title="Permalink to this headline">¶</a></h2>
+<p>To flip back and forth between your current sheet and the previous one, press <kbd class="kbd docutils literal notranslate">Control-^</kbd>.</p>
 </div>
 </div>
 
@@ -309,10 +318,7 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

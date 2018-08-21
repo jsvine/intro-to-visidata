@@ -17,7 +17,7 @@ About This Tutorial
 
     This tutorial is not officially affiliated with VisiData, and is not intended as a comprehensive reference. You can learn more about VisiData from these official sources:
 
-    - `VisiData.org <http://visidata.org/>`_
+    - `VisiData.org <https://visidata.org/>`_
     - `VisiData's GitHub repository <https://github.com/saulpw/visidata>`_
 
 
@@ -42,8 +42,8 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2018-05-10``
-VisiData version        ``1.2``
+Tutorial last updated   ``2018-08-20``
+VisiData version        ``1.3.1``
 ======================  ================
 
 About the author

@@ -13,25 +13,20 @@ CAPTURE terminal/output/practical-distinctive-01-unknown.output
 
 SEND gt
 AWAIT '\sgt\s' --start-line -1
-PAUSE 0.25
+AWAIT '73448 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-02-toggled.output
 
 SEND '"'
-AWAIT '"' --start-line -1
+AWAIT '47460 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-03-filtered.output
 
-SEND gu
-AWAIT '\sgu\s' --start-line -1
-AWAIT ' rows' --start-line -1
-CAPTURE terminal/output/practical-distinctive-03b-unselected.output
-
-SEND S_j
-SEND eknown_species
+SEND " rename-sheet"
+ENTER
+SEND known_species
 PAUSE 0.25
-CAPTURE terminal/output/practical-distinctive-04-edit-sheet-name.output --end-line 6
+CAPTURE terminal/output/practical-distinctive-04-edit-sheet-name.output --start-line -4
 ENTER
-SEND k
-ENTER
+
 SEND cSTATE
 ENTER
 AWAIT "\sc\s" --start-line -1
@@ -49,7 +44,9 @@ SEND _l--
 PAUSE 0.25
 CAPTURE terminal/output/practical-distinctive-07-state-freq-trimmed.output
 
-SEND Sjj
+SEND S
+SEND gk # Make sure that we're starting at the top
+SEND jj
 ENTER
 SEND cSTATE
 ENTER
@@ -74,11 +71,13 @@ PAUSE 0.25
 CAPTURE terminal/output/practical-distinctive-11-state-species-freq-rekeyed.output
 
 SEND S_
-AWAIT sheets --start-line -1
+SEND gk # Make sure that we're starting at the top
+AWAIT "known_species_STATE-SPECIES_freq"
+AWAIT "5 sheets"
 CAPTURE terminal/output/practical-distinctive-12-sheets-sheet.output
 
 SEND jsjs
-AWAIT "selected 1 more rows" --start-line -1
+AWAIT "selected 1 more sheets" --start-line -1
 CAPTURE terminal/output/practical-distinctive-13-sheets-selected.output
 
 SEND &inner
@@ -99,24 +98,21 @@ SEND ^pct_of_state
 ENTER
 PAUSE 0.25
 SEND %_
-AWAIT "_" --start-line -1
+AWAIT "pct_of_state%‖"
 CAPTURE terminal/output/practical-distinctive-16b-new-col-clean.output
 
 SEND ]
 AWAIT "]" --start-line -1
 CAPTURE terminal/output/practical-distinctive-17-new-col-typed-and-sorted.output
 
-SEND =count >= 20
-ENTER
-AWAIT "= 20" --start-line -1
-CAPTURE terminal/output/practical-distinctive-18-new-col-cutoff.output
-
-SEND lF
-AWAIT "bins" --start-line -1
-SEND j
-PAUSE 0.25
-CAPTURE terminal/output/practical-distinctive-19-new-col-cutoff-freq.output --end-line 6
+SEND z|count >= 20
+AWAIT "z|count >= 20" --start-line -1
+CAPTURE terminal/output/practical-distinctive-18-select-expr-input.output
 
 ENTER
-AWAIT rows --start-line -1
+AWAIT '"count >= 20".* rows' --start-line -1
+CAPTURE terminal/output/practical-distinctive-19-select-expr-result.output
+
+SEND '"'
+AWAIT 498 rows
 CAPTURE terminal/output/practical-distinctive-20-limited.output

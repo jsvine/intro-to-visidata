@@ -1,6 +1,4 @@
-[1;4;7m[38;5;81m[40m name                             [0m[38;5;246m[40m‖[1;4m[37m nRows  #[0m[38;5;246m[40m|[1;4m[37m nCols  #[0m[38;5;246m[40m|[1;4m[37m nVisibleCols  #[0m[38;5;246m[40m|[1;4m[37m cursorDisplay   [0m[38;5;246m[40m|[1;4m[37m keyColN[0m[38;5;246m[40m>[39m 
-[1m[38;5;81m sheets[0m[39m[40m                           [38;5;246m‖[37m       3 [38;5;246m|[37m       9 [38;5;246m|[39m              [37m9 [38;5;246m|[37m faa-wildlife-st…[38;5;246m|[37m name[39m     
-[37mknown_species_____________________[7m‖   47460 |      16 |             16 | Owls            |         [0m[39m[40m 
-[1m[38;5;81m faa-wildlife-strikes             [0m[38;5;246m[40m‖[37m   73448 [38;5;246m|[39m  [37m    16 [38;5;246m|[37m             16 [38;5;246m|[37m Unknown bird    [38;5;246m|[39m          
-                                                                                                    
-                                                                                                    
+[37m CA      [38;5;246m|[37m SACRAMENTO INTL    [38;5;246m|[37m Climb          [38;5;246m|[37m 1500     [38;5;246m|[37m 210     [38;5;246m|[1m[37m Northern pintail   [0m[38;5;246m[40m|[37m 2-10[39m     
+[37m OH      [38;5;246m|[37m RICKENBACKER INTL  [38;5;246m|[37m                [38;5;246m|[37m          [38;5;246m|[37m         [38;5;246m|[1m[37m American robin     [0m[38;5;246m[40m|[37m 1[39m        
+[37m PA      [38;5;246m|[37m HARRISBURG INTL    [38;5;246m|[39m                [38;5;246m|[37m          [38;5;246m|[37m         [38;5;246m|[1m[37m American kestrel   [0m[38;5;246m[40m|[37m 1[39m        
+[37mrename sheet to: known_species[39m                                                    [37m [1m     47460 rows [0m[39m[40m 

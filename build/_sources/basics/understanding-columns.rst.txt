@@ -105,6 +105,7 @@ Keystroke(s)        Action
 :kbd:`g_`           Expands the width of **all columns** to fit text in all visible rows
 :kbd:`z_` + *n*     Sets the current column's width to *n* characters
 :kbd:`-`            Hides the current column by setting its width to ``0``
+:kbd:`gv`           Unhides all columns
 :kbd:`z-`           Shrinks the current column's width in half
 ==================  ============
 

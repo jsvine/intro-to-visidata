@@ -29,6 +29,12 @@ If you're working with a simple CSV file, you can accomplish this by using ``hea
 
 That will load the first 1,000 lines of the file. (Because the ``REMARKS`` column contains some newline characters, the 1,000 lines correspond to slightly fewer than 1,000 rows.)
 
+Alternatively, you can use a written-for-speed tool, such as `xsv <https://github.com/BurntSushi/xsv>`_, to slice or filter the file before loading it into VisiData. E.g.,:
+
+::
+
+   xsv search "CHICAGO" faa-wildlife-strikes.csv | vd -f csv
+
 By halting the loading process
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

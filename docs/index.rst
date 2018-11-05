@@ -49,7 +49,7 @@ VisiData version        ``1.3.1``
 About the author
 ----------------
 
-`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is the `data editor <https://github.com/BuzzFeedNews/everything>`_ at `BuzzFeed News <https://www.buzzfeed.com/news>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
+`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is the `data editor <https://github.com/BuzzFeedNews/everything>`_ at `BuzzFeed News <https://www.buzzfeednews.com/>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
 
 Feedback / questions / corrections?
 -----------------------------------

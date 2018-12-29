@@ -32,7 +32,7 @@ Section                Description                          Status
 The Big Picture        If you read nothing else ...         Draft complete
 Basic Usage            All you need to know to get started  Draft complete
 Intermediate Usage     Some of the handiest power-features  First three chapters drafted
-Advanced Usage         How to bend VisiData to your whims   No draft yet
+Advanced Usage         How to bend VisiData to your whims   One chapter drafted
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
 

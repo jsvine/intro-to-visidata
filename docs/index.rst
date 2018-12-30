@@ -19,6 +19,8 @@ About This Tutorial
 
     - `VisiData.org <https://visidata.org/>`_
     - `VisiData's GitHub repository <https://github.com/saulpw/visidata>`_
+    - `Saul Pwanson's Patreon page <https://www.patreon.com/saulpw>`_
+    - `Saul Pwanson's case studies on YouTube <https://www.youtube.com/playlist?list=PLxu7QdBkC7drrAGfYzatPGVHIpv4Et46W>`_
 
 
 Tutorial Structure

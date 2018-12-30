@@ -33,7 +33,7 @@ Section                Description                          Status
 ====================== ==================================== ================
 The Big Picture        If you read nothing else ...         Draft complete
 Basic Usage            All you need to know to get started  Draft complete
-Intermediate Usage     Some of the handiest power-features  First three chapters drafted
+Intermediate Usage     Some of the handiest power-features  First four chapters drafted
 Advanced Usage         How to bend VisiData to your whims   One chapter drafted
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
@@ -44,7 +44,7 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2018-12-29``
+Tutorial last updated   ``2018-12-30``
 VisiData version        ``1.5.1``
 ======================  ================
 

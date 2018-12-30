@@ -105,8 +105,6 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
     intermediate/large-files
     intermediate/reshaping-data
     intermediate/reformatting-columns
-    intermediate/graphing-in-visidata
-    intermediate/the-command-log
 
 .. toctree::
     :caption: Advanced Usage
@@ -116,6 +114,7 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
     advanced/configuring-visidata
     advanced/extending-visidata
     advanced/debugging-visidata
+    advanced/the-command-log
 
 .. toctree::
     :caption: Practical Examples

@@ -11,11 +11,11 @@ How to fix funky spreadsheets' column names
 
 By default, VisiData considers the first row of a tabular dataset to be its columns' names. That's a safe assumption for many formats, but Excel spreadsheets often buck that trend, with titles, notes, or other cruft coming before the actual column names.
 
-As previously noted, you can manually edit a column's name manually by pressing :kbd:`^`, or by editing it from the Columns Sheet. But you can also auto-populate all unnamed column names at once by doing the following:
+As previously noted, you can manually edit a column's name manually by pressing :kbd:`^`, or by editing it from the Columns Sheet. But you can also auto-populate column names by doing the following:
 
-- Navigate to the row that contains your desired column names
+- Navigate to the row that contains your desired column names.
 
-- Type :kbd:`g^` to hoist the names into the column header
+- Type :kbd:`g^` to name all *unnamed* columns with the values in this row, or :kbd:`gz^` to name *all* columns (regardless of whether they're already named) with the values in this row.
 
 If you'd like to have VisiData *not* to load the first row as the header, you can do one of the following:
 

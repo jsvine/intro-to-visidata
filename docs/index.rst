@@ -33,7 +33,7 @@ Section                Description                          Status
 ====================== ==================================== ================
 The Big Picture        If you read nothing else ...         Draft complete
 Basic Usage            All you need to know to get started  Draft complete
-Intermediate Usage     Some of the handiest power-features  First four chapters drafted
+Intermediate Usage     Some of the handiest power-features  Draft complete
 Advanced Usage         How to bend VisiData to your whims   One chapter drafted
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
@@ -104,7 +104,6 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
     intermediate/joining-sheets
     intermediate/large-files
     intermediate/reshaping-data
-    intermediate/reformatting-columns
 
 .. toctree::
     :caption: Advanced Usage

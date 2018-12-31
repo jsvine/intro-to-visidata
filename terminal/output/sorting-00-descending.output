@@ -1,24 +1,24 @@
 [38;5;246m[40m<[1;4m[37mSPEED   [0m[38;5;246m[40m|[1;4m[37m SPECIES            [0m[38;5;246m[40m|[1;4m[37m BIRDS_STRUCK   [0m[38;5;246m[40m|[1;4m[37m EFFECT             [0m[38;5;246m[40m|[1;4m[37m DAMAGE   [0m[38;5;246m[40m|[1;4;7m[37m COST_REPAIRS  #[0m[38;5;246m[40m|[1;4m[37m [0m[38;5;246m[40m>[39m 
 [7m[37m 143     | Red-tailed hawk    | 1              | Engine Shut Down   | S        |[1m        6500000 [0;7m[37m[40m| …[0m[39m[40m 
-        [37m | Gadwall            | 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m5818528 [0m[37m[40m| …[39m 
-        [37m | Mallard            | 1[39m              [37m| None         [39m      [37m| S        |[39m        [1m[37m5548924 [0m[37m[40m| …[39m 
-        [37m | Gray partridge     | 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m5427992 [0m[37m[40m| …[39m 
-        [37m | American white pel…| 2-10[39m           [37m|[39m [37mEngine Shut Down   | S        |[39m        [1m[37m5111000 [0m[37m[40m|[39m   
-[37m 150[39m    [37m | American coot      | 1[39m              [37m| Engine Shut Down   | S        |[39m        [1m[37m5000000 [0m[37m[40m| …[39m 
- [37m180[39m    [37m | Northern pintail   | 2-10[39m           [37m| Engine Shut Down   | S        |[39m        [1m[37m5000000 [0m[37m[40m| …[39m 
- [37m96[39m     [37m | Red-tailed hawk    | 2-10[39m           [37m| Engine Shut Down   | S        |[39m        [1m[37m4600279 [0m[37m[40m| …[39m 
- [37m160[39m    [37m | Bald eagle         | 1[39m              [37m| Precautionary Land…| S        |[39m        [1m[37m4500000 [0m[37m[40m|[39m   
-[37m 170[39m    [37m | Canada goose[39m       [37m| 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m3909837 [0m[37m[40m| …[39m 
- [37m130[39m    [37m | Rock pigeon[39m        [37m| 11-100[39m         [37m| Precautionary Land…| S        |[39m        [1m[37m3250000 [0m[37m[40m| …[39m 
- [37m230[39m    [37m | Greater white-fron…| 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m3228053 [0m[37m[40m| …[39m 
- [37m141[39m    [37m | Mallard            | 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m3000000 [0m[37m[40m| …[39m 
- [37m120[39m    [37m | Bald eagle         | 1[39m              [37m| Engine Shut Down   | S        |[39m        [1m[37m2900000 [0m[37m[40m| …[39m 
-        [37m | Snow goose         | 11-100[39m         [37m| Precautionary Land…| S        |[39m        [1m[37m2737462 [0m[37m[40m| …[39m 
-        [37m | Red-tailed hawk    | 1[39m              [37m| Precautionary Land…| S        |[39m        [1m[37m2300000 [0m[37m[40m| …[39m 
- [37m190[39m    [37m | Turkey vulture     | 2-10[39m           [37m| Precautionary Land…| S        |[39m        [1m[37m2000000 [0m[37m[40m| …[39m 
- [37m160[39m    [37m | Unknown bird - med…| 1[39m              [37m| Engine Shut Down   | S        |[39m        [1m[37m2000000 [0m[37m[40m| …[39m 
- [37m220[39m    [37m | Black vulture      | 1[39m              [37m| Engine Shut Down   | S        |[39m        [1m[37m2000000 [0m[37m[40m| …[39m 
-        [37m | Brown thrasher     | 1[39m              [37m| None         [39m      [37m| M        |[39m        [1m[37m2000000 [0m[37m[40m| …[39m 
- [37m140[39m    [37m | Great black-backed…| 1[39m              [37m| [39m                   [37m| S        |[39m        [1m[37m1529013 [0m[37m[40m| …[39m 
- [37m90[39m     [37m | Mallard            | 2-10[39m           [37m| Other        [39m      [37m| S        |[39m        [1m[37m1500000 [0m[37m[40m| …[39m 
-[1m[37mfaa-wildlife-strikes|       [0m[39m[40m                                                      [37m][1m     73448 rows [0m[39m[40m 
+         [37m| Gadwall[39m            [37m| 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        5818528 [0m[37m[40m| …[39m 
+         [37m| Mallard[39m            [37m| 1[39m              [37m| None[39m               [37m| S[39m        [37m|[1m        5548924 [0m[37m[40m| …[39m 
+         [37m| Gray partridge     | 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        5427992 [0m[37m[40m| …[39m 
+         [37m| American white pel…| 2-10[39m           [37m| Engine Shut Down   | S[39m        [37m|[1m        5111000 [0m[37m[40m|[39m   
+[37m 150     | American coot[39m      [37m| 1[39m              [37m| Engine Shut Down   | S[39m        [37m|[1m        5000000 [0m[37m[40m| …[39m 
+[37m 180     | Northern pintail   | 2-10[39m           [37m| Engine Shut Down   | S[39m        [37m|[1m        5000000 [0m[37m[40m| …[39m 
+[37m 96[39m      [37m| Red-tailed hawk    | 2-10[39m           [37m| Engine Shut Down   | S[39m        [37m|[1m        4600279 [0m[37m[40m| …[39m 
+[37m 160     | Bald eagle[39m         [37m| 1[39m              [37m| Precautionary Land…| S[39m        [37m|[1m        4500000 [0m[37m[40m|[39m   
+[37m 170     | Canada goose[39m       [37m| 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        3909837 [0m[37m[40m| …[39m 
+[37m 130     | Rock pigeon[39m        [37m| 11-100[39m         [37m| Precautionary Land…| S[39m        [37m|[1m        3250000 [0m[37m[40m| …[39m 
+[37m 230     | Greater white-fron…| 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        3228053 [0m[37m[40m| …[39m 
+[37m 141     | Mallard[39m            [37m| 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        3000000 [0m[37m[40m| …[39m 
+[37m 120     | Bald eagle[39m         [37m| 1[39m              [37m| Engine Shut Down   | S[39m        [37m|[1m        2900000 [0m[37m[40m| …[39m 
+         [37m| Snow goose[39m         [37m| 11-100[39m         [37m| Precautionary Land…| S[39m        [37m|[1m        2737462 [0m[37m[40m| …[39m 
+         [37m| Red-tailed hawk    | 1[39m              [37m| Precautionary Land…| S[39m        [37m|[1m        2300000 [0m[37m[40m| …[39m 
+[37m 190     | Turkey vulture     | 2-10[39m           [37m| Precautionary Land…| S[39m        [37m|[1m        2000000 [0m[37m[40m| …[39m 
+[37m 160     | Unknown bird - med…| 1[39m              [37m| Engine Shut Down   | S[39m        [37m|[1m        2000000 [0m[37m[40m| …[39m 
+[37m 220     | Black vulture[39m      [37m| 1[39m              [37m| Engine Shut Down   | S[39m        [37m|[1m        2000000 [0m[37m[40m| …[39m 
+         [37m| Brown thrasher     | 1[39m              [37m| None[39m               [37m| M[39m        [37m|[1m        2000000 [0m[37m[40m| …[39m 
+[37m 140     | Great black-backed…| 1[39m              [37m|[39m                    [37m| S[39m        [37m|[1m        1529013 [0m[37m[40m| …[39m 
+[37m 90[39m      [37m| Mallard[39m            [37m| 2-10[39m           [37m| Other[39m              [37m| S[39m        [37m|[1m        1500000 [0m[37m[40m| …[39m 
+[1m[37mfaa-wildlife-strikes|       [0m[39m[40m                                           [1m[37m   [0m[39m[40m      [37m ][1m     73448 rows[0m[32m[40m [1m[37m [0m[39m[40m 

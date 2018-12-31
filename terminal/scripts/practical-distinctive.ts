@@ -74,10 +74,12 @@ SEND S_
 SEND gk # Make sure that we're starting at the top
 AWAIT "known_species_STATE-SPECIES_freq"
 AWAIT "5 sheets"
+PAUSE 0.25
 CAPTURE terminal/output/practical-distinctive-12-sheets-sheet.output
 
 SEND jsjs
-AWAIT "selected 1 more sheets" --start-line -1
+# No longer works: AWAIT "selected 1 more sheets" --start-line -1
+PAUSE 0.25
 CAPTURE terminal/output/practical-distinctive-13-sheets-selected.output
 
 SEND &inner
@@ -102,7 +104,7 @@ AWAIT "pct_of_state%‖"
 CAPTURE terminal/output/practical-distinctive-16b-new-col-clean.output
 
 SEND ]
-AWAIT "]" --start-line -1
+AWAIT "].* rows" --start-line -1
 CAPTURE terminal/output/practical-distinctive-17-new-col-typed-and-sorted.output
 
 SEND z|count >= 20

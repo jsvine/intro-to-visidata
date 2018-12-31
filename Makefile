@@ -16,7 +16,7 @@ serve:
 gh-pages:
 	git subtree push --prefix build origin gh-pages
 
-terminal/output: terminal/scripts
+terminal/output: Pipfile.lock terminal/scripts
 	rm terminal/output/*
 	./scripts/termscript_all.sh
 	./scripts/output2html_all.sh

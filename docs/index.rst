@@ -102,8 +102,8 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
 
     intermediate/creating-new-columns
     intermediate/joining-sheets
-    intermediate/large-files
     intermediate/reshaping-data
+    intermediate/large-files
 
 .. toctree::
     :caption: Advanced Usage

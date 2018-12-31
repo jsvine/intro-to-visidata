@@ -19,6 +19,8 @@ About This Tutorial
 
     - `VisiData.org <https://visidata.org/>`_
     - `VisiData's GitHub repository <https://github.com/saulpw/visidata>`_
+    - `Saul Pwanson's Patreon page <https://www.patreon.com/saulpw>`_
+    - `Saul Pwanson's case studies on YouTube <https://www.youtube.com/playlist?list=PLxu7QdBkC7drrAGfYzatPGVHIpv4Et46W>`_
 
 
 Tutorial Structure
@@ -31,8 +33,8 @@ Section                Description                          Status
 ====================== ==================================== ================
 The Big Picture        If you read nothing else ...         Draft complete
 Basic Usage            All you need to know to get started  Draft complete
-Intermediate Usage     Some of the handiest power-features  First three chapters drafted
-Advanced Usage         How to bend VisiData to your whims   No draft yet
+Intermediate Usage     Some of the handiest power-features  Draft complete
+Advanced Usage         How to bend VisiData to your whims   Two chapters drafted
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
 
@@ -42,8 +44,8 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2018-11-04``
-VisiData version        ``1.5``
+Tutorial last updated   ``2018-12-30``
+VisiData version        ``1.5.1``
 ======================  ================
 
 About the author
@@ -100,11 +102,8 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
 
     intermediate/creating-new-columns
     intermediate/joining-sheets
-    intermediate/large-files
     intermediate/reshaping-data
-    intermediate/reformatting-columns
-    intermediate/graphing-in-visidata
-    intermediate/the-command-log
+    intermediate/large-files
 
 .. toctree::
     :caption: Advanced Usage
@@ -114,6 +113,7 @@ Many thanks to the following people for their feedback and suggestions: `Saul Pw
     advanced/configuring-visidata
     advanced/extending-visidata
     advanced/debugging-visidata
+    advanced/the-command-log
 
 .. toctree::
     :caption: Practical Examples

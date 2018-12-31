@@ -55,7 +55,7 @@ Now, all the unknown species are selected. But we want the *opposite* of that: o
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-02-toggled.output.html
 
-Now that we've selected our desired columns, let's create a new sheet containing *only* those columns, by pressing :kbd:`"`. The result should look something like this:
+Now that we've selected our desired rows, let's create a new sheet containing *only* those rows, by pressing :kbd:`"`. The result should look something like this:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-03-filtered.output.html

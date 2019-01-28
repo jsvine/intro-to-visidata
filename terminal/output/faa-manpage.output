@@ -15,5 +15,5 @@ vd(1)                        Quick Reference Guide                       vd(1)
                              wait [4mseconds[0m[39m[49m between commands                                          
      [1m-b[0m[39m[49m, [1m--batch[0m[39m[49m             replay in batch mode (with no interface)                               
      [1m-o[0m[39m[49m, [1m--output[0m[39m[49m=[4mfile[0m[39m[49m       save final visible sheet to [4mfile[0m[39m[49m as .tsv                               
-     [1m--replay-movement=[0;4m[39m[49mbool[0m[39m[49m  toggle [1m--play[0m[39m[49m to move cursor cell-by-cell                              
+     [1m--replay-movement[0m[39m[49m       toggle [1m--play[0m[39m[49m to move cursor cell-by-cell                              
 :

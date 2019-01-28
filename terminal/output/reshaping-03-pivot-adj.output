@@ -3,7 +3,7 @@
 [1m[38;5;81m Owls[0m[39m[40m               [1m[38;5;81m   [0m[37m[40m‖        [39m      [37m    [39m      [37m36 |[39m                [37m        23 |          59 ‖[39m      
 [1m[38;5;81m Hawks[0m[39m[40m              [1m[38;5;81m   [0m[37m[40m‖        [39m     [37m          202 |[39m               [37m        106 |         308 ‖[39m      
 [1m[38;5;81m Gulls[0m[39m[40m              [1m[38;5;81m   [0m[37m[40m‖        [39m     [37m          559 |[39m               [37m        525 |        1084 ‖[39m      
-[1m[38;5;81m Unknown bird - small  [0m[37m[40m‖                     12544 |[39m              [37m        1523 |       14067 ‖[39m      
+[1m[38;5;81m Unknown bird - small  [0m[37m[40m‖        [39m   [37m          12544 |[39m              [37m        1523 |       14067 ‖[39m      
 [1m[38;5;81m Sparrows              [0m[37m[40m‖        [39m     [37m          346 |[39m               [37m        542 |         888 ‖[39m      
 [1m[38;5;81m Sandhill crane        [0m[37m[40m‖        [39m      [37m    [39m      [37m15 |[39m                [37m        26 |          41 ‖[39m      
 [1m[38;5;81m Unknown bird - medium [0m[37m[40m‖                      3585 |[39m               [37m        322 |        3907 ‖[39m      
@@ -21,4 +21,4 @@
 [1m[38;5;81m Mourning dove         [0m[37m[40m‖        [39m     [37m          200 |[39m              [37m        3909 |        4109 ‖[39m      
 [1m[38;5;81m Free-tailed bats      [0m[37m[40m‖        [39m       [37m   [39m       [37m1 |[39m                [37m        50 |          51 ‖[39m      
 [1m[38;5;81m Red-tailed hawk       [0m[37m[40m‖        [39m     [37m          103 |[39m              [37m        1085 |        1188 ‖[39m      
-[1m[37mfaa-wildlife-strikes_pivot_REMAINS_COLLECTED|[0m[39m[40m                        [37m g_[1m [0m[39m[40m      [1m[37m641 aggregated rows [0m[39m[40m 
+[1m[37mfaa-wildlife-strikes_pivot_REMAINS_COLLECTED|[0m[39m[40m                        [37m g_[1m       641 aggregated rows [0m[39m[40m 

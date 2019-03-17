@@ -57,7 +57,7 @@ For a simple example, let's say we want to split the ``INCIDENT_DATE`` column in
 
 - Navigate to the ``INCIDENT_DATE`` column
 - Press :kbd:`:`
-- At the prompt, type :kbd:` ` (a space), and then hit :kbd:`Enter`
+- At the prompt, press :kbd:`Space` (since we want to split on the column's whitespace), and then hit :kbd:`Enter`
 
 Once you do that, you should see something like this:
 

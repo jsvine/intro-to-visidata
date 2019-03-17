@@ -51,7 +51,7 @@ Where to find plugins
 Plugin support is a relatively new feature of VisiData, so there aren't many public plugins yet available. Here is a (likely incomplete) list of resources:
 
 - `jsvine/visidata-plugins <https://github.com/jsvine/visidata-plugins>`_
-- ???
+- `anjakefala/vd-plugins <https://github.com/anjakefala/vd-plugins>`_
 
 .. warning::
 

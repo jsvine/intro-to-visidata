@@ -21,6 +21,8 @@ Why use VisiData?
     - With just a few keystrokes, you can summarize any column.
 - It works with :ref:`lots of data formats <compatible-filetypes>`.
     - CSV, Excel, JSON, and more.
+- It's non-destructive.
+    - VisiData won't alter your raw data unless you explicitly tell it to.
 - It's keyboard-driven.
     - You never have to reach for a mouse.
 

@@ -155,7 +155,7 @@ First, press :kbd:`Shift-S` to open the Sheets Sheet:
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-12-sheets-sheet.output.html
 
-Then navigate to the ``known_birds_STATE-SPECIES_freq`` row, and press :kbd:`s` to select it. Do the same for the ``known_birds_STATE_freq``, so that the Sheets Sheet now looks like this: 
+Then navigate to the ``known_species_STATE-SPECIES_freq`` row, and press :kbd:`s` to select it. Do the same for the ``known_species_STATE_freq``, so that the Sheets Sheet now looks like this: 
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-13-sheets-selected.output.html

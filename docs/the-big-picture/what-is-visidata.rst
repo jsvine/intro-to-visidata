@@ -38,5 +38,3 @@ VisiData isn't for every task. You might want to choose another tool for:
     - Although VisiData lets you save and replay your analyses, it's not as legible/flexible as Jupyter notebooks, R Markdown, or other tools.
 - Mission-critical analysis.
     - VisiData is well-engineered, but still a relatively young piece of software.
-- Geospatial analysis.
-    - VisiData *can* read geospatial data, but doesn't have many features for analyzing it.

@@ -26,4 +26,6 @@ You should see something like the following:
 .. raw:: html
     :file: ../../terminal/output/version.output.html
 
+.. note::
 
+   If you'd like to "sandbox" VisiData and its dependencies from the rest of your Python libraries, consider `installing it via pipx <https://gist.github.com/jsvine/4fd295176b4f5257dfb89b3898a21a7e>`_.

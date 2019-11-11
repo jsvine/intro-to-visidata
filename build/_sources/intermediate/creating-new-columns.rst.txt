@@ -30,7 +30,7 @@ Perhaps the simplest expression column would be ``=1``; for every row, the colum
 
    By default, the name of your new columns will be the expression you entered. As always, you can edit the column name by pressing :kbd:`^` and typing the new name.
 
-   Also by default, the column will appear directly to the right of the column that was active when you pressed :kbd:`=`. As always, you can move the column left or right using :kbd:`Shift-J` and :kbd:`Shift-K`.
+   Also by default, the column will appear directly to the right of the column that was active when you pressed :kbd:`=`. As always, you can move the column left or right using :kbd:`Shift-H` and :kbd:`Shift-L`.
 
 Now, let's try creating a column *based on another column*. Let's say we want to identify wildlife strikes that were reported to have occurred at least 100 feet above ground. We could do the following:
 

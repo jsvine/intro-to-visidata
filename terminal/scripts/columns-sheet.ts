@@ -7,10 +7,14 @@ SEND C
 PAUSE 0.25
 CAPTURE terminal/output/columns-sheet-00-before-changes.output
 
-SEND "/HEIGHTs"
-SEND "/SPEEDs"
-SEND "/BIRDS_STRUCKs"
-SEND "/COST_REPAIRSs"
+SEND /HEIGHT --enter
+SEND s
+SEND /SPEED --enter
+SEND s
+SEND /BIRDS_STRUCK --enter
+SEND s
+SEND /COST_REPAIRS --enter
+SEND s
 PAUSE 0.25
 CAPTURE terminal/output/columns-sheet-01-select-columns.output
 

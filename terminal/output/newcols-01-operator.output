@@ -1,24 +1,24 @@
-[38;5;246m[40m<[1;4m[37mSTATE   [0m[38;5;246m[40m|[1;4m[37m AIRPORT            [0m[38;5;246m[40m|[1;4m[37m PHASE_OF_FLT   [0m[38;5;246m[40m|[1;4;7m[37m HEIGHT  #[0m[38;5;246m[40m|[1;4m[37m HEIGHT >= 100   [0m[38;5;246m[40m|[1;4m[37m SPEED   [0m[38;5;246m[40m|[1;4m[37m SPECIES   [0m[38;5;246m[40m>[39m 
-[7m[37m FL      | VERO BEACH MUNICIP…| APPROACH       |[1m         [33m![0;7m[37m[40m| False           |         | Unknown bi…[0m[39m[40m 
-[37m AK      | KENAI MUNICIPAL AR…| APPROACH       |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m TX      | DAVID WAYNE HOOKS …|[39m                [37m|[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m MO      | LAMBERT-ST LOUIS I…| APPROACH       |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m FL      | POMPANO BEACH AIRP…| LANDING ROLL   |[1m        0 [0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m VI      | HENRY E ROHLSEN AR…|[39m                [37m|[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m TX      | SAN ANTONIO INTL   | APPROACH       |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m TX      | LONE STAR EXECUTIV…| DEPARTURE      |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m FL      | TAMPA INTL         | APPROACH       |[1m     6000 [0m[37m[40m| True            |         | Unknown bi…[39m 
-[37m MO      | LAMBERT-ST LOUIS I…| APPROACH       |[1m         [33m![0m[37m[40m| False           |[39m         [37m| Owls[39m        
-[37m FL      | OPA-LOCKA EXECUTIV…| APPROACH       |[1m         [33m![0m[37m[40m| False           |[39m         [37m| Hawks[39m       
-[37m CA      | NORMAN Y. MINETA S…|[39m                [37m|[1m         [33m![0m[37m[40m| False           |[39m         [37m| Gulls[39m       
-[37m FL      | FORT LAUDERDALE/HO…| APPROACH       |[1m     1500 [0m[37m[40m| True            |         | Unknown bi…[39m 
-[37m AR      | FORT SMITH REGIONA…| CLIMB          |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m AR      | BILL AND  HILLARY …| LANDING ROLL   |[1m        0 [0m[37m[40m| False           |         | Unknown bi…[39m 
-        [37m | UNKNOWN            | En Route       |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m CA      | METRO OAKLAND INTL |[39m                [37m|[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m UT      | SALT LAKE CITY INTL|[39m                [37m|[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m TX      | GEORGE BUSH INTERC…| CLIMB          |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m FL      | ORLANDO SANFORD IN…| APPROACH       |[1m         [33m![0m[37m[40m| False           |         | Unknown bi…[39m 
-[37m IL      | CHICAGO O'HARE INT…| CLIMB          |[1m    12000 [0m[37m[40m| True            |         | Unknown bi…[39m 
-[37m AL      | BIRMINGHAM-SHUTTLE…| LANDING ROLL   |[1m        0 [0m[37m[40m| False           |         | Unknown bi…[39m 
-[1m[37mfaa-wildlife-strikes| "HEIGHT >= 100"[0m[39m[40m                                             [37m=[1m     73448 rows [0m[39m[40m 
+[38;5;246m[40m<[1;4m[37mSTATE [0m[38;5;246m[40m|[1;4m[37m AIRPORT            [0m[38;5;246m[40m|[1;4m[37m PHASE_OF_FLT [0m[38;5;246m[40m|[1;4;7m[37m HEIGHT#[0m[38;5;246m[40m|[1;4m[37m HEIGHT >= 100 [0m[38;5;246m[40m|[1;4m[37m SPEED [0m[38;5;246m[40m|[1;4m[37m SPECIES            [0m[38;5;246m[40m|>[39m 
+[7m[37m FL    | VERO BEACH MUNICIP…| APPROACH     |[1m       [33m![0;7m[37m[40m| False         |       | Unknown bird       |1[0m[39m[40m 
+[37m AK    | KENAI MUNICIPAL AR…| APPROACH     |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m TX    | DAVID WAYNE HOOKS …|[39m              [37m|[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m MO    | LAMBERT-ST LOUIS I…| APPROACH     |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m FL    | POMPANO BEACH AIRP…| LANDING ROLL |[1m      0 [0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m VI    | HENRY E ROHLSEN AR…|[39m              [37m|[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m TX    | SAN ANTONIO INTL   | APPROACH     |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m TX    | LONE STAR EXECUTIV…| DEPARTURE    |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m FL    | TAMPA INTL         | APPROACH     |[1m   6000 [0m[37m[40m| True          |       | Unknown bird       |1[39m 
+[37m MO    | LAMBERT-ST LOUIS I…| APPROACH     |[1m       [33m![0m[37m[40m| False         |[39m       [37m| Owls               |1[39m 
+[37m FL    | OPA-LOCKA EXECUTIV…| APPROACH     |[1m       [33m![0m[37m[40m| False         |[39m       [37m| Hawks              |1[39m 
+[37m CA    | NORMAN Y. MINETA S…|[39m              [37m|[1m       [33m![0m[37m[40m| False         |[39m       [37m| Gulls              |1[39m 
+[37m FL    | FORT LAUDERDALE/HO…| APPROACH     |[1m   1500 [0m[37m[40m| True          |       | Unknown bird - sma…|1[39m 
+[37m AR    | FORT SMITH REGIONA…| CLIMB        |[1m       [33m![0m[37m[40m| False         |       | Unknown bird - sma…|1[39m 
+[37m AR    | BILL AND  HILLARY …| LANDING ROLL |[1m      0 [0m[37m[40m| False         |       | Unknown bird - sma…|1[39m 
+      [37m | UNKNOWN            | En Route     |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m CA    | METRO OAKLAND INTL |[39m              [37m|[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m UT    | SALT LAKE CITY INTL|[39m              [37m|[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m TX    | GEORGE BUSH INTERC…| CLIMB        |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m FL    | ORLANDO SANFORD IN…| APPROACH     |[1m       [33m![0m[37m[40m| False         |       | Unknown bird       |1[39m 
+[37m IL    | CHICAGO O'HARE INT…| CLIMB        |[1m  12000 [0m[37m[40m| True          |       | Unknown bird       |1[39m 
+[37m AL    | BIRMINGHAM-SHUTTLE…| LANDING ROLL |[1m      0 [0m[37m[40m| False         |       | Unknown bird - sma…|1[39m 
+[1m[37m1› faa-wildlife-strikes| "HEIGHT >= 100"[0m[39m[40m                            [1m[37m =  addcol-expr     73448 rows [0m[39m[40m 

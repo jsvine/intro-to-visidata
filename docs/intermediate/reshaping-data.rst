@@ -40,7 +40,7 @@ Now, press :kbd:`Shift+W` to create the pivot table:
 .. raw:: html
     :file: ../../terminal/output/reshaping-03-pivot-adj.output.html
 
-The rows of the pivot table represent each species, while the columns represent the number of rows for each species that fall into each ``REMAINS_COLLECTED`` category, plus a grand total.
+The rows of the pivot table represent each species, while the columns represent the number of rows for each species that fall into each ``REMAINS_COLLECTED`` category.
 
 This is a simple pivot table, since ``REMAINS_COLLECTED`` can only be either ``0`` or ``1``, but pivot tables on more complex columns can end up much wider.
 

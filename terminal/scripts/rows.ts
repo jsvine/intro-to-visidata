@@ -1,24 +1,19 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
-SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+SEND "vd datasets/faa-wildlife-strikes.csv" --enter
+AWAIT "rows  $" --start-line -1
 
 SEND js
-PAUSE 0.25
 CAPTURE terminal/output/rows-00-select-single.output
 
 SEND gu
 SEND ghgg
-SEND cSTATE
-ENTER
-SEND |TX
-ENTER
-PAUSE 0.25
-AWAIT "73448 rows"
+SEND cSTATE --enter
+SEND |TX --enter
+AWAIT "matches.*rows  $" --start-line -1
 CAPTURE terminal/output/rows-01-select-pattern.output
 
 SEND gu
-SEND 'z|OPERATOR == "BUSINESS" and STATE == "FL"'
-ENTER
-AWAIT search wr --start-line -1
+SEND 'z|OPERATOR == "BUSINESS" and STATE == "FL"' --enter
+AWAIT '"OPERATOR.*rows  $' --start-line -1
 CAPTURE terminal/output/rows-02-select-expr.output

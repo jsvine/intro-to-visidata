@@ -1,12 +1,12 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 
-SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+SEND "vd datasets/faa-wildlife-strikes.csv" --enter
+AWAIT "rows  $"
 CAPTURE terminal/output/faa-opened.output
 
 SEND F
-AWAIT "bins"
+AWAIT "282 bins  $"
 CAPTURE terminal/output/faa-operator-frequency.output
 
 SEND 

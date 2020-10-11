@@ -1,3 +1,3 @@
-[38;5;81m SPIRIT AIRLINES    [37m|[38;5;81m Tower    [37m‖ 1[39m              [37m| PRECAUTIONARY LAND…| N        |[39m               [1m[33m![0m[37m[40m|…[39m 
-[38;5;81m EXPRESSJET AIRLINES[37m|[38;5;81m Tower    [37m‖ 1[39m              [37m| NONE[39m               [37m| N[39m        [37m|[39m               [1m[33m![0m[37m[40m|…[39m 
-[1m[37mfaa-wildlife-strikes| "sum" | 161868071[0m[39m[40m                                          [37mz+[1m     73448 rows [0m[39m[40m 
+[38;5;81m SPIRIT AIRLINES    [37m|[38;5;81m Tower  [37m║ 1[39m            [37m| PRECAUTIONARY LAND…| N[39m      [37m|[1m             [33m![0m[37m[40m| 0[39m        
+[38;5;81m EXPRESSJET AIRLINES[37m|[38;5;81m Tower  [37m║ 1[39m            [37m| NONE[39m               [37m| N[39m      [37m|[1m             [33m![0m[37m[40m| 0[39m        
+[1m[37m1› faa-wildlife-strikes| ['sum'] | 161868071[0m[39m[40m                    [1m[37m ^J  show-aggregate     73448 rows [0m[39m[40m 

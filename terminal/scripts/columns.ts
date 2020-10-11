@@ -1,7 +1,7 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+AWAIT "73448 rows"
 
 SEND C
 PAUSE 0.25
@@ -12,7 +12,7 @@ SEND cHEIGHT
 ENTER
 SEND llhh
 SEND "#"
-AWAIT '#\s+73' --start-line -1
+AWAIT '#\s+type-int\s+73448 rows' --start-line -1
 CAPTURE terminal/output/columns-00a-type-assigned.output
 SEND ~
 

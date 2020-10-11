@@ -41,35 +41,34 @@ With just a few more keystrokes, we've learned something else: Virtually all wil
 Adding "aggregators"
 --------------------
 
-By default, frequency tables just count the number of times each value appears. But in VisiData, you can specify additional calculations by setting the column's "aggregators". (You might remember this field from the Columns Sheet.) In VisiData, there are eight main aggregators:
+By default, frequency tables just count the number of times each value appears. But in VisiData, you can specify additional calculations by setting the column's "aggregators". (You might remember this field from the Columns Sheet.) In VisiData's aggregators include ``min``, ``max``, ``mean``, ``median``, ``sum``, ``distinct``, and others.
 
-- ``min``
-- ``max``
-- ``avg`` / ``mean``
-- ``median``
-- ``q3``/``q4``/``q5``/``q10`` (terciles/quartiles/quintiles/deciles)
-- ``sum``
-- ``distinct``
-- ``count``
-- ``keymax``
-
-To add an aggregator to a column, navigate to that column and press :kbd:`+`. VisiData will then prompt you to specify *which* aggregator you would like to add. You can repeat the process to add as many aggregators as you'd like to any column. Make sure, though, that you've assigned the proper type (``#`` for integer columns, etc.) to those columns, so that they're calculated properly.
-
-Once you've set your aggregators, those calculations will appear in your frequency tables.
+To add an aggregator to a column, navigate to that column and press :kbd:`+`. VisiData will then prompt you to specify *which* aggregator you would like to add.
 
 For example, let's go back to the original FAA data sheet. Let's navigate to the "COST_REPAIRS" column, and then do the following:
 
 - Press :kbd:`#` to tell VisiData this is an integer column
 - Press :kbd:`+` to tell VisiData you want to add an aggregator
-- Type ``sum`` and then hit :kbd:`Enter` to add the summation aggregator
-- Navigate to the "AIRPORT" column, and press :kbd:`Shift-F`
 
 You should see something like this:
 
 .. raw:: html
-    :file: ../../terminal/output/summarizing-03-freq-aggregated.output.html
+    :file: ../../terminal/output/summarizing-03a-agg-prompt.output.html
+
+That prompt is, like most parts of VisiData's interface, *also* a sheet, and you can can interact with it like you would with other sheets. So next, do the following:
+
+- Navigate down to the prompt's ``sum`` row and then hit :kbd:`Enter`, which will select that aggregator and return your cursor to the main sheet
+- Navigate to the "AIRPORT" column, and press :kbd:`Shift-F`
+
+You should see something like this, with the ``sum`` calculation now appearing in your frequency table:
+
+.. raw:: html
+    :file: ../../terminal/output/summarizing-03b-freq-aggregated.output.html
 
 By default, frequency tables are sorted by the "count" column, but you can sort them by any other column.
+
+.. note::
+    When using aggregators, make sure that you've assigned the proper type (``#`` for integer columns, etc.) to the columns of interest, so that VisiData knows how to calculate the aggregations correctly.
 
 
 One-off calculations

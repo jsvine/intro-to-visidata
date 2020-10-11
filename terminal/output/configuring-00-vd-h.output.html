@@ -1,28 +1,23 @@
 <div class='ansi2html'>
 <pre>
-usage: vd [-h] [-f FILETYPE] [-y] [-p PLAY] [-b] [-o OUTPUT] [-w REPLAY_WAIT]                       
-          [-d DELIMITER] [--diff DIFF] [-v] [--encoding ENCODING]                                   
-          [--encoding-errors ENCODING_ERRORS] [--regex-flags REGEX_FLAGS]                           
-          [--default-width DEFAULT_WIDTH] [--wrap] [--bulk-select-clear]                            
-          [--cmd-after-edit CMD_AFTER_EDIT] [--col-cache-size COL_CACHE_SIZE]                       
-          [--quitguard] [--null-value NULL_VALUE] [--force-valid-colnames]                          
-          [--debug] [--curses-timeout CURSES_TIMEOUT] [--force-256-colors]                          
-          [--use-default-colors] [--note-pending NOTE_PENDING]                                      
-          [--note-format-exc NOTE_FORMAT_EXC]     
-          [--note-getter-exc NOTE_GETTER_EXC] [--note-type-exc NOTE_TYPE_EXC]                       
-          [--note-unknown-type NOTE_UNKNOWN_TYPE] [--scroll-incr SCROLL_INCR]                       
-          [--skip SKIP] [--confirm-overwrite CONFIRM_OVERWRITE]                                     
-          [--safe-error SAFE_ERROR] [--header HEADER] [--delimiter DELIMITER]                       
-          [--filetype FILETYPE] [--save-filetype SAVE_FILETYPE]                                     
-          [--tsv-safe-newline TSV_SAFE_NEWLINE] [--tsv-safe-tab TSV_SAFE_TAB]                       
-          [--clipboard-copy-cmd CLIPBOARD_COPY_CMD] [--visibility VISIBILITY]                       
-          [--min-memory-mb MIN_MEMORY_MB] [--replay-wait REPLAY_WAIT]                               
-          [--replay-movement] [--visidata-dir VISIDATA_DIR]                                         
-          [--rowkey-prefix ROWKEY_PREFIX] [--cmdlog-histfile CMDLOG_HISTFILE]                       
-          [--regex-maxsplit REGEX_MAXSPLIT]       
-          [--show-graph-labels SHOW_GRAPH_LABELS] [--plot-colors PLOT_COLORS]                       
-          [--zoom-incr ZOOM_INCR] [--motd-url MOTD_URL] [--profile PROFILE]                         
-          [--csv-dialect CSV_DIALECT] [--csv-delimiter CSV_DELIMITER]                               
-:
+vd(1)                        Quick Reference Guide                       vd(1)                      
+<span class="ansi1">NAME</span>                     
+     <span class="ansi1">VisiData</span> -- a terminal utility for exploring and arranging tabular data                        
+<span class="ansi1">SYNOPSIS</span>                 
+     <span class="ansi1">vd</span> [<span class="ansi4">options</span>] [<span class="ansi4">input</span> ...]                     
+     <span class="ansi1">vd</span> [<span class="ansi4">options</span>] <span class="ansi1">--play</span> <span class="ansi4">cmdlog</span> [<span class="ansi1">-w</span> <span class="ansi4">waitsecs</span>] [<span class="ansi1">--batch</span>] [<span class="ansi1">-o</span> <span class="ansi4">output</span>] [<span class="ansi4">field</span><span class="ansi1"></span><span class="ansi1"></span><span class="ansi1">=</span><span class="ansi4"></span><span class="ansi4"></span><span class="ansi4">value</span>]                   
+     <span class="ansi1">vd</span> [<span class="ansi4">options</span>] [<span class="ansi4">input</span> ...] <span class="ansi1">+</span><span class="ansi4"></span><span class="ansi4"></span><span class="ansi4">toplevel</span>:<span class="ansi4">subsheet</span>:<span class="ansi4">col</span>:<span class="ansi4">row</span>                                            
+<span class="ansi1">DESCRIPTION</span>              
+     <span class="ansi1">VisiData</span> is an easy-to-use multipurpose tool to explore, clean, edit, and restructure          
+     data. Rows can be selected, filtered, and grouped; columns can be rearranged, trans-           
+     formed, and derived via regex or Python expressions; and workflows can be saved, doc-          
+     umented, and replayed.                       
+   <span class="ansi1">REPLAY</span> <span class="ansi1">MODE</span>           
+     <span class="ansi1">-p</span>, <span class="ansi1">--play</span>=<span class="ansi4">cmdlog</span>       replay a saved <span class="ansi4">cmdlog</span> within the interface                             
+     <span class="ansi1">-w</span>, <span class="ansi1">--replay-wait</span>=<span class="ansi4">seconds</span>                    
+                             wait <span class="ansi4">seconds</span> between commands                                          
+     <span class="ansi1">-b</span>, <span class="ansi1">--batch</span>             replay in batch mode (with no interface)                               
+     <span class="ansi1">-o</span>, <span class="ansi1">--output</span>=<span class="ansi4">file</span>       save final visible sheet to <span class="ansi4">file</span> as .tsv                               
+:Usage: .No normal_text ... (#659)                
 </pre>
 </div>

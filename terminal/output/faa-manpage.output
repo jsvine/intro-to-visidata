@@ -1,19 +1,20 @@
-vd(1)                        Quick Reference Guide                       vd(1)                      
 [1mNAME[0m[39m[49m                     
      [1mVisiData[0m[39m[49m -- a terminal utility for exploring and arranging tabular data                        
 [1mSYNOPSIS[0m[39m[49m                 
      [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [[4minput[0m[39m[49m ...]                     
-     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [1m--play[0m[39m[49m [4mcmdlog[0m[39m[49m [[1m-w[0m[39m[49m [4mwaitsecs[0m[39m[49m] [[1m--batch[0m[39m[49m] [[1m-o[0m[39m[49m [4moutput[0m[39m[49m] [[4mfield[0;1m[39m[49m=[0;4m[39m[49mvalue[0m[39m[49m ...]               
+     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [1m--play[0m[39m[49m [4mcmdlog[0m[39m[49m [[1m-w[0m[39m[49m [4mwaitsecs[0m[39m[49m] [[1m--batch[0m[39m[49m] [[1m-o[0m[39m[49m [4moutput[0m[39m[49m] [[4mfield[0;1m[39m[49m=[0;4m[39m[49mvalue[0m[39m[49m]                   
+     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [[4minput[0m[39m[49m ...] [1m+[0;4m[39m[49mtoplevel[0m[39m[49m:[4msubsheet[0m[39m[49m:[4mcol[0m[39m[49m:[4mrow[0m[39m[49m                                            
 [1mDESCRIPTION[0m[39m[49m              
-     [1mVisiData[0m[39m[49m is a multipurpose tool built on the [1mvdtui[0m[39m[49m platform that can be used to                
-     explore, clean, edit, and restructure data. Rows can be selected, filtered, and                
-     grouped; columns can be rearranged, transformed, and derived via regex or Python               
-     expressions; and workflows can be saved, documented, and replayed.                             
+     [1mVisiData[0m[39m[49m is an easy-to-use multipurpose tool to explore, clean, edit, and restructure          
+     data. Rows can be selected, filtered, and grouped; columns can be rearranged, trans-           
+     formed, and derived via regex or Python expressions; and workflows can be saved, doc-          
+     umented, and replayed.                       
    [1mREPLAY[0m[39m[49m [1mMODE[0m[39m[49m           
      [1m-p[0m[39m[49m, [1m--play[0m[39m[49m=[4mcmdlog[0m[39m[49m       replay a saved [4mcmdlog[0m[39m[49m within the interface                             
      [1m-w[0m[39m[49m, [1m--replay-wait[0m[39m[49m=[4mseconds[0m[39m[49m                    
                              wait [4mseconds[0m[39m[49m between commands                                          
      [1m-b[0m[39m[49m, [1m--batch[0m[39m[49m             replay in batch mode (with no interface)                               
      [1m-o[0m[39m[49m, [1m--output[0m[39m[49m=[4mfile[0m[39m[49m       save final visible sheet to [4mfile[0m[39m[49m as .tsv                               
-     [1m--replay-movement[0m[39m[49m       toggle [1m--play[0m[39m[49m to move cursor cell-by-cell                              
-:
+:Usage: .No normal_text ... (#659)                
+Usage: .No normal_text ... (#1126)                
+mdoc warning: A .Bl directive has no matching .El (#1244)                                           

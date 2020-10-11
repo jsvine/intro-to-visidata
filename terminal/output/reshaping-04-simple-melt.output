@@ -1,24 +1,24 @@
-[1;4;7m[37m[40m Variable           [0m[38;5;246m[40m|[1;4m[37m Value                                                                        [0m[39m[40m 
-[1;7m[37m OPERATOR           [0;7m[37m[40m| BUSINESS                                                                     [0m[39m[40m 
-[1m[37m ATYPE              [0m[37m[40m| PA-28[39m                                                                         
-[1m[37m INCIDENT_DATE      [0m[37m[40m| 05/22/15 00:00:00[39m                                                             
-[1m[37m STATE              [0m[37m[40m| FL[39m                                                                            
-[1m[37m AIRPORT            [0m[37m[40m| VERO BEACH MUNICIPAL[39m                                                          
-[1m[37m PHASE_OF_FLT       [0m[37m[40m| APPROACH[39m                                                                      
-[1m[37m HEIGHT             [0m[37m[40m|[39m                                                                               
-[1m[37m SPEED              [0m[37m[40m|[39m                                                                               
-[1m[37m SPECIES            [0m[37m[40m| Unknown bird[39m                                                                  
-[1m[37m BIRDS_STRUCK       [0m[37m[40m| 1[39m                                                                             
-[1m[37m EFFECT             [0m[37m[40m| NONE[39m                                                                          
-[1m[37m DAMAGE             [0m[37m[40m| M[39m                                                                             
-[1m[37m COST_REPAIRS       [0m[37m[40m|[39m                                                                               
-[1m[37m PERSON             [0m[37m[40m| Tower[39m                                                                         
-[1m[37m REMAINS_COLLECTED  [0m[37m[40m| 0[39m                                                                             
-[1m[37m REMARKS            [0m[37m[40m| N9240F was right base to final on Runway 4, and he reported a bird strike to…[39m 
-[1m[37m OPERATOR           [0m[37m[40m| BUSINESS[39m                                                                      
-[1m[37m ATYPE              [0m[37m[40m| BE-1900[39m                                                                       
-[1m[37m INCIDENT_DATE      [0m[37m[40m| 06/18/15 00:00:00[39m                                                             
-[1m[37m STATE              [0m[37m[40m| AK[39m                                                                            
-[1m[37m AIRPORT            [0m[37m[40m| KENAI MUNICIPAL ARPT[39m                                                          
-[1m[37m PHASE_OF_FLT       [0m[37m[40m| APPROACH[39m                                                                      
-[1m[37mfaa-wildlife-strikes_melted|[0m[39m[40m                                         [1m[37m   [0m[37m[40m M[1m   1175168 melted values [0m[39m[40m 
+[1;4;7m[37m[40m Variable          [0m[38;5;246m[40m|[1;4m[37m Value                                                                         [0m[39m[40m 
+[1;7m[37m OPERATOR          [0;7m[37m[40m| BUSINESS                                                                      [0m[39m[40m 
+[1m[37m ATYPE             [0m[37m[40m| PA-28[39m                                                                          
+[1m[37m INCIDENT_DATE     [0m[37m[40m| 05/22/15 00:00:00[39m                                                              
+[1m[37m STATE             [0m[37m[40m| FL[39m                                                                             
+[1m[37m AIRPORT           [0m[37m[40m| VERO BEACH MUNICIPAL[39m                                                           
+[1m[37m PHASE_OF_FLT      [0m[37m[40m| APPROACH[39m                                                                       
+[1m[37m HEIGHT            [0m[37m[40m|[39m                                                                                
+[1m[37m SPEED             [0m[37m[40m|[39m                                                                                
+[1m[37m SPECIES           [0m[37m[40m| Unknown bird[39m                                                                   
+[1m[37m BIRDS_STRUCK      [0m[37m[40m| 1[39m                                                                              
+[1m[37m EFFECT            [0m[37m[40m| NONE[39m                                                                           
+[1m[37m DAMAGE            [0m[37m[40m| M[39m                                                                              
+[1m[37m COST_REPAIRS      [0m[37m[40m|[39m                                                                                
+[1m[37m PERSON            [0m[37m[40m| Tower[39m                                                                          
+[1m[37m REMAINS_COLLECTED [0m[37m[40m| 0[39m                                                                              
+[1m[37m REMARKS           [0m[37m[40m| N9240F was right base to final on Runway 4, and he reported a bird strike to …[39m 
+[1m[37m OPERATOR          [0m[37m[40m| BUSINESS[39m                                                                       
+[1m[37m ATYPE             [0m[37m[40m| BE-1900[39m                                                                        
+[1m[37m INCIDENT_DATE     [0m[37m[40m| 06/18/15 00:00:00[39m                                                              
+[1m[37m STATE             [0m[37m[40m| AK[39m                                                                             
+[1m[37m AIRPORT           [0m[37m[40m| KENAI MUNICIPAL ARPT[39m                                                           
+[1m[37m PHASE_OF_FLT      [0m[37m[40m| APPROACH[39m                                                                       
+[1m[37m3› faa-wildlife-strikes_melted|[0m[39m[40m                                       [1m[37m M     1175168 melted values [0m[39m[40m 

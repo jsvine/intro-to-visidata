@@ -73,6 +73,7 @@ Tabular data
 - Fixed-width files
 - SQLite databases
 - Postgres databases (requires ``pip3 install psycopg2``)
+- MySQL databases (requires ``pip3 install mysqlclient``)
 - HDF5 files (requires ``pip3 install h5py``)
 - .sas7bdat files (requires ``pip3 install sas7bdat``)
 - .xpt files (requires ``pip3 install xport``)
@@ -97,10 +98,13 @@ Directories
 
 - Standard Unix directories
 - ZIP files
+- `Frictionless Data Packages <https://frictionlessdata.io/data-package/#the-data-package-suite-of-specifications>`_ (requires ``pip3 install datapackage``)
 
 Misc.
 ^^^^^
 
 - HTML (looks for ``<table>`` tags; requires ``pip3 install lxml``)
 - Website URLs (downloads the HTML, and then looks for ``<table>`` tags; requires ``pip3 install lxml``)
+- `.rec files <https://www.gnu.org/software/recutils/>`_
 - .pcap files (requires ``pip3 install dpkt dnslib``)
+- ... `and more  <https://github.com/saulpw/visidata/tree/stable/visidata/loaders>`_

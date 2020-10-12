@@ -60,6 +60,12 @@ To close all sheets (and, hence, quitting VisiData in its entirety), type :kbd:`
 To access the "sheets graveyard", a listing of recently-closed sheets, type :kbd:`gS`.
 
 
+How to *prevent* sheet closure/removal
+--------------------------------------
+
+You can prevent VisiData from quitting a sheet by "guarding" it. To do so, press :kbd:`Space` to raise the type-a-command prompt. Then, type ``guard-sheet`` and press :kbd:`Enter`.
+
+
 Quickly toggling between sheets
 -------------------------------
 

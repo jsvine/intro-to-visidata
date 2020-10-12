@@ -55,9 +55,6 @@ Then, press :kbd:`"`, which should give you something like the following:
 .. raw:: html
     :file: ../../terminal/output/filtering-01-push.output.html
 
-.. note::
-
-   If **no rows** are selected on your current sheet, using :kbd:`"` will create a **full copy** of the sheet.
 
 Filtering via frequency tables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

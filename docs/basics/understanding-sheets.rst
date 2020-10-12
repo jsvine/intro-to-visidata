@@ -65,3 +65,5 @@ Quickly toggling between sheets
 
 To flip back and forth between your current sheet and the previous one, press :kbd:`Control-^`.
 
+Additionally, VisiData assigns every sheet a numeric shortcut, visible at the bottom-left corner of the interface. You can jump to a sheet by pressing :kbd:`Alt` plus the shortcut number — for instance :kbd:`Alt-1` to go to the first sheet you loaded.
+

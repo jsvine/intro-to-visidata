@@ -67,6 +67,8 @@ For instance, here's what you should see if you navigate to the wildlife-strike 
 
    As you can see above, if a cell cannot be converted into the type you've assigned it, VisiData will display ``!`` in the right-side margin of that cell.
 
+To entirely remove a column's assigned type, navigate to the column and type :kbd:`z~`.
+
 How to rename columns
 ---------------------
 

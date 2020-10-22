@@ -63,7 +63,7 @@ You can also use the shorter ``-f`` flag:
 Compatible filetypes
 --------------------
 
-VisiData can open a range of filetypes, including:
+VisiData can open `a range of filetypes <https://www.visidata.org/formats/>`_, including:
 
 Tabular data
 ^^^^^^^^^^^^
@@ -107,4 +107,4 @@ Misc.
 - Website URLs (downloads the HTML, and then looks for ``<table>`` tags; requires ``pip3 install lxml``)
 - `.rec files <https://www.gnu.org/software/recutils/>`_
 - .pcap files (requires ``pip3 install dpkt dnslib``)
-- ... `and more  <https://github.com/saulpw/visidata/tree/stable/visidata/loaders>`_
+- ... `and more <https://www.visidata.org/formats/>`_

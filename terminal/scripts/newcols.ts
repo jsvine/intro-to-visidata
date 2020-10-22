@@ -1,13 +1,18 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+AWAIT "73448 rows" --start-line -1
+
+SEND i
+AWAIT 'set 73448 cells to 73448 values' --start-line -1
+CAPTURE terminal/output/newcols-00a-increment-basic.output
+SEND U
 
 SEND =1
 ENTER
-AWAIT '1\s+#\| PA-28'
+AWAIT '1\s+#\| PA-28' --end-line 2
 CAPTURE terminal/output/newcols-00-simple.output
-SEND l-
+SEND U
 
 SEND cHEIGHT
 ENTER

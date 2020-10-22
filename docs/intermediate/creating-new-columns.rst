@@ -2,11 +2,26 @@
 Creating New Columns
 ====================
 
-In any VisiData sheet, you can create new columns based on pre-existing columns. These are three of the most useful ways:
+In any VisiData sheet, you can create a blank column by typing :kbd:`za`. But VisiData also provides many powerful ways to create new, dyanamic columns. These are four of the most useful ways:
 
+- Increments
 - Expressions (like functions in Excel, etc.)
 - Splits (breaking up one text column into several)
 - Captures (extracting one chunk of a text column)
+
+How to create an incremented column
+-----------------------------------
+
+You can add an incremented column with **sequential values** (akin to row numbers) by pressing :kbd:`i`. Once you do that, VisiData will create this new column directly to the right of your current column:
+
+.. raw:: html
+    :file: ../../terminal/output/newcols-00a-increment-basic.output.html
+
+By default, VisiData will name the column ``A`` (or ``B`` if you already have a column named ``A``, and so on).
+
+.. note::
+
+    You can customize the "step" between values; to do that, type :kbd:`zi`, and specify a number at the prompt. (Specifying ``3``, for instance, would create the sequence ``1, 4, 7, ...``.)
 
 How to create an expression column
 ----------------------------------

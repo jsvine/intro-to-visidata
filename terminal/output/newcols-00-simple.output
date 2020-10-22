@@ -21,4 +21,4 @@
 [1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| C-172        | 05/08/15 00:00:00 | FL    | ORLANDO SANFORD IN…| APPROACH[39m 
 [1m[37m SPIRIT AIRLINES    [0m[37m[40m| 1 [38;5;226m#[37m| A-319        | 05/10/15 00:00:00 | IL    | CHICAGO O'HARE INT…| CLIMB[39m    
 [1m[37m EXPRESSJET AIRLINES[0m[37m[40m| 1 [38;5;226m#[37m| EMB-145      | 05/11/15 00:00:00 | AL    | BIRMINGHAM-SHUTTLE…| LANDING…[39m 
-[1m[37m1› faa-wildlife-strikes| "1"[0m[39m[40m                           [1m[37m =  addcol-expr     43275 rows     loading…[32m [0m[39m[40m 
+[1m[37m1› faa-wildlife-strikes| "1"[0m[39m[40m                                        [1m[37m =  addcol-expr     73448 rows [0m[39m[40m 

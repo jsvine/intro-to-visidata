@@ -83,4 +83,4 @@ For instance:
 
 .. tip::
 
-   If you know Python and are willing to acquaint yourself with `VisiData's architecture <https://github.com/saulpw/visidata/>`_, you can use your ``~/.visidatarc`` file to customize VisiData in ways far more powerful than simple option-setting — including `creating your own commands <https://github.com/saulpw/visidata/blob/stable/docs/customize.md#how-to-configure-commands>`_.
+   If you know Python and are willing to acquaint yourself with `VisiData's architecture <https://www.visidata.org/docs/api/>`_, you can use your ``~/.visidatarc`` file to customize VisiData in ways far more powerful than simple option-setting — including `creating your own commands <https://github.com/saulpw/visidata/blob/stable/docs/customize.md#how-to-configure-commands>`_.

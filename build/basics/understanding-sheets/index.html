@@ -99,6 +99,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-the-sheets-sheet">How to use the Sheets Sheet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-rename-a-sheet">How to rename a sheet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-close-remove-a-sheet">How to close/remove a sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-prevent-sheet-closure-removal">How to <em>prevent</em> sheet closure/removal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#quickly-toggling-between-sheets">Quickly toggling between sheets</a></li>
 </ul>
 </li>
@@ -114,6 +115,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/creating-new-columns/">Creating New Columns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/joining-sheets/">Joining Sheets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/reshaping-data/">Reshaping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-cells/">Working With Large Cells</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-files/">Working With Large Files</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Usage</span></p>
@@ -209,9 +211,9 @@
 <p>If you’ve just launched VisiData with a single dataset, pressing <kbd class="kbd docutils literal notranslate">Shift-S</kbd> will open a Sheets Sheet that looks something like this:</p>
 <div class='ansi2html'>
 <pre>
-<span class="ansi1 ansi4 inv_background inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv40"> name                         </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">‖</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nRows  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nVisibleCols  #</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> cursorDisplay   </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> keyColNames</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">&gt;</span><span class="ansi40"> 
-</span><span class="ansi1 inv_background inv40"></span><span class="ansi1 inv38-81 inv40"> sheets                       </span><span class="inv_background inv_foreground"></span><span class="inv37 inv_foreground"></span><span class="inv37 inv40">‖       2 |       8 |              8 | sheets          | name        </span><span class="ansi40"> 
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> faa-wildlife-strikes         </span><span class="ansi37"></span><span class="ansi37 ansi40">‖   73448 |      16 |             16 | BUSINESS        |</span><span class="ansi40">              
+<span class="ansi1 ansi4 inv_background inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv40"> name               </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">║</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> type        </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> shortcut </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nRows#</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nCols#</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> nVisibleCols#</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> cursorDisplay </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> keyC</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">&gt;</span><span class="ansi40"> 
+</span><span class="ansi1 inv_background inv40"></span><span class="ansi1 inv38-81 inv40"> sheets             </span><span class="inv_background inv_foreground"></span><span class="inv37 inv_foreground"></span><span class="inv37 inv40">║ SheetsSheet | S        |     2 |    10 |           10 | sheets        | name </span><span class="ansi40"> 
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> faa-wildlife-strik…</span><span class="ansi37"></span><span class="ansi37 ansi40">║ CsvSheet    | 1        | 73448 |    16 |           16 | BUSINESS      |</span><span class="ansi40">       
                                                                                                     
                                                                                                     
                                                                                                     
@@ -232,7 +234,7 @@
                                                                                                     
                                                                                                     
                                                                                                     
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">sheets|</span><span class="ansi40">                                                              </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">          </span><span class="ansi37"></span><span class="ansi37 ansi40"> S</span><span class="ansi1 ansi37 ansi40">         2 sheets </span><span class="ansi40"> </span>
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">S› sheets|</span><span class="ansi40">                                                             </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">       S           2 sheets </span><span class="ansi40"> </span>
 </pre>
 </div>
 <p>Not very exciting. But as you start juggling more sheets — frequency tables, multiple datasets, et cetera — the Sheets Sheet becomes very handy.</p>
@@ -256,9 +258,14 @@
 <p>To close all sheets (and, hence, quitting VisiData in its entirety), type <kbd class="kbd docutils literal notranslate">gq</kbd>.</p>
 <p>To access the “sheets graveyard”, a listing of recently-closed sheets, type <kbd class="kbd docutils literal notranslate">gS</kbd>.</p>
 </div>
+<div class="section" id="how-to-prevent-sheet-closure-removal">
+<h2>How to <em>prevent</em> sheet closure/removal<a class="headerlink" href="#how-to-prevent-sheet-closure-removal" title="Permalink to this headline">¶</a></h2>
+<p>You can prevent VisiData from quitting a sheet by “guarding” it. To do so, press <kbd class="kbd docutils literal notranslate">Space</kbd> to raise the type-a-command prompt. Then, type <code class="docutils literal notranslate"><span class="pre">guard-sheet</span></code> and press <kbd class="kbd docutils literal notranslate">Enter</kbd>.</p>
+</div>
 <div class="section" id="quickly-toggling-between-sheets">
 <h2>Quickly toggling between sheets<a class="headerlink" href="#quickly-toggling-between-sheets" title="Permalink to this headline">¶</a></h2>
 <p>To flip back and forth between your current sheet and the previous one, press <kbd class="kbd docutils literal notranslate">Control-^</kbd>.</p>
+<p>Additionally, VisiData assigns every sheet a numeric shortcut, visible at the bottom-left corner of the interface. You can jump to a sheet by pressing <kbd class="kbd docutils literal notranslate">Alt</kbd> plus the shortcut number —&nbsp;for instance <kbd class="kbd docutils literal notranslate">Alt-1</kbd> to go to the first sheet you loaded.</p>
 </div>
 </div>
 
@@ -282,7 +289,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Jeremy Singer-Vine
+        &copy; Copyright 2018–2020, Jeremy Singer-Vine
 
     </p>
   </div>

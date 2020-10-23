@@ -1,9 +1,9 @@
-[1;4;7m[38;5;81m[40m name                             [0m[38;5;246m[40m‖[1;4m[37m nRows  #[0m[38;5;246m[40m|[1;4m[37m nCols  #[0m[38;5;246m[40m|[1;4m[37m nVisibleCols  #[0m[38;5;246m[40m|[1;4m[37m cursorDisplay   [0m[38;5;246m[40m|[1;4m[37m keyColN[0m[38;5;246m[40m>[39m 
-[1m[38;5;81m sheets[0m[39m[40m                           [37m‖       5 |       8 |[39m              [37m8 | faa-wildlife-st…| name[39m     
-[1m[38;5;215m known_species_STATE-SPECIES_freq [0m[38;5;215m[40m‖    5135 |       5 |[39m              [38;5;215m3 | Horned lark     | STATE   [39m 
-[1m[38;5;81m known_species[0m[39m[40m                    [37m‖   47460 |      16 |             16 |[39m                 [37m| STATE S…[39m 
-[1m[38;5;215m known_species_STATE_freq         [0m[38;5;215m[40m‖      63 |       4 |[39m              [38;5;215m2 | 4670            | STATE   [39m 
-[1;7m[38;5;81m faa-wildlife-strikes             [0;7m[37m[40m‖   73448 |      16 |             16 | Unknown bird    |         [0m[39m[40m 
+[1;4;7m[38;5;81m[40m name                             [0m[38;5;246m[40m║[1;4m[37m type           [0m[38;5;246m[40m|[1;4m[37m shortcut [0m[38;5;246m[40m|[1;4m[37m nRows#[0m[38;5;246m[40m|[1;4m[37m nCols#[0m[38;5;246m[40m|[1;4m[37m nVisibleCols#[0m[38;5;246m[40m|[1;4m[37m cur[0m[38;5;246m[40m>[39m 
+[1m[38;5;81m sheets[0m[39m[40m                           [37m║ SheetsSheet    | S        |     5 |    10 |           10 | faa…[39m 
+[38;5;220m•[1m[38;5;215mknown_species_STATE-SPECIES_freq [0m[38;5;215m[40m║ FreqTableSheet | 4        |  5135 |     5 |            3 | Hor…[39m 
+[1m[38;5;81m known_species[0m[39m[40m                    [37m║ CsvSheet       | 2        | 47460 |    16 |           16 |[39m      
+[38;5;220m•[1m[38;5;215mknown_species_STATE_freq         [0m[38;5;215m[40m║ FreqTableSheet | 3        |    63 |     4 |            2 | 4670[39m 
+[1;7m[38;5;81m faa-wildlife-strikes             [0;7m[37m[40m║ CsvSheet       | 1        | 73448 |    16 |           16 | Unk…[0m[39m[40m 
                                                                                                     
                                                                                                     
                                                                                                     
@@ -21,4 +21,4 @@
                                                                                                     
                                                                                                     
                                                                                                     
-[1m[37msheets|[0m[39m[40m                                                                [1m[37m   [0m[39m[40m    [1m[37m [0m[37m[40m s[1m         5 sheets [0m[39m[40m 
+[1m[37mS› sheets|[0m[39m[40m [1m[37mselected 1 more sheets[0m[39m[40m                             [1m[37m      s  select-row         5 sheets [0m[39m[40m 

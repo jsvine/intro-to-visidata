@@ -1,30 +1,26 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
-SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+SEND "vd datasets/faa-wildlife-strikes.csv" --enter
+AWAIT "rows  $" --start-line -1
 
-SEND cSPECIES
-ENTER
+SEND cSPECIES --enter
 SEND "!"
-PAUSE 0.25
 CAPTURE terminal/output/reshaping-00-keycol.output
 
-SEND cREMAINS
-ENTER
-PAUSE 0.25
+SEND cREMAINS --enter
 CAPTURE terminal/output/reshaping-01-navigate.output
 
 SEND W
-AWAIT "641 aggregated rows"
+AWAIT "641 grouped rows  $" --start-line -1
 CAPTURE terminal/output/reshaping-02-pivot.output
 
 SEND g_
-AWAIT "REMAINS_COLLECTED_count_0" --end-line 1
+AWAIT "Unknown bird - small"
 CAPTURE terminal/output/reshaping-03-pivot-adj.output
 
 SEND qgh! # Remove keycol
 SEND M
-AWAIT "1175168 melted values"
+AWAIT "1175168 melted values" --start-line -1
 CAPTURE terminal/output/reshaping-04-simple-melt.output
 
 SEND q
@@ -33,7 +29,7 @@ PAUSE 0.25
 CAPTURE terminal/output/reshaping-05-keyed.output
 
 SEND l-ll-----------gh
-PAUSE 0.25
+AWAIT "AIRPORT\s+║" --end-line 1
 CAPTURE terminal/output/reshaping-06-hidden.output
 
 SEND M

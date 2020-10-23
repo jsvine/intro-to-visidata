@@ -44,8 +44,8 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2019-08-15``
-VisiData version        ``1.5.2``
+Tutorial last updated   ``2020-10-23``
+VisiData version        ``2.0.1``
 ======================  ================
 
 About the author
@@ -103,6 +103,7 @@ Many thanks to the following people for their feedback, suggestions, and fixes: 
     intermediate/creating-new-columns
     intermediate/joining-sheets
     intermediate/reshaping-data
+    intermediate/large-cells
     intermediate/large-files
 
 .. toctree::

@@ -1,12 +1,10 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+AWAIT "73448 rows"
 
-SEND cSPECIES
-ENTER
-SEND |hawk
-ENTER
+SEND cSPECIES --enter
+SEND |hawk --enter
 AWAIT "2164 matches" --start-line -1
 CAPTURE terminal/output/filtering-00-search.output
 
@@ -15,11 +13,11 @@ AWAIT "Hawks" --end-line 2
 CAPTURE terminal/output/filtering-01-push.output
 
 SEND q
+AWAIT "73448 rows"
 SEND gu
-SEND cSTATE
-ENTER
+SEND cSTATE --enter
 SEND F
-AWAIT "bins"
+AWAIT "63 bins  $"
 SEND jj
 PAUSE 0.25
 CAPTURE terminal/output/filtering-02-freq-before.output
@@ -29,25 +27,19 @@ AWAIT "rows"
 CAPTURE terminal/output/filtering-03-freq-after.output
 
 SEND S
-SEND /faa-wildlife-strikes$
+SEND /faa-wildlife-strikes$ --enter
 ENTER
-ENTER
-AWAIT rows
+AWAIT "73448 rows  $"
 SEND gu
-SEND cAIRPORT
-ENTER
+SEND cAIRPORT --enter
 SEND F
-AWAIT bins
+AWAIT "1512 bins  $"
 CAPTURE terminal/output/filtering-04-freq-airport.output
 
 SEND jsssss
 PAUSE 0.25
 CAPTURE terminal/output/filtering-05-freq-multiselect.output
 
-SEND q
-AWAIT "73448 rows"
-CAPTURE terminal/output/filtering-06-freq-data-post-multiselect.output
-
-SEND '"'
-AWAIT '"' --start-line -1
+SEND g --enter
+AWAIT '9250 rows  $' --start-line -1
 CAPTURE terminal/output/filtering-07-freq-filter-post-multiselect.output

@@ -1,5 +1,5 @@
-visidata
-sphinx
-sphinx_rtd_theme
-termrunner
-ansi2html
+visidata==2.0.1
+-e ./../termrunner
+sphinx==1.8.3
+sphinx-rtd-theme==0.4.3
+ansi2html==1.5.2

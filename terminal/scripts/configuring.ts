@@ -1,7 +1,7 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
-SEND "vd -h | less\n"
-AWAIT "usage:"
+SEND "vd -h\n"
+AWAIT "a terminal utility for exploring"
 CAPTURE terminal/output/configuring-00-vd-h.output
 SEND q
 

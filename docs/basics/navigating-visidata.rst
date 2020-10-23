@@ -121,3 +121,7 @@ In addition to using your keyboard, you can use your mouse or trackpad to naviga
 
 - **Click** to select any visible row
 - **Scroll** to scroll through the rows
+
+.. tip::
+
+   Feeling lost in a sheet? Press :kbd:`Control-g` to display your cursor's row and column number at the bottom of VisiData's interface.

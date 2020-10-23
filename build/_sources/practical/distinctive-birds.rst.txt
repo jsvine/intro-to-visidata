@@ -160,15 +160,21 @@ Then navigate to the ``known_species_STATE-SPECIES_freq`` row, and press :kbd:`s
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-13-sheets-selected.output.html
 
-Press :kbd:`&` to raise the sheet-joining prompt, and type ``inner`` to indicate that we want to perform an inner join (a.k.a. "left join", a.k.a. "INNER LEFT JOIN"):
+Press :kbd:`&` to raise the sheet-joining prompt:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-14-sheets-join-prompt.output.html
 
-Press :kbd:`Enter` to complete the action, after which you should see something like this:
+Navigate to the ``inner`` row (if you're not there already), and press :kbd:`Enter` to complete the action. After that, you should see something like this:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-15-sheets-joined.output.html
+
+Finally, give the sheet a shorter name:
+
+- Press :kbd:`Space` to raise the type-a-command prompt
+- Type ``rename-sheet`` and press :kbd:`Enter`
+- At the next prompt, type the new name we want; in this case ``joined``
 
 Calculate each species' state-level percentages
 -----------------------------------------------

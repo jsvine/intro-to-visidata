@@ -67,7 +67,7 @@ Via expressions
 
 In VisiData, you can select rows by evaluating a given Python **expression** for every row in your dataset.
 
-.. note::
+.. tip::
 
    If you're unfamiliar with Python, no worries. You can find an overview of simple and handy expressions `here <https://docs.python.org/3/tutorial/introduction.html>`_.
 

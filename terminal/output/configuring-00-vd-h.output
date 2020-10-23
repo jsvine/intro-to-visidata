@@ -1,24 +1,19 @@
-usage: vd [-h] [-f FILETYPE] [-y] [-p PLAY] [-b] [-o OUTPUT] [-w REPLAY_WAIT]                       
-          [-d DELIMITER] [--diff DIFF] [-v] [--encoding ENCODING]                                   
-          [--encoding-errors ENCODING_ERRORS] [--regex-flags REGEX_FLAGS]                           
-          [--default-width DEFAULT_WIDTH] [--wrap] [--bulk-select-clear]                            
-          [--cmd-after-edit CMD_AFTER_EDIT] [--col-cache-size COL_CACHE_SIZE]                       
-          [--quitguard] [--null-value NULL_VALUE] [--force-valid-colnames]                          
-          [--debug] [--curses-timeout CURSES_TIMEOUT] [--force-256-colors]                          
-          [--use-default-colors] [--note-pending NOTE_PENDING]                                      
-          [--note-format-exc NOTE_FORMAT_EXC]     
-          [--note-getter-exc NOTE_GETTER_EXC] [--note-type-exc NOTE_TYPE_EXC]                       
-          [--note-unknown-type NOTE_UNKNOWN_TYPE] [--scroll-incr SCROLL_INCR]                       
-          [--skip SKIP] [--confirm-overwrite CONFIRM_OVERWRITE]                                     
-          [--safe-error SAFE_ERROR] [--header HEADER] [--delimiter DELIMITER]                       
-          [--filetype FILETYPE] [--save-filetype SAVE_FILETYPE]                                     
-          [--tsv-safe-newline TSV_SAFE_NEWLINE] [--tsv-safe-tab TSV_SAFE_TAB]                       
-          [--clipboard-copy-cmd CLIPBOARD_COPY_CMD] [--visibility VISIBILITY]                       
-          [--min-memory-mb MIN_MEMORY_MB] [--replay-wait REPLAY_WAIT]                               
-          [--replay-movement] [--visidata-dir VISIDATA_DIR]                                         
-          [--rowkey-prefix ROWKEY_PREFIX] [--cmdlog-histfile CMDLOG_HISTFILE]                       
-          [--regex-maxsplit REGEX_MAXSPLIT]       
-          [--show-graph-labels SHOW_GRAPH_LABELS] [--plot-colors PLOT_COLORS]                       
-          [--zoom-incr ZOOM_INCR] [--motd-url MOTD_URL] [--profile PROFILE]                         
-          [--csv-dialect CSV_DIALECT] [--csv-delimiter CSV_DELIMITER]                               
-:
+[1mNAME[0m[39m[49m                     
+     [1mVisiData[0m[39m[49m -- a terminal utility for exploring and arranging tabular data                        
+[1mSYNOPSIS[0m[39m[49m                 
+     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [[4minput[0m[39m[49m ...]                     
+     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [1m--play[0m[39m[49m [4mcmdlog[0m[39m[49m [[1m-w[0m[39m[49m [4mwaitsecs[0m[39m[49m] [[1m--batch[0m[39m[49m] [[1m-o[0m[39m[49m [4moutput[0m[39m[49m] [[4mfield[0;1m[39m[49m=[0;4m[39m[49mvalue[0m[39m[49m]                   
+     [1mvd[0m[39m[49m [[4moptions[0m[39m[49m] [[4minput[0m[39m[49m ...] [1m+[0;4m[39m[49mtoplevel[0m[39m[49m:[4msubsheet[0m[39m[49m:[4mcol[0m[39m[49m:[4mrow[0m[39m[49m                                            
+[1mDESCRIPTION[0m[39m[49m              
+     [1mVisiData[0m[39m[49m is an easy-to-use multipurpose tool to explore, clean, edit, and restructure          
+     data. Rows can be selected, filtered, and grouped; columns can be rearranged, trans-           
+     formed, and derived via regex or Python expressions; and workflows can be saved, doc-          
+     umented, and replayed.                       
+   [1mREPLAY[0m[39m[49m [1mMODE[0m[39m[49m           
+     [1m-p[0m[39m[49m, [1m--play[0m[39m[49m=[4mcmdlog[0m[39m[49m       replay a saved [4mcmdlog[0m[39m[49m within the interface                             
+     [1m-w[0m[39m[49m, [1m--replay-wait[0m[39m[49m=[4mseconds[0m[39m[49m                    
+                             wait [4mseconds[0m[39m[49m between commands                                          
+     [1m-b[0m[39m[49m, [1m--batch[0m[39m[49m             replay in batch mode (with no interface)                               
+     [1m-o[0m[39m[49m, [1m--output[0m[39m[49m=[4mfile[0m[39m[49m       save final visible sheet to [4mfile[0m[39m[49m as .tsv                               
+:Usage: .No normal_text ... (#659)                
+Usage: .No normal_text ... (#1126)                

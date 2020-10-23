@@ -1,24 +1,24 @@
-[1;4;7m[37m[40m OPERATOR           [0m[38;5;246m[40m|[1;4m[37m 1   [0m[38;5;246m[40m|[1;4m[37m ATYPE          [0m[38;5;246m[40m|[1;4m[37m INCIDENT_DATE      [0m[38;5;246m[40m|[1;4m[37m STATE   [0m[38;5;246m[40m|[1;4m[37m AIRPORT            [0m[38;5;246m[40m|[1;4m[37m P[0m[38;5;246m[40m>[39m 
-[1;7m[37m BUSINESS           [0;7m[37m[40m| 1  [38;5;226m#[37m| PA-28          | 05/22/15 00:00:00  | FL      | VERO BEACH MUNICIP…| A…[0m[39m[40m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| BE-1900        | 06/18/15 00:00:00  | AK      | KENAI MUNICIPAL AR…| A…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| PA-46 MALIBU   | 09/20/15 00:00:00  | TX      | DAVID WAYNE HOOKS …|[39m    
-[1m[37m DELTA AIR LINES    [0m[37m[40m| 1  [38;5;226m#[37m| B-717-200      | 11/07/15 00:00:00  | MO      | LAMBERT-ST LOUIS I…| A…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| BE-90 KING     | 12/17/15 00:00:00  | FL      | POMPANO BEACH AIRP…| L…[39m 
-[1m[37m DELTA AIR LINES    [0m[37m[40m| 1  [38;5;226m#[37m| B-757          | 07/17/15 00:00:00  | VI      | HENRY E ROHLSEN AR…|[39m    
-[1m[37m DELTA AIR LINES    [0m[37m[40m| 1  [38;5;226m#[37m| B-717-200      | 08/02/15 00:00:00  | TX      | SAN ANTONIO INTL   | A…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| C-414          | 08/03/15 00:00:00  | TX      | LONE STAR EXECUTIV…| D…[39m 
-[1m[37m ALLEGIANT AIR      [0m[37m[40m| 1  [38;5;226m#[37m| MD-80          | 09/02/15 00:00:00  | FL      | TAMPA INTL         | A…[39m 
-[1m[37m TRANS STATES AIRLI…[0m[37m[40m| 1  [38;5;226m#[37m| EMB-145        | 09/07/15 00:00:00  | MO      | LAMBERT-ST LOUIS I…| A…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| C-172          | 11/28/15 00:00:00  | FL      | OPA-LOCKA EXECUTIV…| A…[39m 
-[1m[37m GOVERNMENT         [0m[37m[40m| 1  [38;5;226m#[37m| EC120          | 12/08/15 00:00:00  | CA      | NORMAN Y. MINETA S…|[39m    
-[1m[37m AMERICAN AIRLINES  [0m[37m[40m| 1  [38;5;226m#[37m| A-321          | 05/06/15 00:00:00  | FL      | FORT LAUDERDALE/HO…| A…[39m 
-[1m[37m EXPRESSJET AIRLINES[0m[37m[40m| 1  [38;5;226m#[37m| CRJ100/200     | 05/06/15 00:00:00  | AR      | FORT SMITH REGIONA…| C…[39m 
-[1m[37m MESA AIRLINES      [0m[37m[40m| 1  [38;5;226m#[37m| CRJ900         | 05/08/15 00:00:00  | AR      | BILL AND  HILLARY …| L…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| HELICOPTER     | 05/06/15 00:00:00  |         | UNKNOWN[39m      [37m      | E…[39m 
-[1m[37m DELTA AIR LINES    [0m[37m[40m| 1  [38;5;226m#[37m| A-320          | 05/07/15 00:00:00  | CA      | METRO OAKLAND INTL |[39m    
-[1m[37m DELTA AIR LINES    [0m[37m[40m| 1  [38;5;226m#[37m| A-320          | 05/08/15 00:00:00  | UT      | SALT LAKE CITY INTL|[39m    
-[1m[37m LUFTHANSA          [0m[37m[40m| 1  [38;5;226m#[37m| A-380          | 05/10/15 00:00:00  | TX      | GEORGE BUSH INTERC…| C…[39m 
-[1m[37m BUSINESS           [0m[37m[40m| 1  [38;5;226m#[37m| C-172          | 05/08/15 00:00:00  | FL      | ORLANDO SANFORD IN…| A…[39m 
-[1m[37m SPIRIT AIRLINES    [0m[37m[40m| 1  [38;5;226m#[37m| A-319          | 05/10/15 00:00:00  | IL      | CHICAGO O'HARE INT…| C…[39m 
-[1m[37m EXPRESSJET AIRLINES[0m[37m[40m| 1  [38;5;226m#[37m| EMB-145        | 05/11/15 00:00:00  | AL      | BIRMINGHAM-SHUTTLE…| L…[39m 
-[1m[37mfaa-wildlife-strikes| "1"[0m[39m[40m                                                         [37m=[1m     73448 rows [0m[39m[40m 
+[1;4;7m[37m[40m OPERATOR           [0m[38;5;246m[40m|[1;4m[37m 1  [0m[38;5;246m[40m|[1;4m[37m ATYPE        [0m[38;5;246m[40m|[1;4m[37m INCIDENT_DATE     [0m[38;5;246m[40m|[1;4m[37m STATE [0m[38;5;246m[40m|[1;4m[37m AIRPORT            [0m[38;5;246m[40m|[1;4m[37m PHASE_O[0m[38;5;246m[40m>[39m 
+[1;7m[37m BUSINESS           [0;7m[37m[40m| 1 [38;5;226m#[37m| PA-28        | 05/22/15 00:00:00 | FL    | VERO BEACH MUNICIP…| APPROACH[0m[39m[40m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| BE-1900      | 06/18/15 00:00:00 | AK    | KENAI MUNICIPAL AR…| APPROACH[39m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| PA-46 MALIBU | 09/20/15 00:00:00 | TX    | DAVID WAYNE HOOKS …|[39m          
+[1m[37m DELTA AIR LINES    [0m[37m[40m| 1 [38;5;226m#[37m| B-717-200    | 11/07/15 00:00:00 | MO    | LAMBERT-ST LOUIS I…| APPROACH[39m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| BE-90 KING   | 12/17/15 00:00:00 | FL    | POMPANO BEACH AIRP…| LANDING…[39m 
+[1m[37m DELTA AIR LINES    [0m[37m[40m| 1 [38;5;226m#[37m| B-757        | 07/17/15 00:00:00 | VI    | HENRY E ROHLSEN AR…|[39m          
+[1m[37m DELTA AIR LINES    [0m[37m[40m| 1 [38;5;226m#[37m| B-717-200    | 08/02/15 00:00:00 | TX    | SAN ANTONIO INTL   | APPROACH[39m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| C-414        | 08/03/15 00:00:00 | TX    | LONE STAR EXECUTIV…| DEPARTU…[39m 
+[1m[37m ALLEGIANT AIR      [0m[37m[40m| 1 [38;5;226m#[37m| MD-80        | 09/02/15 00:00:00 | FL    | TAMPA INTL         | APPROACH[39m 
+[1m[37m TRANS STATES AIRLI…[0m[37m[40m| 1 [38;5;226m#[37m| EMB-145      | 09/07/15 00:00:00 | MO    | LAMBERT-ST LOUIS I…| APPROACH[39m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| C-172        | 11/28/15 00:00:00 | FL    | OPA-LOCKA EXECUTIV…| APPROACH[39m 
+[1m[37m GOVERNMENT         [0m[37m[40m| 1 [38;5;226m#[37m| EC120        | 12/08/15 00:00:00 | CA    | NORMAN Y. MINETA S…|[39m          
+[1m[37m AMERICAN AIRLINES  [0m[37m[40m| 1 [38;5;226m#[37m| A-321        | 05/06/15 00:00:00 | FL    | FORT LAUDERDALE/HO…| APPROACH[39m 
+[1m[37m EXPRESSJET AIRLINES[0m[37m[40m| 1 [38;5;226m#[37m| CRJ100/200   | 05/06/15 00:00:00 | AR    | FORT SMITH REGIONA…| CLIMB[39m    
+[1m[37m MESA AIRLINES      [0m[37m[40m| 1 [38;5;226m#[37m| CRJ900       | 05/08/15 00:00:00 | AR    | BILL AND  HILLARY …| LANDING…[39m 
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| HELICOPTER   | 05/06/15 00:00:00 |       | UNKNOWN[39m       [37m     | En Route[39m 
+[1m[37m DELTA AIR LINES    [0m[37m[40m| 1 [38;5;226m#[37m| A-320        | 05/07/15 00:00:00 | CA    | METRO OAKLAND INTL |[39m          
+[1m[37m DELTA AIR LINES    [0m[37m[40m| 1 [38;5;226m#[37m| A-320        | 05/08/15 00:00:00 | UT    | SALT LAKE CITY INTL|[39m          
+[1m[37m LUFTHANSA          [0m[37m[40m| 1 [38;5;226m#[37m| A-380        | 05/10/15 00:00:00 | TX    | GEORGE BUSH INTERC…| CLIMB[39m    
+[1m[37m BUSINESS           [0m[37m[40m| 1 [38;5;226m#[37m| C-172        | 05/08/15 00:00:00 | FL    | ORLANDO SANFORD IN…| APPROACH[39m 
+[1m[37m SPIRIT AIRLINES    [0m[37m[40m| 1 [38;5;226m#[37m| A-319        | 05/10/15 00:00:00 | IL    | CHICAGO O'HARE INT…| CLIMB[39m    
+[1m[37m EXPRESSJET AIRLINES[0m[37m[40m| 1 [38;5;226m#[37m| EMB-145      | 05/11/15 00:00:00 | AL    | BIRMINGHAM-SHUTTLE…| LANDING…[39m 
+[1m[37m1› faa-wildlife-strikes| "1"[0m[39m[40m                                        [1m[37m =  addcol-expr     73448 rows [0m[39m[40m 

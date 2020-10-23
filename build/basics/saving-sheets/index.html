@@ -108,6 +108,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/creating-new-columns/">Creating New Columns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/joining-sheets/">Joining Sheets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/reshaping-data/">Reshaping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-cells/">Working With Large Cells</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-files/">Working With Large Files</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Usage</span></p>
@@ -185,8 +186,9 @@
             
   <div class="section" id="saving-sheets">
 <h1>Saving Sheets<a class="headerlink" href="#saving-sheets" title="Permalink to this headline">¶</a></h1>
-<p>To save your current sheet to a <strong>file</strong>, press <kbd class="kbd docutils literal notranslate">Control-s</kbd>. VisiData will prompt you with a suggested filename, which you can edit. Once you’re satisfied, press <kbd class="kbd docutils literal notranslate">Enter</kbd>.</p>
-<p>You can also save your sheet (or just the selected rows) to your <strong>system clipboard</strong> by typing <kbd class="kbd docutils literal notranslate">gY</kbd> and following the prompt.</p>
+<p>To save your current sheet to a <strong>file</strong>, press <kbd class="kbd docutils literal notranslate">Control-s</kbd>. VisiData will prompt you with a suggested filename, which you can edit. The filename extension (e.g., <code class="docutils literal notranslate"><span class="pre">.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">.json</span></code>, et cetera) will determine the format of the saved file. Once you’re satisfied, press <kbd class="kbd docutils literal notranslate">Enter</kbd>.</p>
+<p>You can also copy <em>selected</em> rows to your <strong>system clipboard</strong> by typing <kbd class="kbd docutils literal notranslate">gY</kbd> and following the prompt.</p>
+<p>In addition to the standard filetypes, VisiData can also save/copy sheets as <a class="reference external" href="https://github.com/astanin/python-tabulate#table-format">any text-table format supported</a> by the <a class="reference external" href="https://github.com/astanin/python-tabulate">python-tabulate</a> package. To save/copy a sheet as a GitHub-flavored Markdown table, for instance, use the <code class="docutils literal notranslate"><span class="pre">github</span></code> suffix/format.</p>
 </div>
 
 
@@ -209,7 +211,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Jeremy Singer-Vine
+        &copy; Copyright 2018–2020, Jeremy Singer-Vine
 
     </p>
   </div>

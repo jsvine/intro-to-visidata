@@ -99,6 +99,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-the-sheets-sheet">How to use the Sheets Sheet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-rename-a-sheet">How to rename a sheet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-close-remove-a-sheet">How to close/remove a sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-prevent-sheet-closure-removal">How to <em>prevent</em> sheet closure/removal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#quickly-toggling-between-sheets">Quickly toggling between sheets</a></li>
 </ul>
 </li>
@@ -114,6 +115,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/creating-new-columns/">Creating New Columns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/joining-sheets/">Joining Sheets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/reshaping-data/">Reshaping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-cells/">Working With Large Cells</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-files/">Working With Large Files</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Usage</span></p>
@@ -256,9 +258,14 @@
 <p>To close all sheets (and, hence, quitting VisiData in its entirety), type <kbd class="kbd docutils literal notranslate">gq</kbd>.</p>
 <p>To access the “sheets graveyard”, a listing of recently-closed sheets, type <kbd class="kbd docutils literal notranslate">gS</kbd>.</p>
 </div>
+<div class="section" id="how-to-prevent-sheet-closure-removal">
+<h2>How to <em>prevent</em> sheet closure/removal<a class="headerlink" href="#how-to-prevent-sheet-closure-removal" title="Permalink to this headline">¶</a></h2>
+<p>You can prevent VisiData from quitting a sheet by “guarding” it. To do so, press <kbd class="kbd docutils literal notranslate">Space</kbd> to raise the type-a-command prompt. Then, type <code class="docutils literal notranslate"><span class="pre">guard-sheet</span></code> and press <kbd class="kbd docutils literal notranslate">Enter</kbd>.</p>
+</div>
 <div class="section" id="quickly-toggling-between-sheets">
 <h2>Quickly toggling between sheets<a class="headerlink" href="#quickly-toggling-between-sheets" title="Permalink to this headline">¶</a></h2>
 <p>To flip back and forth between your current sheet and the previous one, press <kbd class="kbd docutils literal notranslate">Control-^</kbd>.</p>
+<p>Additionally, VisiData assigns every sheet a numeric shortcut, visible at the bottom-left corner of the interface. You can jump to a sheet by pressing <kbd class="kbd docutils literal notranslate">Alt</kbd> plus the shortcut number —&nbsp;for instance <kbd class="kbd docutils literal notranslate">Alt-1</kbd> to go to the first sheet you loaded.</p>
 </div>
 </div>
 
@@ -282,7 +289,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Jeremy Singer-Vine
+        &copy; Copyright 2018–2020, Jeremy Singer-Vine
 
     </p>
   </div>

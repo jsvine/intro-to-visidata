@@ -81,6 +81,6 @@ For instance:
 
    The ``~/.visidatarc`` file expects its commands to be written in Python. For basic options-setting, it doesn't matter too much whether you know Python, as long as you follow the pattern in the example above. Numbers can be written plainly, strings of characters should be wrapped in quotation marks, and ``True``/``False`` values need to be written exactly as such.
 
-.. note::
+.. tip::
 
-   If you know Python and are willing to acquaint yourself with `VisiData's architecture <https://github.com/saulpw/visidata/>`_, you can use your ``~/.visidatarc`` file to customize VisiData in ways far more powerful than simple option-setting — including `creating your own commands <https://github.com/saulpw/visidata/blob/stable/docs/customize.md#how-to-configure-commands>`_.
+   If you know Python and are willing to acquaint yourself with `VisiData's architecture <https://www.visidata.org/docs/api/>`_, you can use your ``~/.visidatarc`` file to customize VisiData in ways far more powerful than simple option-setting — including `creating your own commands <https://github.com/saulpw/visidata/blob/stable/docs/customize.md#how-to-configure-commands>`_.

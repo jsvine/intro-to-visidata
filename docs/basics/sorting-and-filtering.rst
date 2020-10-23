@@ -20,7 +20,7 @@ After that, you should see something like the following:
 .. raw:: html
     :file: ../../terminal/output/sorting-00-descending.output.html
 
-.. note::
+.. tip::
 
     You can sort on multiple columns at once by "key"-ing those columns (via :kbd:`!`) and then typing either :kbd:`g[` (ascending) or :kbd:`g]` (descending).
    

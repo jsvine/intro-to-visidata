@@ -130,7 +130,7 @@ Keystroke(s)        Action
 :kbd:`Shift-L`      Moves column one position to the right
 ==================  ============
 
-.. note::
+.. tip::
 
     Similarly, you can use :kbd:`Shift-J` to move a row down one position, and :kbd:`Shift-K` to move a row up one position.
 

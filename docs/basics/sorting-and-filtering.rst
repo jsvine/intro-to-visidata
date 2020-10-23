@@ -81,11 +81,11 @@ From there, pressing :kbd:`Enter` should create the filtered sheet we wanted:
 Using frequency tables to select (and filter) for multiple values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The approach above is great if you want to drill down on rows where a field equals one particular value. But what if you want to include a few different values? You can do this through a combination of the techniques above. Specifically: Select the rows of the frequency table you want to include, move back to the main data sheet, and then filter with :kbd:`"`.
+The approach above is great if you want to drill down on rows where a field equals one particular value. But what if you want to include a few different values? Select the rows of the frequency table you want to include, then press :kbd:`g` + :kbd:`Enter`.
 
 Here's a practical example, using the FAA dataset. Let's say you want to filter for wildlife strikes at the five airports with the most reported incidents. To acheive that, you could take these steps:
 
-- For a fresh start, go back to the main data sheet, and then type :kbd:`gu` to make sure that all rows are unselected. Then, navigate to the ``AIRPORT`` column, and press :kbd:`Shift-F` to create a frequency table:
+- On the main data sheet navigate to the ``AIRPORT`` column, and press :kbd:`Shift-F` to create a frequency table:
 
 .. raw:: html
     :file: ../../terminal/output/filtering-04-freq-airport.output.html
@@ -95,12 +95,7 @@ Here's a practical example, using the FAA dataset. Let's say you want to filter 
 .. raw:: html
     :file: ../../terminal/output/filtering-05-freq-multiselect.output.html
 
-- Next, press :kbd:`q` to leave the frequency table and return to the previous sheet, our main data sheet. You should see the matching rows selected:
+- Next, press :kbd:`g` + :kbd:`Enter`. The result should look like this, with 9,250 rows (the total of those five airports):
   
-.. raw:: html
-    :file: ../../terminal/output/filtering-06-freq-data-post-multiselect.output.html
-
-- Finally, press :kbd:`"` to create a new, filtered sheet with just the selected rows.	   
-
 .. raw:: html
     :file: ../../terminal/output/filtering-07-freq-filter-post-multiselect.output.html

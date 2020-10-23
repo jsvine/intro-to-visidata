@@ -40,10 +40,6 @@ SEND jsssss
 PAUSE 0.25
 CAPTURE terminal/output/filtering-05-freq-multiselect.output
 
-SEND q
-AWAIT "73448 rows  $"
-CAPTURE terminal/output/filtering-06-freq-data-post-multiselect.output
-
-SEND '"'
+SEND g --enter
 AWAIT '9250 rows  $' --start-line -1
 CAPTURE terminal/output/filtering-07-freq-filter-post-multiselect.output

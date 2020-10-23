@@ -108,13 +108,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/creating-new-columns/">Creating New Columns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/joining-sheets/">Joining Sheets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/reshaping-data/">Reshaping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-cells/">Working With Large Cells</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-files/">Working With Large Files</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Usage</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../configuring-visidata/">Configuring VisiData</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Extending VisiData With Plugins</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-install-a-plugin">How to install a plugin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-visidata-s-plugin-installer">Using VisiData’s plugin installer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-install-a-plugin-manually">How to install a plugin manually</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
 </ul>
 </li>
@@ -192,18 +194,53 @@
             
   <div class="section" id="extending-visidata-with-plugins">
 <h1>Extending VisiData With Plugins<a class="headerlink" href="#extending-visidata-with-plugins" title="Permalink to this headline">¶</a></h1>
-<p>As of <a class="reference external" href="https://github.com/saulpw/visidata/releases/tag/v1.5">version 1.5</a>, VisiData now supports plugins, which let you easily incorporate features that other people have written, and to write your own. This chapter focuses on incorporating already-written plugins.</p>
-<div class="section" id="how-to-install-a-plugin">
-<h2>How to install a plugin<a class="headerlink" href="#how-to-install-a-plugin" title="Permalink to this headline">¶</a></h2>
-<p>Installing a plugin involves two main steps.</p>
-<p>First, make the plugin available to VisiData. Depending on the plugin, you’ll do this either by saving the plugin file to your <code class="docutils literal notranslate"><span class="pre">~/.visidata/</span></code> directory, or by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">[plugin_package_name]</span></code>.</p>
-<p>Then, use your <code class="docutils literal notranslate"><span class="pre">~/.visidatarc</span></code> configuration file to import the plugin. If you’ve saved your plugin as <code class="docutils literal notranslate"><span class="pre">~/.visidata/myplugin.py</span></code>, all you need to do is add a line that says <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">myplugin</span></code>.</p>
+<p>VisiData allows users to extend the program’s functionality through plugins. You can <a class="reference external" href="https://www.visidata.org/docs/api/">write your own</a>, or use plugins other people have written. This chapter focuses on incorporating already-written plugins.</p>
+<div class="section" id="using-visidata-s-plugin-installer">
+<h2>Using VisiData’s plugin installer<a class="headerlink" href="#using-visidata-s-plugin-installer" title="Permalink to this headline">¶</a></h2>
+<p>VisiData provides an interface for installing certain plugins. To open the interface, press <kbd class="kbd docutils literal notranslate">Space</kbd> to raise the longname-command prompt, type <code class="docutils literal notranslate"><span class="pre">open-plugins</span></code>, and press <kbd class="kbd docutils literal notranslate">Enter</kbd>:</p>
+<div class='ansi2html'>
+<pre>
+<span class="ansi1 ansi4 inv_background inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv_foreground"></span><span class="ansi1 ansi4 inv38-81 inv40"> name       </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">║</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> instal…</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> description                            </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> maintainer         </span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">|</span><span class="ansi1 ansi4 ansi38-246 ansi40"></span><span class="ansi1 ansi4 ansi37 ansi40"> latest_releas</span><span class="ansi38-246"></span><span class="ansi38-246 ansi40">&gt;</span><span class="ansi40"> 
+</span><span class="ansi1 inv_background inv40"></span><span class="ansi1 inv38-81 inv40"> vfake      </span><span class="inv_background inv_foreground"></span><span class="inv37 inv_foreground"></span><span class="inv37 inv40">║        | replace column with fake values        | Saul Pwanson @saul…| 2020-10-06    </span><span class="ansi40"> 
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> dedupe     </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| adds commands for selection and remova…| Jeremy Singer-Vine…| 2020-10-11</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> normcol    </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| normalizes column names in any given s…| Jeremy Singer-Vine…| 2020-10-11</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> fec        </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| loader for .fec files from the Federal…| Jeremy Singer-Vine…| 2019-04-21</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> livesearch </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| filter rows as you search</span><span class="ansi40">              </span><span class="ansi37 ansi40">| Saul Pwanson @saul…| 2019-06-09</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> sparkline  </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add a sparkline column to visualise tr…| Lucas Messenger @l…| 2020-09-13</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> rownum     </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add column of original row ordering    | Saul Pwanson @saul…| 2019-11-07</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> vmailcap   </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add mailcap-view(-selected) commands t…| Saul Pwanson @saul…| 2020-10-06</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> vmutagen   </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add mp3 metadata columns to DirSheet   | Saul Pwanson @saul…| 2019-09-25</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> vds3       </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add support for Amazon S3 paths</span><span class="ansi40">        </span><span class="ansi37 ansi40">| AJ Kerrigan @ajker…| 2020-10-10</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> genericSQL </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| add loaders for SQL databases (Oracle,…| Andrew Swanson @as…| 2020-04-15</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> diff       </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| adds command to create diff sheets     | Anja Kefala @anjak…| 2020-10-09</span><span class="ansi40">     
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi38-81 ansi40"> marks      </span><span class="ansi37"></span><span class="ansi37 ansi40">║</span><span class="ansi40">        </span><span class="ansi37 ansi40">| adds commands for marking selected row…| Saul Pwanson @saul…| 2020-10-09</span><span class="ansi40">     
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">3› plugins_global| "open-plugins"</span><span class="ansi40">                           </span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">                            13 plugins </span><span class="ansi40"> </span>
+</pre>
+</div>
+<p>To install and <em>activate</em> any of these plugins, navigate to its row and press <kbd class="kbd docutils literal notranslate">a</kbd>. To <em>deactivate</em> a plugin, navigate to its row and press <kbd class="kbd docutils literal notranslate">d</kbd>.</p>
+</div>
+<div class="section" id="how-to-install-a-plugin-manually">
+<h2>How to install a plugin manually<a class="headerlink" href="#how-to-install-a-plugin-manually" title="Permalink to this headline">¶</a></h2>
+<p>You can also manually install plugins that are not available through the installer. Doing so involves two steps:</p>
+<ul class="simple">
+<li>First, make the plugin available to VisiData. Depending on the plugin, you’ll do this either by saving the plugin file to your <code class="docutils literal notranslate"><span class="pre">~/.visidata/</span></code> directory, or by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">[plugin_package_name]</span></code>.</li>
+<li>Then, use your <code class="docutils literal notranslate"><span class="pre">~/.visidatarc</span></code> configuration file to import the plugin. If you’ve saved your plugin as <code class="docutils literal notranslate"><span class="pre">~/.visidata/myplugin.py</span></code>, all you need to do is add a line that says <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">myplugin</span></code>.</li>
+</ul>
 <div class="section" id="example">
 <h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
-<p>To demonstrate, let’s install <a class="reference external" href="https://github.com/jsvine/visidata-plugins">the “vddedupe” plugin</a>:</p>
+<p>To demonstrate, let’s install <a class="reference external" href="https://github.com/jsvine/visidata-plugins">a “dedupe” plugin</a>:</p>
 <ul class="simple">
-<li>Open <a class="reference external" href="https://raw.githubusercontent.com/jsvine/visidata-plugins/master/plugins/vddedupe.py">this file</a> in your browser and save it to <code class="docutils literal notranslate"><span class="pre">~/.visidata/vddedupe.py</span></code> on your computer.</li>
-<li>Open your <code class="docutils literal notranslate"><span class="pre">~/.visidatarc</span></code> file, add <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">vddedupe</span></code> on a new line, and save the file.</li>
+<li>Open <a class="reference external" href="https://raw.githubusercontent.com/jsvine/visidata-plugins/master/plugins/dedupe.py">this file</a> in your browser and save it to <code class="docutils literal notranslate"><span class="pre">~/.visidata/dedupe.py</span></code> on your computer.</li>
+<li>Open your <code class="docutils literal notranslate"><span class="pre">~/.visidatarc</span></code> file, add <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">dedupe</span></code> on a new line, and save the file.</li>
 </ul>
 <p>That’s it. Next time you start VisiData, you should have access to two new commands: <code class="docutils literal notranslate"><span class="pre">select-duplicate-rows</span></code> and <code class="docutils literal notranslate"><span class="pre">dedupe-rows</span></code>.</p>
 <p>Let’s give the plugin a spin. Download <a class="reference download internal" download="" href="../../_downloads/05d111ac778b5782d1616b1cabfbcea8/dedupe-example.csv"><code class="xref download docutils literal notranslate"><span class="pre">dedupe-example.csv</span></code></a> and open it in VisiData:</p>
@@ -236,7 +273,7 @@
                                                                                                     
                                                                                                     
                                                                                                     
-</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">1› dedupe-example| saul.pw/VisiData v2.-5dev | opening datasets/dedupe-example.c            5 rows </span><span class="ansi40"> </span>
+</span><span class="ansi1 ansi40"></span><span class="ansi1 ansi37 ansi40">1› dedupe-example| saul.pw/VisiData v2.0.1 | opening datasets/dedupe-example.csv            5 rows </span><span class="ansi40"> </span>
 </pre>
 </div>
 <p>Press <kbd class="kbd docutils literal notranslate">Space</kbd> to initiate the longname-command prompt, and type <code class="docutils literal notranslate"><span class="pre">dedupe-rows</span></code>:</p>
@@ -304,6 +341,7 @@
 <p>Plugin support is a relatively new feature of VisiData, so there aren’t many public plugins yet available. Here is a (likely incomplete) list of resources:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/jsvine/visidata-plugins">jsvine/visidata-plugins</a></li>
+<li><a class="reference external" href="https://github.com/ajkerrigan/visidata-plugins">ajkerrigan/visidata-plugins</a></li>
 <li><a class="reference external" href="https://github.com/anjakefala/vd-plugins">anjakefala/vd-plugins</a></li>
 </ul>
 <div class="admonition warning">
@@ -333,7 +371,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Jeremy Singer-Vine
+        &copy; Copyright 2018–2020, Jeremy Singer-Vine
 
     </p>
   </div>

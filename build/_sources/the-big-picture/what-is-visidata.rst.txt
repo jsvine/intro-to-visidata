@@ -25,6 +25,8 @@ Why use VisiData?
     - VisiData won't alter your raw data unless you explicitly tell it to.
 - It's keyboard-driven.
     - You never have to reach for a mouse.
+- It lives in your terminal.
+    - VisiData plays well with other command-line tools, and you can run it on remote servers via SSH.
 
 
 Why not use VisiData?

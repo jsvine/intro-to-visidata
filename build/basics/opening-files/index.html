@@ -121,6 +121,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/creating-new-columns/">Creating New Columns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/joining-sheets/">Joining Sheets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/reshaping-data/">Reshaping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-cells/">Working With Large Cells</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../intermediate/large-files/">Working With Large Files</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Usage</span></p>
@@ -231,7 +232,7 @@
 </span><span class="ansi1 ansi37 ansi40"> BUSINESS           </span><span class="ansi37"></span><span class="ansi37 ansi40">| C-172</span><span class="ansi40">        </span><span class="ansi37 ansi40">| 05/08/15 00:00:00 | FL    | ORLANDO SANFORD IN…| APPROACH     ║
 </span><span class="ansi1 ansi37 ansi40"> SPIRIT AIRLINES    </span><span class="ansi37"></span><span class="ansi37 ansi40">| A-319</span><span class="ansi40">        </span><span class="ansi37 ansi40">| 05/10/15 00:00:00 | IL    | CHICAGO O'HARE INT…| CLIMB</span><span class="ansi40">        </span><span class="ansi37 ansi40">║
 </span><span class="ansi1 ansi37 ansi40"> EXPRESSJET AIRLINES</span><span class="ansi37"></span><span class="ansi37 ansi40">| EMB-145</span><span class="ansi40">      </span><span class="ansi37 ansi40">| 05/11/15 00:00:00 | AL    | BIRMINGHAM-SHUTTLE…| LANDING ROLL ║
-</span><span class="ansi1 ansi37 ansi40">1› faa-wildlife-strikes| saul.pw/VisiData v2.-5dev | opening datasets/faa-wildli        73448 rows </span><span class="ansi40"> </span>
+</span><span class="ansi1 ansi37 ansi40">1› faa-wildlife-strikes| saul.pw/VisiData v2.0.1 | opening datasets/faa-wildlife        73448 rows </span><span class="ansi40"> </span>
 </pre>
 </div>
 <p>Let’s break it down:</p>
@@ -284,7 +285,7 @@
 </div>
 <div class="section" id="compatible-filetypes">
 <span id="id1"></span><h2>Compatible filetypes<a class="headerlink" href="#compatible-filetypes" title="Permalink to this headline">¶</a></h2>
-<p>VisiData can open a range of filetypes, including:</p>
+<p>VisiData can open <a class="reference external" href="https://www.visidata.org/formats/">a range of filetypes</a>, including:</p>
 <div class="section" id="tabular-data">
 <h3>Tabular data<a class="headerlink" href="#tabular-data" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
@@ -293,6 +294,7 @@
 <li>Fixed-width files</li>
 <li>SQLite databases</li>
 <li>Postgres databases (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">psycopg2</span></code>)</li>
+<li>MySQL databases (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">mysqlclient</span></code>)</li>
 <li>HDF5 files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">h5py</span></code>)</li>
 <li>.sas7bdat files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">sas7bdat</span></code>)</li>
 <li>.xpt files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">xport</span></code>)</li>
@@ -320,6 +322,7 @@
 <ul class="simple">
 <li>Standard Unix directories</li>
 <li>ZIP files</li>
+<li><a class="reference external" href="https://frictionlessdata.io/data-package/#the-data-package-suite-of-specifications">Frictionless Data Packages</a> (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">datapackage</span></code>)</li>
 </ul>
 </div>
 <div class="section" id="misc">
@@ -327,7 +330,9 @@
 <ul class="simple">
 <li>HTML (looks for <code class="docutils literal notranslate"><span class="pre">&lt;table&gt;</span></code> tags; requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">lxml</span></code>)</li>
 <li>Website URLs (downloads the HTML, and then looks for <code class="docutils literal notranslate"><span class="pre">&lt;table&gt;</span></code> tags; requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">lxml</span></code>)</li>
+<li><a class="reference external" href="https://www.gnu.org/software/recutils/">.rec files</a></li>
 <li>.pcap files (requires <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">dpkt</span> <span class="pre">dnslib</span></code>)</li>
+<li>… <a class="reference external" href="https://www.visidata.org/formats/">and more</a></li>
 </ul>
 </div>
 </div>
@@ -353,7 +358,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Jeremy Singer-Vine
+        &copy; Copyright 2018–2020, Jeremy Singer-Vine
 
     </p>
   </div>

@@ -14,8 +14,7 @@ Then, open your terminal and run this command:
 
     pip3 install visidata
 
-
-VisiData is the program's name, but ``vd`` is its terminal command. So to test that VisiData installed correctly, run this:
+To test that VisiData installed correctly, run this:
 
 ::
 
@@ -25,6 +24,8 @@ You should see something like the following:
 
 .. raw:: html
     :file: ../../terminal/output/version.output.html
+
+(On the command line, ``vd`` and ``visidata`` are synonymous. You can use either to launch VisiData.)
 
 .. note::
 

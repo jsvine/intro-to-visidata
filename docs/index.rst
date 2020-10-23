@@ -103,6 +103,7 @@ Many thanks to the following people for their feedback, suggestions, and fixes: 
     intermediate/creating-new-columns
     intermediate/joining-sheets
     intermediate/reshaping-data
+    intermediate/large-cells
     intermediate/large-files
 
 .. toctree::

@@ -11,6 +11,7 @@ Keystroke(s)                       Action
 :kbd:`Control-c`                   Abort the current command
 :kbd:`Control-q`                   Force-quit VisiData entirely
 :kbd:`q`                           Quit the current VisiData "sheet"
+:kbd:`gq`                          Quit *all* VisiData sheets and exit gracefully
 :kbd:`Shift-U`                     Undo
 :kbd:`Shift-R`                     Redo
 =================================  =======================

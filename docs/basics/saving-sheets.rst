@@ -6,4 +6,5 @@ To save your current sheet to a **file**, press :kbd:`Control-s`. VisiData will 
 
 You can also copy *selected* rows to your **system clipboard** by typing :kbd:`gY` and following the prompt.
 
-In addition to the standard filetypes, VisiData can also save/copy sheets as `any text-table format supported <https://github.com/astanin/python-tabulate#table-format>`_ by the `python-tabulate <https://github.com/astanin/python-tabulate>`_ package. To save/copy a sheet as a GitHub-flavored Markdown table, for instance, use the ``github`` suffix/format.
+.. tip::
+   If you install the `python-tabulate <https://github.com/astanin/python-tabulate>`_ Python package, VisiData can also save/copy a sheet in `any text-table format that the package supports <https://github.com/astanin/python-tabulate#table-format>`_. To save a sheet as a GitHub-flavored Markdown table, for instance, use the ``.github`` suffix.

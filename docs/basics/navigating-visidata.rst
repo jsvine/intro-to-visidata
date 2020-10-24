@@ -119,7 +119,7 @@ How to move with your mouse
 
 In addition to using your keyboard, you can use your mouse or trackpad to navigate between rows:
 
-- **Click** to select any visible row
+- **Click** a row to move the VisiData cursor to it
 - **Scroll** to scroll through the rows
 
 .. tip::

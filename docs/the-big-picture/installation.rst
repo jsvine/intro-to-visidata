@@ -8,7 +8,7 @@ Installing VisiData is pretty easy. First, you'll need the following:
 - `Python 3 <https://www.python.org/downloads/>`_
 - `A little bit of comfort <http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line>`_ with your computer's command line
 
-Then, open your terminal and run this command:
+VisiData provides a `range of installation options <https://www.visidata.org/install/>`_, but the most direct is to use Python's built-in package manager. To install VisiData this way, open your terminal and run this command:
 
 ::
 

@@ -17,7 +17,7 @@ You can add an incremented column with **sequential values** (akin to row number
 .. raw:: html
     :file: ../../terminal/output/newcols-00a-increment-basic.output.html
 
-By default, VisiData will name the column ``A`` (or ``B`` if you already have a column named ``A``, and so on).
+By default, VisiData will name the column ``A`` (or ``B`` if VisiData has already created an ``A`` column this session, and so on).
 
 .. note::
 

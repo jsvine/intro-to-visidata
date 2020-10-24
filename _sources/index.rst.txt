@@ -44,7 +44,7 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2020-10-23``
+Tutorial last updated   ``2020-10-24``
 VisiData version        ``2.0.1``
 ======================  ================
 
@@ -61,7 +61,7 @@ Feedback / questions / corrections?
 Acknowledgments
 ---------------
 
-Many thanks to the following people for their feedback, suggestions, and fixes: `Saul Pwanson <http://saul.pw/>`_, `Anja Kefala <https://github.com/anjakefala>`_, `John Templon <https://twitter.com/jtemplon>`_, `Scott Pham <https://twitter.com/scottpham>`_, `Andrea Borruso <https://github.com/aborruso>`_.
+Many thanks to the following people for their feedback, suggestions, and fixes: `Saul Pwanson <http://saul.pw/>`_, `Anja Kefala <https://github.com/anjakefala>`_, `John Templon <https://twitter.com/jtemplon>`_, `Scott Pham <https://twitter.com/scottpham>`_, `Andrea Borruso <https://github.com/aborruso>`_, `Felix Rosencrantz <https://github.com/frosencrantz>`_.
 
 
 .. toctree::

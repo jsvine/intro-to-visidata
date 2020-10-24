@@ -61,3 +61,6 @@ Pressing :kbd:`z` + :kbd:`Enter` "dives" into your current cell, opening a "Text
     :file: ../../terminal/output/large-cells-04-dive-cell.output.html
 
 If your cell's value contains newlines, they'll appear as such in the Text Sheet. From a Text Sheet, you also can press :kbd:`Control-o` to open the cell in your terminal's default text editor.
+
+.. tip::
+    Similarly, whenever you're editing a cell within VisiData (i.e., via the :kbd:`e` command), you can also run :kbd:`Control-o` to open that cell in your terminal's default text editor.

@@ -92,6 +92,9 @@ For instance, if you take the following steps:
 .. raw:: html
    :file: ../../terminal/output/rows-02-select-expr.output.html
 
+.. tip::
+
+    Likewise, you can *search* via expressions using :kbd:`z/` (search forward) and :kbd:`z?` (search backward).
 
 Moving Rows
 -----------

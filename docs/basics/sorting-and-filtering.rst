@@ -90,7 +90,7 @@ Here's a practical example, using the FAA dataset. Let's say you want to filter 
 .. raw:: html
     :file: ../../terminal/output/filtering-04-freq-airport.output.html
 
-- Then, select the top five entries (skipping ``UNKNOWN``):
+- Then, select the top five entries (skipping ``UNKNOWN``) using :kbd:`s`:
 
 .. raw:: html
     :file: ../../terminal/output/filtering-05-freq-multiselect.output.html

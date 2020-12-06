@@ -35,7 +35,7 @@ kbd {
     padding: 0.1em 0.5em;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.8em;
-    font-weight: bold;
+    font-weight: 700;
     //line-height: 1.4;
     color: #242729;
     text-shadow: 0 1px 0 #FFF;
@@ -67,6 +67,13 @@ kbd {
     font-family: 'Roboto Mono', monospace !important;
 }
 
+/* via https://motss.app/blog/simplest-yet-powerful-safari-only-css-hack.html */
+@supports (background: -webkit-canvas(squares)) {
+  .ansi2html pre {
+      letter-spacing: -0.4px;
+  }
+}
+
 .ansi2html pre span {
 }
 
@@ -89,7 +96,7 @@ kbd {
 
 .inv_background { background-color: #AAAAAA; }
 
-.ansi1 { font-weight: bold; }
+.ansi1 { font-weight: 700; }
 .ansi2 { font-weight: lighter; }
 .ansi3 { font-style: italic; }
 .ansi4 { text-decoration: underline; }

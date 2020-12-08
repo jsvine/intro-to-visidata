@@ -1,4 +1,7 @@
 export LANG=en_US.UTF-8
+export BASH_SILENCE_DEPRECATION_WARNING=1
+export PROMPT_COMMAND=""
+
 # via https://stackoverflow.com/a/6086978
 function promptify {
     local __color="\[\033[38;5;37m\]"

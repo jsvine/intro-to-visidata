@@ -32,11 +32,8 @@ If you've just launched VisiData with a single dataset, pressing :kbd:`Shift-S` 
 
 Not very exciting. But as you start juggling more sheets — frequency tables, multiple datasets, et cetera — the Sheets Sheet becomes very handy.
 
-You can navigate the Sheets Sheet just like you would any other sheet, but with two main differences: 
+You can navigate the Sheets Sheet much like you would any other sheet, with one main difference: Pressing :kbd:`Enter` will open that row's sheet.
 
-- Pressing :kbd:`Enter` will open that row's sheet.
-
-- Sorting the sheet can have the unintended consequence of `sending you to a different sheet <https://github.com/saulpw/visidata/issues/518>`_.
 
 .. warning::
 

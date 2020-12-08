@@ -1,24 +1,24 @@
 [38;5;246m[40m<[1;4m[37mPERSON [0m[38;5;246m[40m|[1;4m[37m REMAINS_COLLECTED [0m[38;5;246m[40m|[1;4;7m[37m REMARKS                                                        [0m[38;5;246m[40m║[39m      
 [7m[37m Tower  | 0                 |[1m N9240F was right base to final on Runway 4, and he reported a …[0;7m[37m[40m║[0m[39m[40m      
-[37m Tower  | 0[39m                 [37m|[1m ON FINAL, PILOT REPORTED HEARING IMPACT. AFTER LANDING AND INS…[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m N952G, P46T/G, bird strike, no injuries reported, damage to vo…[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m NO EMERGENCY: AFTER THE AIRCRAFT WAS AT THE GATE THE PILOT OF …[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m MEDFLY1, A BE9L, VFR, LANDED RY 15. UPON CONTACTING GC, PILOT …[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m DAL571 EXPERIENCED A BIRD INGESTION ON ARRIVAL TO STT ON JULY …[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m DAL1356 ADVISED LOCAL CONTROL OF A BIRD STRIKE SHORT FINAL/OVE…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m N999RK WAS DEPARTING TO 87I AND ON DEPARTURE STRUCK A BIRD AND…[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m AAY843,MD80, ADVSD TPA APCH HE ENCOUNTERED BIRD STRIKE ON RADO…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m LOF3351 hit a large bird, thought it was an owl, over the thre…[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m N5352K EXPERIENCED A BIRD STRIKE ON A 3-MILE FINAL FOR RWY 9R.…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m POLICE1 reported being struck by a seagull on the left front s…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m PILOT OF AAL1702 REPORTED BIRD STRIKE ON FINAL FOR RUNWAY 10L …[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m ASQ2607 REPORTED A BIRD STRIKE DURING TAKE OFF. PILOT STATED I…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m ASH5753 WAS CLEARED TO LAND ON RY22L WHEN THEY HIT A BIRD IN T…[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m CMD8 BIRD STRIKE.  NEGATIVE EMERGENCY. MAKING PRECAUTIONARY LA…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m DAL 1253-BIRD STRIKE REPORTED AFTER LANDING.          [0m[39m[40m         [37m║[39m      
- [37mTower  | 0[39m                 [37m|[1m Delta Airlines called to report a birdstrike on DAL2384 who ha…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m DLH441 reported receiving bird strikes climbing through 100 ap…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m AIRCRAFT ENCOUNTERED BIRD STRIKE OUTSIDE 5 MILES OF SFB WHILE …[0m[37m[40m║[39m      
-[37m Tower  | 0[39m                 [37m|[1m Aircraft reported bird strike climbing out of 12000ft and requ…[0m[37m[40m║[39m      
- [37mTower  | 0[39m                 [37m|[1m HIT A SMALL BIRD IN THE FLARE NO DAMAGE.[0m[39m[40m                       [37m║[39m      
-[1m[37m1› faa-wildlife-strikes|[0m[39m[40m                                       [1m[37m v  visibility-sheet     73448 rows [0m[39m[40m 
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m ON FINAL, PILOT REPORTED HEARING IMPACT. AFTER LANDING AND INS…[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m N952G, P46T/G, bird strike, no injuries reported, damage to vo…[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m NO EMERGENCY: AFTER THE AIRCRAFT WAS AT THE GATE THE PILOT OF …[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m MEDFLY1, A BE9L, VFR, LANDED RY 15. UPON CONTACTING GC, PILOT …[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m DAL571 EXPERIENCED A BIRD INGESTION ON ARRIVAL TO STT ON JULY …[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m DAL1356 ADVISED LOCAL CONTROL OF A BIRD STRIKE SHORT FINAL/OVE…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m N999RK WAS DEPARTING TO 87I AND ON DEPARTURE STRUCK A BIRD AND…[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m AAY843,MD80, ADVSD TPA APCH HE ENCOUNTERED BIRD STRIKE ON RADO…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m LOF3351 hit a large bird, thought it was an owl, over the thre…[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m N5352K EXPERIENCED A BIRD STRIKE ON A 3-MILE FINAL FOR RWY 9R.…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m POLICE1 reported being struck by a seagull on the left front s…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m PILOT OF AAL1702 REPORTED BIRD STRIKE ON FINAL FOR RUNWAY 10L …[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m ASQ2607 REPORTED A BIRD STRIKE DURING TAKE OFF. PILOT STATED I…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m ASH5753 WAS CLEARED TO LAND ON RY22L WHEN THEY HIT A BIRD IN T…[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m CMD8 BIRD STRIKE.  NEGATIVE EMERGENCY. MAKING PRECAUTIONARY LA…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m DAL 1253-BIRD STRIKE REPORTED AFTER LANDING.          [0m[39m[40m         [38;5;246m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m Delta Airlines called to report a birdstrike on DAL2384 who ha…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m DLH441 reported receiving bird strikes climbing through 100 ap…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m AIRCRAFT ENCOUNTERED BIRD STRIKE OUTSIDE 5 MILES OF SFB WHILE …[0m[38;5;246m[40m║[39m      
+[37m Tower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m Aircraft reported bird strike climbing out of 12000ft and requ…[0m[38;5;246m[40m║[39m      
+ [37mTower  [38;5;246m|[37m 0[39m                 [38;5;246m|[1m[37m HIT A SMALL BIRD IN THE FLARE NO DAMAGE.[0m[39m[40m                       [38;5;246m║[39m      
+[1m[37m1› faa-wildlife-strikes|          [0m[39m[40m                              [1m[37mv  visibility-sheet     73448 rows [0m[39m[40m 

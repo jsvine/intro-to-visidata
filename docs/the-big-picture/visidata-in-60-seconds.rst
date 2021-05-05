@@ -8,7 +8,7 @@ TL;DR? Here's a three-step introduction to VisiData.
 Step 1: Use ``vd`` to open a data file
 --------------------------------------
 
-Download :download:`faa-wildlife-strikes.csv <../../datasets/faa-wildlife-strikes.csv>`, a dataset of all aircraft-wildlife collisions `reported to the Federal Aviation Adminsitration <https://wildlife.faa.gov/database.aspx>`_ between 2010 and mid-2016. 
+Download :download:`faa-wildlife-strikes.csv <../../datasets/faa-wildlife-strikes.csv>`, a dataset of all aircraft-wildlife collisions `reported to the Federal Aviation Administration <https://wildlife.faa.gov/database.aspx>`_ between 2010 and mid-2016. 
 
 From your terminal, move into the directory where you downloaded the dataset. Then run the following command:
 

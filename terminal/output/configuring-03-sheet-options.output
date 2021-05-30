@@ -1,24 +1,24 @@
 [1;4;7m[38;5;81m[40m option             [0m[38;5;246m[40m║[1;4m[37m sheet_value        [0m[38;5;246m[40m|[1;4m[37m default            [0m[38;5;246m[40m|[1;4m[37m description                       [0m[38;5;246m[40m>[39m 
-[1;7m[38;5;81m disp_splitwin_pct  [0;7m[37m[40m║                    | 0                 [38;5;226m#[37m| height of second sheet on screen   [0m[39m[40m 
+[1;7m[37m disp_splitwin_pct  [0;7m[37m[40m║                    | 0                 [38;5;226m#[37m| height of second sheet on screen   [0m[39m[40m 
 [1m[38;5;81m mouse_interval     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m 1[39m                 [38;5;226m#[38;5;246m|[37m max time between press/release for…[39m 
 [1m[38;5;81m null_value         [0m[38;5;246m[40m║[39m                    [38;5;246m|[39m                   [38;5;226m⌀[38;5;246m|[37m a value to be counted as null[39m       
 [1m[38;5;81m undo[0m[39m[40m               [38;5;246m║[39m                    [38;5;246m|[37m True[39m               [38;5;246m|[37m enable undo/redo[39m                    
 [1m[38;5;81m disp_currency_fmt  [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m %.02f[39m              [38;5;246m|[37m default fmtstr to format for curre…[39m 
-[1m[38;5;81m disp_float_fmt     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m {:.02f}            [38;5;246m|[37m default fmtstr to format for float…[39m 
+[1m[38;5;81m disp_float_fmt     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m {:.02f}            [38;5;246m|[37m default fmtstr to format for float…[39m 
 [1m[38;5;81m disp_int_fmt       [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m {:.0f}             [38;5;246m|[37m default fmtstr to format for int v…[39m 
-[1m[38;5;81m disp_date_fmt      [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m %Y-%m-%d           [38;5;246m|[37m default fmtstr to strftime for dat…[39m 
-[1m[38;5;81m col_cache_size     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m max number of cache entries in eac…[39m 
-[1m[38;5;81m clean_names        [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m False[39m              [38;5;246m|[37m clean column/sheet names to be val…[39m 
-[1m[38;5;81m default_width      [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m 20[39m                [38;5;226m#[38;5;246m|[37m default column width[39m                
-[1m[38;5;81m default_height     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m 10[39m                [38;5;226m#[38;5;246m|[37m default column height[39m               
-[1m[38;5;81m textwrap_cells     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m True[39m               [38;5;246m|[37m wordwrap text for multiline rows[39m    
+[1m[38;5;81m disp_date_fmt      [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m %Y-%m-%d           [38;5;246m|[37m default fmtstr to strftime for dat…[39m 
+[1m[38;5;81m col_cache_size     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m max number of cache entries in eac…[39m 
+[1m[38;5;81m clean_names        [0m[38;5;246m[40m║[37m        [39m      [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m clean column/sheet names to be val…[39m 
+[1m[38;5;81m default_width      [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 20[39m                [38;5;226m#[38;5;246m|[37m default column width[39m                
+[1m[38;5;81m default_height     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 10[39m                [38;5;226m#[38;5;246m|[37m default column height[39m               
+[1m[38;5;81m textwrap_cells     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m True[39m               [38;5;246m|[37m wordwrap text for multiline rows[39m    
 [1m[38;5;81m quitguard          [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m False[39m              [38;5;246m|[37m confirm before quitting last sheet[39m  
-[1m[38;5;81m debug[0m[39m[40m              [38;5;246m║[37m                    [38;5;246m|[37m False[39m              [38;5;246m|[37m exit on error and display stacktra…[39m 
+[1m[38;5;81m debug[0m[39m[40m              [38;5;246m║[37m       [39m       [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m exit on error and display stacktra…[39m 
 [1m[38;5;81m skip[0m[39m[40m               [38;5;246m║[39m                    [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m skip N rows before header[39m           
-[1m[38;5;81m header             [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m 1[39m                 [38;5;226m#[38;5;246m|[37m parse first N rows as column names[39m  
-[1m[38;5;81m force_256_colors   [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m False[39m              [38;5;246m|[37m use 256 colors even if curses repo…[39m 
-[1m[38;5;81m use_default_colors [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m False[39m              [38;5;246m|[37m curses use default terminal colors[39m  
-[1m[38;5;81m disp_note_none     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m ⌀[39m                  [38;5;246m|[37m visible contents of a cell whose v…[39m 
-[1m[38;5;81m disp_truncator     [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m …[39m                  [38;5;246m|[37m indicator that the contents are on…[39m 
-[1m[38;5;81m disp_oddspace      [0m[38;5;246m[40m║[37m                    [38;5;246m|[37m ·[39m                  [38;5;246m|[37m displayable character for odd whit…[39m 
-[1m[37m› faa-wildlife-strikes_options|[0m[39m[40m                                   [1m[37m          zO         153 options [0m[39m[40m 
+[1m[38;5;81m header             [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 1[39m                 [38;5;226m#[38;5;246m|[37m parse first N rows as column names[39m  
+[1m[38;5;81m load_lazy          [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m load subsheets always (False) or l…[39m 
+[1m[38;5;81m force_256_colors   [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m use 256 colors even if curses repo…[39m 
+[1m[38;5;81m disp_note_none     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m ⌀[39m                  [38;5;246m|[37m visible contents of a cell whose v…[39m 
+[1m[38;5;81m disp_truncator     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m …[39m                  [38;5;246m|[37m indicator that the contents are on…[39m 
+[1m[38;5;81m disp_oddspace      [0m[38;5;246m[40m║[37m        [39m      [37m      [38;5;246m|[37m ·[39m                  [38;5;246m|[37m displayable character for odd whit…[39m 
+[1m[37m› faa-wildlife-strikes_options|[0m[39m[40m                                 [1m[37m          zO         156 options •0[0m[39m[40m 

@@ -8,14 +8,11 @@ But VisiData's takes the sheet concept to the next level: In VisiData, nearly *e
 
 In VisiData, there are three types of sheets:
 
-- Source sheets
-  - The data you've loaded directly into VisiData
+- **Source sheets**: The data you've loaded directly into VisiData
 
-- Derived sheets
-  - Sheets that are based on data in your source sheets. E.g., a frequency table, or a filtered subset of rows.
+- **Derived sheets**: Sheets that are based on data in your source sheets. E.g., a frequency table, or a filtered subset of rows.
 
-- Metasheets
-  - These are sheets that help you navigate and customize VisiData. Two of the most powerful are the Sheets Sheet (discussed below) and the Columns Sheet (discussed in the "Understanding Columns" chapter).
+- **Metasheets**: These are sheets that help you navigate and customize VisiData. Two of the most powerful are the Sheets Sheet (discussed below) and the Columns Sheet (discussed in the "Understanding Columns" chapter).
 
 
 How to use the Sheets Sheet

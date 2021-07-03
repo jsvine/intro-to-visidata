@@ -81,7 +81,7 @@ Once you do that, you should see something like this:
 
 .. note::
 
-   The number of new columns created will be determined by the active row. E.g., splitting on ``-`` would create two new columns if the column's value for the active row was ``see-saw``, but three columns if it were ``merry-go-round``.
+   The number of new columns created will be determined by split-size of the values in the 100 rows surrounding the cursor. (That 100 number is `configurable <../../advanced/configuring-visidata/>`_ via the ``default_sample_size`` option.)
 
 
 How to create a new column by "capturing" it from another column

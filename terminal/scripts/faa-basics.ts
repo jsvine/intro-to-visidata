@@ -6,7 +6,7 @@ AWAIT "73448 rows" --start-line -1
 CAPTURE terminal/output/faa-opened.output
 
 SEND F
-AWAIT "282 bins" --start-line -1
+AWAIT "282 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/faa-operator-frequency.output
 
 SEND 
@@ -19,5 +19,5 @@ SEND q
 AWAIT "VERO BEACH"
 
 SEND S
-AWAIT "2 sheets •0 $" --start-line -1
+AWAIT "2 sheets\s+•0 $" --start-line -1
 CAPTURE terminal/output/faa-simple-sheets-sheet.output

@@ -5,7 +5,7 @@ AWAIT "73448 rows"
 
 SEND cSPECIES --enter
 SEND |hawk --enter
-AWAIT "2164 ma" --start-line -1
+AWAIT "•2164 $" --start-line -1
 CAPTURE terminal/output/filtering-00-search.output
 
 SEND '"'
@@ -17,7 +17,7 @@ AWAIT "73448 rows" --start-line -1
 SEND gu
 SEND cSTATE --enter
 SEND F
-AWAIT "63 bins •0 $" --start-line -1
+AWAIT "63 bins\s+•0 $" --start-line -1
 SEND jj
 PAUSE 0.25
 CAPTURE terminal/output/filtering-02-freq-before.output

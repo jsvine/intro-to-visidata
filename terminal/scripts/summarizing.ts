@@ -37,7 +37,7 @@ AWAIT '161868071' --start-line -1
 CAPTURE terminal/output/summarizing-04-one-off-calcs.output --start-line -3
 
 SEND I
-AWAIT "16 columns •0 $" --start-line -1
+AWAIT "16 columns\s+•0 $" --start-line -1
 CAPTURE terminal/output/summarizing-05-describe-sheet.output
 
 SEND q
@@ -48,5 +48,5 @@ SEND "#"
 SEND cSTRUCK --enter
 SEND "#"
 SEND I
-AWAIT "16 columns •0 $" --start-line -1
+AWAIT "16 columns\s+•0 $" --start-line -1
 CAPTURE terminal/output/summarizing-06-describe-sheet-typed.output

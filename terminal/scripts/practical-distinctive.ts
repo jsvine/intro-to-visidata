@@ -6,7 +6,7 @@ CAPTURE terminal/output/practical-distinctive-00-open.output
 
 SEND cSPECIES --enter
 SEND "|unknown" --enter
-AWAIT '259.* select-col-regex' --start-line -1
+AWAIT '•25988 $' --start-line -1
 CAPTURE terminal/output/practical-distinctive-01-unknown.output
 
 SEND gt
@@ -27,7 +27,7 @@ AWAIT '"STATE"' --start-line -1
 CAPTURE terminal/output/practical-distinctive-05-on-state-col.output
 
 SEND F
-AWAIT "F\s+63 bins •0 $" --start-line -1
+AWAIT "F\s+63 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/practical-distinctive-06-state-freq.output
 
 SEND ccount --enter
@@ -48,7 +48,7 @@ AWAIT "!" --start-line -1
 CAPTURE terminal/output/practical-distinctive-08-known-keyed.output
 
 SEND gF
-AWAIT "5135 bins •0 $" --start-line -1
+AWAIT "5135 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/practical-distinctive-09-state-species-freq.output
 
 SEND lll--

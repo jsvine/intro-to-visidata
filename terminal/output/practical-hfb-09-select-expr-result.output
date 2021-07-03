@@ -1,3 +1,3 @@
 [38;5;81m Horned grebe       [38;5;246m║[37m     2 [38;5;246m|[1m[37m     5400.00 [0m[38;5;246m[40m║[39m                                                         
 [38;5;81m Willow flycatcher  [38;5;246m║[37m     2 [38;5;246m|[1m[37m     5200.00 [0m[38;5;246m[40m║[39m                                                         
-[1m[37m3› faa-wildlife-strikes_selectedref_SPECIES_freq| "count >= 20"  z|  select-expr       420 bins •75[0m[39m[40m 
+[1m[37m3› faa-wildlife-strikes_selectedref_SPECIES_freq| "count >= 20" z|  select-expr       420 bins  •75[0m[39m[40m 

@@ -10,12 +10,9 @@ Basic column attributes
 
 Every column in VisiData has the following basic properties, all of which can be modified:
 
-- Name
-    - Self explanatory.
-- Width
-    - The number of characters the column occupies on the screen.
-- Type
-    - The kind of data — text, integer, float, currency, or date — that the column will be interpreted as.
+- **Name**: Self explanatory.
+- **Width**: The number of characters the column occupies on the screen.
+- **Type**: The kind of data — text, integer, float, currency, or date — that the column will be interpreted as.
 
 We'll get to a few other properties later.
 

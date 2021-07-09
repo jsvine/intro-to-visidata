@@ -16,8 +16,10 @@ AWAIT '#\s+type-int\s+73448 rows' --start-line -1
 CAPTURE terminal/output/columns-00a-type-assigned.output
 SEND ~
 
-SEND ghl
-PAUSE 0.25
+SEND gh
+PAUSE 0.1
+SEND l
+PAUSE 0.1
 CAPTURE terminal/output/columns-01-column-nav.output --end-line 3
 
 SEND ^

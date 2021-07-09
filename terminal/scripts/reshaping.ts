@@ -1,7 +1,7 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 SEND "vd datasets/faa-wildlife-strikes.csv" --enter
-AWAIT "rows  $" --start-line -1
+AWAIT "73448 rows" --start-line -1
 
 SEND cSPECIES --enter
 SEND "!"
@@ -11,7 +11,7 @@ SEND cREMAINS --enter
 CAPTURE terminal/output/reshaping-01-navigate.output
 
 SEND W
-AWAIT "641 grouped rows  $" --start-line -1
+AWAIT "641 grouped rows" --start-line -1
 CAPTURE terminal/output/reshaping-02-pivot.output
 
 SEND g_

@@ -21,4 +21,4 @@
 [1m[37m CA    [0m[38;5;246m[40m|[37m SACRAMENTO INTL    [38;5;246m|[37m Climb        [38;5;246m|[37m 1500   [38;5;246m|[37m 210   [38;5;246m|[37m Northern pintail   [38;5;246m|[37m 2-10         [38;5;246m|[37m …[39m 
 [1m[37m OH    [0m[38;5;246m[40m|[37m RICKENBACKER INTL  [38;5;246m|[37m              [38;5;246m|[37m        [38;5;246m|[37m       [38;5;246m|[37m American robin     [38;5;246m|[37m 1            [38;5;246m|[39m   
 [1m[37m PA    [0m[38;5;246m[40m|[37m HARRISBURG INTL    [38;5;246m|[39m              [38;5;246m|[37m        [38;5;246m|[37m       [38;5;246m|[37m American kestrel   [38;5;246m|[37m 1            [38;5;246m|[39m   
-[1m[37m2› known_species| "STATE"[0m[39m[40m                                          [1m[37m c  go-col-regex     47460 rows [0m[39m[40m 
+[1m[37m2› known_species| "STATE"[0m[39m[40m                                       [1m[37m c  go-col-regex     47460 rows  •0[0m[39m[40m 

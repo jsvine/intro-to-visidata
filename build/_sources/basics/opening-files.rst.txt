@@ -20,13 +20,11 @@ If you've downloaded the :download:`faa-wildlife-strikes.csv <../../datasets/faa
 
 Let's break it down:
 
-- Top row
-    - Displays your dataset's columns — at least as many as can fit on your screen.
-- Bottom row
-    - Tells you what dataset you're viewing (``faa-wildlife-strikes`` on the far left), some status information, and the number of rows.
+- **Top row**: This displays your dataset's columns — at least as many as can fit on your screen.
 
-- Highlighted column and row
-    - Indicate your current position in the dataset.
+- **Bottom row**: This tells you what dataset you're viewing (``faa-wildlife-strikes`` on the far left), some status information, the number of rows loaded (73,448), and (after the ``•`` character) the number of rows selected (zero).
+
+- **Highlighted column and row**: These indicate your current position in the dataset.
 
 .. note::
 

@@ -1,20 +1,20 @@
 INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 SEND "vd datasets/faa-wildlife-strikes.csv" --enter
-AWAIT '73448 rows  $'
+AWAIT '73448 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-00-open.output
 
 SEND cSPECIES --enter
 SEND "|unknown" --enter
-AWAIT '25988.* select-col-regex' --start-line -1
+AWAIT '•25988 $' --start-line -1
 CAPTURE terminal/output/practical-distinctive-01-unknown.output
 
 SEND gt
-AWAIT 'stoggle-rows\s+73448 rows  $' --start-line -1
+AWAIT '•47460 $' --start-line -1
 CAPTURE terminal/output/practical-distinctive-02-toggled.output
 
 SEND '"'
-AWAIT '"\s+47460 rows  $' --start-line -1
+AWAIT '"\s+47460 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-03-filtered.output
 
 SEND " rename-sheet" --enter
@@ -27,7 +27,7 @@ AWAIT '"STATE"' --start-line -1
 CAPTURE terminal/output/practical-distinctive-05-on-state-col.output
 
 SEND F
-AWAIT "F\s+63 bins  $" --start-line -1
+AWAIT "F\s+63 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/practical-distinctive-06-state-freq.output
 
 SEND ccount --enter
@@ -48,7 +48,7 @@ AWAIT "!" --start-line -1
 CAPTURE terminal/output/practical-distinctive-08-known-keyed.output
 
 SEND gF
-AWAIT "5135 bins  $" --start-line -1
+AWAIT "5135 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/practical-distinctive-09-state-species-freq.output
 
 SEND lll--
@@ -72,8 +72,9 @@ CAPTURE terminal/output/practical-distinctive-13-sheets-selected.output
 SEND &
 CAPTURE terminal/output/practical-distinctive-14-sheets-join-prompt.output
 
+SEND inner
 ENTER
-AWAIT "5135 rows  $" --start-line -1
+AWAIT "5135 rows" --start-line -1
 CAPTURE terminal/output/practical-distinctive-15-sheets-joined.output
 SEND " rename-sheet" --enter
 SEND joined --enter

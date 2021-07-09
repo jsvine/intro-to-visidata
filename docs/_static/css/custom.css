@@ -12,6 +12,10 @@ div[aria-label="breadcrumbs navigation"] {
     display: none;
 }
 
+ul.simple li {
+    margin: 0.5em 0;
+}
+
 /* override table width restrictions */
 /* via https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html */
 @media screen and (min-width: 767px) {

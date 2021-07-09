@@ -21,4 +21,4 @@
 [37m FL    [38;5;246m|[37m ORLANDO SANFORD IN…[38;5;246m|[37m APPROACH     [38;5;246m|[1m[37m       [33m![0m[38;5;246m[40m|[37m False         [38;5;246m|[37m       [38;5;246m|[37m Unknown bird       [38;5;246m|[37m1[39m 
 [37m IL    [38;5;246m|[37m CHICAGO O'HARE INT…[38;5;246m|[37m CLIMB        [38;5;246m|[1m[37m  12000 [0m[38;5;246m[40m|[37m True          [38;5;246m|[37m       [38;5;246m|[37m Unknown bird       [38;5;246m|[37m1[39m 
 [37m AL    [38;5;246m|[37m BIRMINGHAM-SHUTTLE…[38;5;246m|[37m LANDING ROLL [38;5;246m|[1m[37m      0 [0m[38;5;246m[40m|[37m False         [38;5;246m|[37m       [38;5;246m|[37m Unknown bird - sma…[38;5;246m|[37m1[39m 
-[1m[37m1› faa-wildlife-strikes| "HEIGHT >= 100"[0m[39m[40m                            [1m[37m =  addcol-expr     73448 rows [0m[39m[40m 
+[1m[37m1› faa-wildlife-strikes| "HEIGHT >= 100"[0m[39m[40m                         [1m[37m =  addcol-expr     73448 rows  •0[0m[39m[40m 

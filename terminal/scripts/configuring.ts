@@ -6,7 +6,7 @@ CAPTURE terminal/output/configuring-00-vd-h.output
 SEND q
 
 SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "rows"
+AWAIT "73448 rows" --start-line -1
 
 SEND O
 AWAIT "\d+ options"
@@ -21,6 +21,10 @@ PAUSE 0.1
 CAPTURE terminal/output/configuring-02-global-edited.output
 SEND e20
 ENTER
+SEND q
+
+# These next two commands just get around an edge-case bug
+SEND S
 SEND q
 
 SEND zO

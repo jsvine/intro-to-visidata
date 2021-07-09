@@ -16,7 +16,7 @@ To join two or more sheets in VisiData, you'll do the following:
 
 1. In the sheets you want to join, **mark the shared columns as "keys"**
 2. In the Sheets Sheet, **select the sheets you want to join**
-3. Press :kbd:`&` to open the join-choice prompt, **navigate to your desired join type** and press :kbd:`Enter`
+3. Press :kbd:`&` to open the join-choice prompt, **type your desired join type** (or press :kbd:`Control-x` to open the interactive chooser) and press :kbd:`Enter`
 
 VisiData supports seven types of joins:
 

@@ -1,4 +1,4 @@
-visidata==2.5.dev0
+visidata==2.5
 -e ./../termrunner
 sphinx==1.8.3
 sphinx-rtd-theme==0.4.3

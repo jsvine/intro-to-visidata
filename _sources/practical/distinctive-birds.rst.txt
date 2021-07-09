@@ -165,7 +165,7 @@ Press :kbd:`&` to raise the sheet-joining prompt:
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-14-sheets-join-prompt.output.html
 
-Navigate to the ``inner`` row (if you're not there already), and press :kbd:`Enter` to complete the action. After that, you should see something like this:
+Type ``inner`` and press :kbd:`Enter` to complete the action. After that, you should see something like this:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-15-sheets-joined.output.html

@@ -1,3 +1,5 @@
 venv
 TODO.md
 build/.doctrees/environment.pickle
+terminal/misc/visidata-dir/cache/
+terminal/misc/visidata-dir/__pycache__/

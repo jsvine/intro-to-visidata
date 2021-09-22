@@ -87,7 +87,7 @@ CAPTURE terminal/output/practical-distinctive-16-new-col.output
 SEND l
 SEND ^pct_of_state --enter
 SEND %_
-AWAIT "pct_of_state%" --end-line 1
+AWAIT "pct_of_state%" --end-line 2
 CAPTURE terminal/output/practical-distinctive-16b-new-col-clean.output
 
 SEND ]

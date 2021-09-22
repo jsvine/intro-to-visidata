@@ -10,7 +10,7 @@ SEND U
 
 SEND =1
 ENTER
-AWAIT '1\s+#\| PA-28' --end-line 2
+AWAIT '1\s+#\| PA-28' --end-line 3
 CAPTURE terminal/output/newcols-00-simple.output
 SEND U
 

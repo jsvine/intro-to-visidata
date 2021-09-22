@@ -10,6 +10,10 @@ AWAIT "282 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/faa-operator-frequency.output
 
 SEND 
+AWAIT "sysopen-help"
+CAPTURE terminal/output/faa-menu.output
+
+ENTER
 AWAIT "a terminal utility"
 CAPTURE terminal/output/faa-manpage.output
 

@@ -9,7 +9,7 @@ SEND 70
 ENTER
 SEND hh
 SEND ll
-AWAIT <PERSON --end-line 1
+AWAIT <PERSON --end-line 2
 PAUSE 0.25
 CAPTURE terminal/output/large-cells-00-initial.output
 
@@ -18,11 +18,11 @@ AWAIT "THE PILOT DID NOT REPORT A BIRD STRIKE"
 CAPTURE terminal/output/large-cells-01-multiline.output
 
 SEND v
-AWAIT "Aircraft reported bird strike" --start-line -3 --end-line -2
+AWAIT "Aircraft reported bird strike" --start-line -2 --end-line -1
 CAPTURE terminal/output/large-cells-02-before-scroll.output
 
 SEND zl
-AWAIT "ike to the left wing" --end-line 2
+AWAIT "ike to the left wing" --end-line 3
 CAPTURE terminal/output/large-cells-03-after-scroll.output
 
 SEND gzh

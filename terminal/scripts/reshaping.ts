@@ -29,7 +29,7 @@ PAUSE 0.25
 CAPTURE terminal/output/reshaping-05-keyed.output
 
 SEND l-ll-----------gh
-AWAIT "AIRPORT\s+║" --end-line 1
+AWAIT "AIRPORT\s+║" --end-line 2
 CAPTURE terminal/output/reshaping-06-hidden.output
 
 SEND M

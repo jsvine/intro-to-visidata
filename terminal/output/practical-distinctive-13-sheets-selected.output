@@ -1,5 +1,6 @@
+[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp[39m               [30mCtrl+H for help menu       [39m[49m 
 [1;4;7m[38;5;81m[40m name                             [0m[38;5;246m[40m║[1;4m[37m type           [0m[38;5;246m[40m|[1;4m[37m pane#[0m[38;5;246m[40m|[1;4m[37m shortcut [0m[38;5;246m[40m|[1;4m[37m nRows#[0m[38;5;246m[40m|[1;4m[37m nCols#[0m[38;5;246m[40m|[1;4m[37m nVisibleCol[0m[38;5;246m[40m>[39m 
-[1m[38;5;81m sheets[0m[39m[40m                           [38;5;246m║[37m SheetsSheet    [38;5;246m|[37m    1 [38;5;246m|[37m S        [38;5;246m|[37m     5 [38;5;246m|[37m    11 [38;5;246m|[37m           11[39m 
+[1m[38;5;81m sheets[0m[39m[40m                           [38;5;246m║[37m SheetsSheet    [38;5;246m|[37m    1 [38;5;246m|[37m Shift+S  [38;5;246m|[37m     5 [38;5;246m|[37m    11 [38;5;246m|[37m           11[39m 
 [38;5;220m•[1m[38;5;215mknown_species_STATE-SPECIES_freq [0m[38;5;215m[40m║ FreqTableSheet |    1 | 4        |  5135 |     5 |            3[39m 
 [1m[38;5;81m known_species[0m[39m[40m                    [38;5;246m║[37m CsvSheet       [38;5;246m|[37m    1 [38;5;246m|[37m 2        [38;5;246m|[37m 47460 [38;5;246m|[37m    16 [38;5;246m|[37m           16[39m 
 [38;5;220m•[1m[38;5;215mknown_species_STATE_freq         [0m[38;5;215m[40m║ FreqTableSheet |    1 | 3        |    63 |     4 |            2[39m 
@@ -20,5 +21,4 @@
                                                                                                     
                                                                                                     
                                                                                                     
-                                                                                                    
-[1m[37mS› sheets|[0m[39m[40m [1m[37mselected 1 more sheets[0m[39m[40m                          [1m[37m      s  select-row         5 sheets  •2[0m[39m[40m 
+[1m[30m[48;5;110mShift+S› sheets|[0m[39m[48;5;110m [1m[30mselected 1 more sheets[0m[39m[48;5;110m             [1m[30m            [38;5;233m s[30m  select-row         5 sheets  •2[0m[39m[40m 

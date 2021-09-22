@@ -20,19 +20,19 @@ SEND gh
 PAUSE 0.1
 SEND l
 PAUSE 0.1
-CAPTURE terminal/output/columns-01-column-nav.output --end-line 3
+CAPTURE terminal/output/columns-01-column-nav.output --end-line 4
 
 SEND ^
 PAUSE 0.25
-CAPTURE terminal/output/columns-02-column-caret.output --end-line 3
+CAPTURE terminal/output/columns-02-column-caret.output --end-line 4
 
 SEND Aircraft
 PAUSE 0.25
-CAPTURE terminal/output/columns-03-column-renaming.output --end-line 3
+CAPTURE terminal/output/columns-03-column-renaming.output --end-line 4
 
 ENTER
 PAUSE 0.25
-CAPTURE terminal/output/columns-04-column-renamed.output --end-line 3
+CAPTURE terminal/output/columns-04-column-renamed.output --end-line 4
 
 SEND gh
 SEND cAIRPORT

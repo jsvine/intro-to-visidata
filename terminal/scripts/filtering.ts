@@ -9,7 +9,7 @@ AWAIT "•2164 $" --start-line -1
 CAPTURE terminal/output/filtering-00-search.output
 
 SEND '"'
-AWAIT "Hawks" --end-line 2
+AWAIT "Hawks" --end-line 3
 CAPTURE terminal/output/filtering-01-push.output
 
 SEND q

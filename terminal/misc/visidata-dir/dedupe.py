@@ -20,10 +20,10 @@ values in just those columns.
 """
 
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __author__ = "Jeremy Singer-Vine <jsvine@gmail.com>"
 
-from visidata import Sheet, BaseSheet, asyncthread, copy, warning, Progress, vd
+from visidata import Sheet, BaseSheet, asyncthread, copy, Progress, vd
 
 
 def gen_identify_duplicates(sheet):
@@ -39,7 +39,7 @@ def gen_identify_duplicates(sheet):
 
     cols_to_check = None
     if len(keyCols) == 0:
-        warning("No key cols specified. Using all columns.")
+        vd.warning("No key cols specified. Using all columns.")
         cols_to_check = sheet.visibleCols
     else:
         cols_to_check = sheet.keyCols
@@ -107,6 +107,10 @@ BaseSheet.addCommand(None, "dedupe-rows", "sheet.dedupe_rows()")
 
 """
 # Changelog
+
+## 0.2.0 - 2021-09-22
+
+Use `vd.warning(...)` instead of `warning(...)`
 
 ## 0.1.0 - 2020-10-09
 

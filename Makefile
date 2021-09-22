@@ -18,6 +18,6 @@ gh-pages:
 
 .PHONY: terminal
 terminal:
-	rm terminal/output/*
+	rm -f terminal/output/*
 	./scripts/termscript_all.sh
 	./scripts/output2html_all.sh

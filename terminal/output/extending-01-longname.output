@@ -1,4 +1,4 @@
-[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp[39m               [30mCtrl+H for help menu       [39m[49m 
+[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp     Ctrl+H for help menu[39m                 [49m 
 [1;4;7m[37m[40m animal [0m[38;5;246m[40m|[1;4m[37m name   [0m[38;5;246m[40m║[39m                                                                                  
 [1;7m[37m dog    [0;7m[37m[40m| Apollo ║[0m[39m[40m                                                                                  
 [1m[37m dog    [0m[38;5;246m[40m|[37m Bambi  [38;5;246m║[39m                                                                                  
@@ -21,4 +21,4 @@
                                                                                                     
                                                                                                     
                                                                                                     
-[37mcommand name:[39m [37mdedupe-rows[39m                                  [1m[38;5;233m[48;5;110m Space[30m  exec-longname         5 rows  •0[0m[39m[40m 
+[37mcommand name:[39m [37mdedupe-rows[39m                                 [1m[30m[48;5;110m Space   exec-longname         5 rows  •0[0m[39m[40m 

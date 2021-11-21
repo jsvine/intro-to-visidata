@@ -91,7 +91,7 @@ AWAIT "pct_of_state%" --end-line 2
 CAPTURE terminal/output/practical-distinctive-16b-new-col-clean.output
 
 SEND ]
-AWAIT "]  sort-desc\s+5135 rows" --start-line -1
+AWAIT "]\s+sort-desc\s+5135 rows" --start-line -1
 CAPTURE terminal/output/practical-distinctive-17-new-col-typed-and-sorted.output
 
 SEND z|count >= 20

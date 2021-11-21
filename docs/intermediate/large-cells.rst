@@ -22,7 +22,7 @@ By default, VisiData displays each row on a single line. You can switch to multi
     :file: ../../terminal/output/large-cells-01-multiline.output.html
 
 .. note::
-   By default, the maximum row height is 10 lines, but you can adjust this through VisiData's ``default_height`` setting.
+   The default row height in multiline mode is 4 lines, but you can adjust this through VisiData's ``default_height`` setting.
 
 
 Scrolling within cells

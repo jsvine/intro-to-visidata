@@ -14,7 +14,7 @@ PAUSE 0.25
 CAPTURE terminal/output/large-cells-00-initial.output
 
 SEND v
-AWAIT "THE PILOT DID NOT REPORT A BIRD STRIKE"
+AWAIT "BIRD STRUCK THE RIGHT WING"
 CAPTURE terminal/output/large-cells-01-multiline.output
 
 SEND v

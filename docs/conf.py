@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'An Introduction to VisiData'
-copyright = '2018–2020, Jeremy Singer-Vine'
+copyright = '2018–2021, Jeremy Singer-Vine'
 author = 'Jeremy Singer-Vine'
 
 # The version info for the project you're documenting, acts as replacement for

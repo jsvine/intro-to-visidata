@@ -21,4 +21,4 @@
 [1m[38;5;81m load_lazy          [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m load subsheets always (False) or l…[39m 
 [1m[38;5;81m force_256_colors   [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m use 256 colors even if curses repo…[39m 
 [1m[38;5;81m disp_note_none     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m ⌀[39m                  [38;5;246m|[37m visible contents of a cell whose v…[39m 
-[1m[30m[48;5;110m› global_options|[0m[39m[48;5;110m                                                  [1m[30mShift+O          168 options  •0[0m[39m[40m 
+[1m[30m[48;5;110mShift+O› global_options|[0m[39m[48;5;110m                                           [1m[30mShift+O          168 options  •0[0m[39m[40m 

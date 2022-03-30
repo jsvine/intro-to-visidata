@@ -43,7 +43,7 @@ Two things you'll see that you might not have expected:
 Saving the command log
 ----------------------
 
-The command log behaves *virtually* the same as any other sheet in VisiData. (We'll get to the differences shortly.) That means you can sort, filter, and otherwise edit its rows, columns, and cells. That also means you can save just like you'd save any other sheet, with :kbd:`Control-s`. Doing so with the example above should raise a prompt that looks like this:
+The command log behaves *virtually* the same as any other sheet in VisiData. That means you can sort, filter, and otherwise edit its rows, columns, and cells. That also means you can save just like you'd save any other sheet, with :kbd:`Control-s`. Doing so with the example above should raise a prompt that looks like this:
 
 .. raw:: html
     :file: ../../terminal/output/cmdlog-02-save-ctrl-s.output.html

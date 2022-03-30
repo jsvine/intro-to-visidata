@@ -114,8 +114,8 @@ kbd {
 .inv31 { background-color: #aa0000; }
 .ansi32 { color: #00aa00; }
 .inv32 { background-color: #00aa00; }
-.ansi33 { color: #aa5500; }
-.inv33 { background-color: #aa5500; }
+.ansi33 { color: #aaaa00; }
+.inv33 { background-color: #aaaa00; }
 .ansi34 { color: #0000aa; }
 .inv34 { background-color: #0000aa; }
 .ansi35 { color: #E850A8; }
@@ -130,8 +130,8 @@ kbd {
 .inv41 { color: #aa0000; }
 .ansi42 { background-color: #00aa00; }
 .inv42 { color: #00aa00; }
-.ansi43 { background-color: #aa5500; }
-.inv43 { color: #aa5500; }
+.ansi43 { background-color: #aaaa00; }
+.inv43 { color: #aaaa00; }
 .ansi44 { background-color: #0000aa; }
 .inv44 { color: #0000aa; }
 .ansi45 { background-color: #E850A8; }

@@ -2,7 +2,7 @@ INIT --shell "bash --rcfile terminal/misc/clean-bash.bashrc" --width 100
 AWAIT "\$\s+$"
 
 SEND "vd datasets/faa-wildlife-strikes.csv" --enter
-AWAIT "73448 rows" --start-line -1
+AWAIT "73448 rows\s+•0 $" --start-line -1
 
 SEND !
 SEND cPERSON --enter
@@ -10,7 +10,7 @@ SEND !
 CAPTURE terminal/output/summarizing-00-keyed.output
 
 SEND gF
-AWAIT "879 bins" --start-line -1
+AWAIT "879 bins\s+•0 $" --start-line -1
 CAPTURE terminal/output/summarizing-01-multifreq.output
 
 SEND g_

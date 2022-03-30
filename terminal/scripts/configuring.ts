@@ -6,10 +6,19 @@ CAPTURE terminal/output/configuring-00-vd-h.output
 SEND q
 
 SEND "vd datasets/faa-wildlife-strikes.csv\n"
-AWAIT "73448 rows" --start-line -1
+AWAIT "73448 rows\s+•0 $" --start-line -1
 
 SEND O
-AWAIT "\d+ options"
+AWAIT "\d+ options\s+•0 $" --start-line -1
+SEND /visidata_dir
+ENTER
+SEND le
+SEND ~/.visidata/
+ENTER
+SEND hRq
+
+SEND O
+AWAIT "\d+ options\s+•0 $" --start-line -1
 CAPTURE terminal/output/configuring-01-global-options.output
 
 SEND /default_width
@@ -23,10 +32,19 @@ SEND e20
 ENTER
 SEND q
 
+SEND zO
+AWAIT "\d+ options\s+•0 $" --start-line -1
+SEND /visidata_dir
+ENTER
+SEND le
+SEND 
+ENTER
+SEND hRq
+
 # These next two commands just get around an edge-case bug
 SEND S
 SEND q
 
 SEND zO
-AWAIT "\d+ options"
+AWAIT "\d+ options\s+•0 $" --start-line -1
 CAPTURE terminal/output/configuring-03-sheet-options.output

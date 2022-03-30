@@ -6,10 +6,6 @@ import os
 import sys
 from pathlib import Path
 
-#venv_path = Path.cwd() # / "venv"
-
-# visidata_path = os.path.dirname(visidata.__path__[0])
-
 def replace_paths(lines):
     def fn(match):
         path = os.path.abspath(match.group(1))
@@ -24,4 +20,5 @@ def stacktrace(e=None):
         return replace_paths(traceback.format_exc().strip().splitlines())
     return replace_paths(traceback.format_exception_only(type(e), e).splitlines())
 
+visidata.wrappers.stacktrace = stacktrace
 visidata.errors.stacktrace = stacktrace

@@ -1,0 +1,3 @@
+[1m[37m BUSINESS           [0m[38;5;246m[40m|[37m C-172        [38;5;246m|[37m 05/08/15 00:00:00 [38;5;246m|[37m FL    [38;5;246m|[37m ORLANDO SANFORD IN…[38;5;246m|[37m APPROACH     [38;5;246m║
+[1m[37m SPIRIT AIRLINES    [0m[38;5;246m[40m|[37m A-319        [38;5;246m|[37m 05/10/15 00:00:00 [38;5;246m|[37m IL    [38;5;246m|[37m CHICAGO O'HARE INT…[38;5;246m|[37m CLIMB        [38;5;246m║
+[1m[30m[48;5;110m1› faa-wildlife-strikes| [33m[40mre.error: missing ), unterminated [30m[48;5;110m |   select-col-regex     73448 rows  •0[0m[39m[40m 

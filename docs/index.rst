@@ -34,7 +34,7 @@ Section                Description                          Status
 The Big Picture        If you read nothing else ...         Draft complete
 Basic Usage            All you need to know to get started  Draft complete
 Intermediate Usage     Some of the handiest power-features  Draft complete
-Advanced Usage         How to bend VisiData to your whims   Two chapters drafted
+Advanced Usage         How to bend VisiData to your whims   Four chapters drafted
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
 
@@ -44,14 +44,14 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2021-12-23``
+Tutorial last updated   ``2022-03-30``
 VisiData version        ``2.8``
 ======================  ================
 
 About the author
 ----------------
 
-`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is the `data editor <https://github.com/BuzzFeedNews/everything>`_ at `BuzzFeed News <https://www.buzzfeednews.com/>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
+`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is a journalist, computer programmer, and data editor based in New York City. From 2014 until early 2022, he served as the founding `data editor <https://github.com/BuzzFeedNews/everything>`_ for `BuzzFeed News <https://www.buzzfeednews.com/>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
 
 Feedback / questions / corrections?
 -----------------------------------

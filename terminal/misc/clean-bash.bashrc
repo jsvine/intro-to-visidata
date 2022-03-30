@@ -14,4 +14,5 @@ function promptify {
 export TERM=xterm-256color
 export CLICOLOR=1
 promptify
-alias vd="vd --config terminal/misc/visidatarc.py --visidata-dir terminal/misc/visidata-dir"
+SCRIPT_DIR=$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
+alias vd="vd --config $SCRIPT_DIR/visidatarc.py --visidata-dir $SCRIPT_DIR/visidata-dir"

@@ -1,24 +1,24 @@
 [30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp     Ctrl+H for help menu[39m                 [49m 
-[1;4;7m[38;5;81m[40m name       [0m[38;5;246m[40m║[1;4m[37m instal…[0m[38;5;246m[40m|[1;4m[37m description                            [0m[38;5;246m[40m|[1;4m[37m maintainer         [0m[38;5;246m[40m|[1;4m[37m latest_releas[0m[38;5;246m[40m>[39m 
-[1;7m[37m vfake      [0;7m[37m[40m║        | replace column with fake values        | Saul Pwanson @saul…| 2020-10-06    [0m[39m[40m 
-[1m[38;5;81m dedupe     [0m[38;5;246m[40m║[37m        [38;5;246m|[37m adds commands for selection and remova…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2021-09-22[39m     
-[1m[38;5;81m normcol    [0m[38;5;246m[40m║[37m        [38;5;246m|[37m normalizes column names in any given s…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2020-10-11[39m     
-[1m[38;5;81m fec        [0m[38;5;246m[40m║[37m        [38;5;246m|[37m loader for .fec files from the Federal…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2019-04-21[39m     
-[1m[38;5;81m sparkline  [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add a sparkline column to visualise tr…[38;5;246m|[37m Lucas Messenger @l…[38;5;246m|[37m 2020-09-13[39m     
-[1m[38;5;81m rownum     [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add column of original row ordering    [38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2019-11-07[39m     
-[1m[38;5;81m vmailcap   [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add mailcap-view(-selected) commands t…[38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2020-10-06[39m     
-[1m[38;5;81m vmutagen   [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add mp3 metadata columns to DirSheet   [38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2019-09-25[39m     
-[1m[38;5;81m vds3       [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add support for Amazon S3 paths[39m        [38;5;246m|[37m AJ Kerrigan @ajker…[38;5;246m|[37m 2021-09-23[39m     
-[1m[38;5;81m genericSQL [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add loaders for SQL databases (Oracle,…[38;5;246m|[37m Andrew Swanson @as…[38;5;246m|[37m 2020-04-15[39m     
-[1m[38;5;81m diff       [0m[38;5;246m[40m║[39m        [38;5;246m|[37m adds command to create diff sheets     [38;5;246m|[37m Anja Kefala @anjak…[38;5;246m|[37m 2020-10-09[39m     
-[1m[38;5;81m marks      [0m[38;5;246m[40m║[39m        [38;5;246m|[37m adds commands for marking selected row…[38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2020-10-09[39m     
-[1m[38;5;81m conll      [0m[38;5;246m[40m║[39m        [38;5;246m|[37m CoNLL data loader[39m                      [38;5;246m|[37m Paul McCann <polm@…[38;5;246m|[37m 2020-12-07[39m     
-[1m[38;5;81m darkdraw   [0m[38;5;246m[40m║[39m        [38;5;246m|[37m textart and animation for the terminal…[38;5;246m|[37m devottys @devottys [38;5;246m|[37m 2021-04-04[39m     
+[1;4;7m[38;5;81m[40m name              [0m[38;5;246m[40m║[1;4m[37m instal…[0m[38;5;246m[40m|[1;4m[37m description                            [0m[38;5;246m[40m|[1;4m[37m maintainer         [0m[38;5;246m[40m|[1;4m[37m latest[0m[38;5;246m[40m>[39m 
+[1;7m[37m vfake             [0;7m[37m[40m║        | replace column with fake values        | Saul Pwanson @saul…| 2020-1…[0m[39m[40m 
+[1m[38;5;81m dedupe            [0m[38;5;246m[40m║[39m        [38;5;246m|[37m adds commands for selection and remova…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2021-0…[39m 
+[1m[38;5;81m normcol           [0m[38;5;246m[40m║[39m        [38;5;246m|[37m normalizes column names in any given s…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2020-1…[39m 
+[1m[38;5;81m fec[0m[39m[40m               [38;5;246m║[39m        [38;5;246m|[37m loader for .fec files from the Federal…[38;5;246m|[37m Jeremy Singer-Vine…[38;5;246m|[37m 2019-0…[39m 
+[1m[38;5;81m sparkline         [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add a sparkline column to visualise tr…[38;5;246m|[37m Lucas Messenger @l…[38;5;246m|[37m 2020-0…[39m 
+[1m[38;5;81m rownum            [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add column of original row ordering    [38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2019-1…[39m 
+[1m[38;5;81m vmailcap          [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add mailcap-view(-selected) commands t…[38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2020-1…[39m 
+[1m[38;5;81m vmutagen          [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add mp3 metadata columns to DirSheet   [38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2019-0…[39m 
+[1m[38;5;81m vds3[0m[39m[40m              [38;5;246m║[39m        [38;5;246m|[37m add support for Amazon S3 paths[39m        [38;5;246m|[37m AJ Kerrigan @ajker…[38;5;246m|[37m 2021-0…[39m 
+[1m[38;5;81m genericSQL        [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add loaders for SQL databases (Oracle,…[38;5;246m|[37m Andrew Swanson @as…[38;5;246m|[37m 2020-0…[39m 
+[1m[38;5;81m diff[0m[39m[40m              [38;5;246m║[39m        [38;5;246m|[37m adds command to create diff sheets     [38;5;246m|[37m Anja Kefala @anjak…[38;5;246m|[37m 2020-1…[39m 
+[1m[38;5;81m marks             [0m[38;5;246m[40m║[39m        [38;5;246m|[37m adds commands for marking selected row…[38;5;246m|[37m Saul Pwanson @saul…[38;5;246m|[37m 2020-1…[39m 
+[1m[38;5;81m conll             [0m[38;5;246m[40m║[39m        [38;5;246m|[37m CoNLL data loader[39m                      [38;5;246m|[37m Paul McCann <polm@…[38;5;246m|[37m 2020-1…[39m 
+[1m[38;5;81m darkdraw          [0m[38;5;246m[40m║[39m        [38;5;246m|[37m textart and animation for the terminal…[38;5;246m|[37m devottys @devottys [38;5;246m|[37m 2021-0…[39m 
+[1m[38;5;81m f5log             [0m[38;5;246m[40m║[39m        [38;5;246m|[37m parse F5 BIG-IP ltm, gtm, asm, apm, au…[38;5;246m|[37m James Deucker <f5l…[38;5;246m|[37m 2022-0…[39m 
+[1m[38;5;81m parent_navigation [0m[38;5;246m[40m║[39m        [38;5;246m|[37m navigate a parent sheet from its child [38;5;246m|[37m AJ Kerrigan @ajker…[38;5;246m|[37m 2022-0…[39m 
+[1m[38;5;81m vd_toml           [0m[38;5;246m[40m║[39m        [38;5;246m|[37m add a loader for TOML files[39m            [38;5;246m|[37m AJ Kerrigan @ajker…[38;5;246m|[37m 2022-0…[39m 
                                                                                                     
                                                                                                     
                                                                                                     
                                                                                                     
-                                                                                                    
-                                                                                                    
-                                                                                                    
-[1m[30m[48;5;110m3› plugins_global| "open-plugins"[0m[39m[48;5;110m                                    [1m[30mSpace           14 plugins  •0[0m[39m[40m 
+[1m[30m[48;5;110m3› plugins_global| "open-plugins"[0m[39m[48;5;110m                                    [1m[30mSpace           17 plugins  •0[0m[39m[40m 

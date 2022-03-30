@@ -21,4 +21,4 @@
 [38;5;220m•[38;5;215mLUFTHANSA          | A-380        | 05/10/15 00:00:00 |[1m TX    [0m[38;5;215m[40m| GEORGE BUSH INTERC…| CLIMB        ║
 [37m BUSINESS           [38;5;246m|[37m C-172[39m        [38;5;246m|[37m 05/08/15 00:00:00 [38;5;246m|[1m[37m FL    [0m[38;5;246m[40m|[37m ORLANDO SANFORD IN…[38;5;246m|[37m APPROACH     [38;5;246m║
 [37m SPIRIT AIRLINES    [38;5;246m|[37m A-319[39m        [38;5;246m|[37m 05/10/15 00:00:00 [38;5;246m|[1m[37m IL    [0m[38;5;246m[40m|[37m CHICAGO O'HARE INT…[38;5;246m|[37m CLIMB[39m        [38;5;246m║
-[1m[30m[48;5;110m1› faa-wildlife-strikes| "TX"[0m[39m[48;5;110m [1m[30m| search wrapped | 7309 ma |   select-col-regex     73448 rows  •7309[0m[39m[40m 
+[1m[30m[48;5;110m1› faa-wildlife-strikes| "TX" | search wrapped | 7309 ma |   select-col-regex     73448 rows  •7309[0m[39m[40m 

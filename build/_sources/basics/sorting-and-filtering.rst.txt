@@ -83,7 +83,7 @@ Using frequency tables to select (and filter) for multiple values
 
 The approach above is great if you want to drill down on rows where a field equals one particular value. But what if you want to include a few different values? Select the rows of the frequency table you want to include, then press :kbd:`g` + :kbd:`Enter`.
 
-Here's a practical example, using the FAA dataset. Let's say you want to filter for wildlife strikes at the five airports with the most reported incidents. To acheive that, you could take these steps:
+Here's a practical example, using the FAA dataset. Let's say you want to filter for wildlife strikes at the five airports with the most reported incidents. To achieve that, you could take these steps:
 
 - On the main data sheet navigate to the ``AIRPORT`` column, and press :kbd:`Shift-F` to create a frequency table:
 

@@ -8,7 +8,7 @@ VisiData handles moderately large files reasonably well. But if a particularly l
 Select a random sample of rows
 ------------------------------
 
-In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press :kbd:`Space` to initiate the longname-command prompt, and type ``random-rows``. At the the prompt, type the number of rows you'd like to include, and then press :kbd:`Enter`.
+In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press :kbd:`Space` to initiate the longname-command prompt, and type ``random-rows``. At the prompt, type the number of rows you'd like to include, and then press :kbd:`Enter`.
 
 
 

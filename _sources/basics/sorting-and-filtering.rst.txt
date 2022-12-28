@@ -31,7 +31,7 @@ VisiData provides several ways to filter your datasets:
 
 - Row selection + :kbd:`"`
 - Frequency tables + :kbd:`Enter`
-- Frequency tables + row selection + :kbd:`"`
+- Frequency tables + row selection + :kbd:`g` + :kbd:`Enter`
 
 The sections below walk you through each approach.
 

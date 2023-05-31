@@ -229,7 +229,7 @@ Finally, press :kbd:`"` to create a new sheet containing only the selected rows:
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-20-limited.output.html
 
-There you have it! The `Yellow Bittern <https://en.wikipedia.org/wiki/Yellow_bittern>`_ accounted for more than 40% of the reported, known-species collisions in "PI" (the `FAA's abbreviation  <https://www.faa.gov/airports/airport_safety/wildlife/resources/media/2005_FAA_Manual_complete.pdf>`_  for "USA-possessed Pacific Islands," such as Guam). In Colorado, the Horned Lark has been nearly as collision-dominating, as has the Pacific Golden-Plover in Hawaii, and Mourning Doves in Arizona and Missouri.
+There you have it! The `Yellow Bittern <https://en.wikipedia.org/wiki/Yellow_bittern>`_ accounted for more than 40% of the reported, known-species collisions in "PI" (the `FAA's abbreviation  <https://www.faa.gov/airports/airport_safety/wildlife/resources/media/2005_FAA_Manual_complete.pdf>`_  for "USA-possessed Pacific Islands," such as Guam). In Colorado, the Horned Lark has been nearly as collision-dominating, as has the Pacific Golden-Plover in Hawaii, and Mourning Doves in Arizona and Mississippi.
 
 Take it one step further
 --------------------------

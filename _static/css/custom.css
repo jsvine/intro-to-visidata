@@ -56,15 +56,15 @@ kbd {
 .ansi2html {
     color: #AAAAAA;
     background-color: #000000;
-    padding: 2px 5px;
-    margin-bottom: 20px;
-    line-height: 14px;
-    min-width: 696px;
+    padding: 0;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+    font-size: 0.75em !important;
+    letter-spacing: -0.03ch;
+    width: 100ch;
 }
 
 .ansi2html pre {
-    font-size: 11.5px !important;
-    letter-spacing: -0.075px;
     display: inline;
     white-space: pre-wrap;
     word-wrap: break-word;

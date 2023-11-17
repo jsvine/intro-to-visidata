@@ -61,7 +61,7 @@ kbd {
     line-height: 1.2;
     font-size: 0.75em !important;
     letter-spacing: -0.03ch;
-    width: 100ch;
+    width: 101ch;
 }
 
 .ansi2html pre {

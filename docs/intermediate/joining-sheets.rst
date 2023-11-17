@@ -29,7 +29,7 @@ full              ``FULL OUTER JOIN``  Keeps all rows from all sheets (union)
 diff                                   Keeps only rows NOT in all sheets
 append            ``UNION ALL``        Keeps all rows from all sheets (concatenation)
 extend                                 Copies first selected sheet, keeping all rows and sheet type, and extends with columns from other sheets
-merge                                  Merges differences from other sheets into first sheet
+merge                                  Merges differences from other sheets into first sheet; keeps all rows from first sheet, updating any False-y values (e.g., ``False``, ``None``, ``0``, ``[]``) with non-False-y values from subsequent sheets, and adds unique rows from subsequent sheets
 ================  ===================  =======================
 
 (Descriptions above come from VisiData's `Quick Reference <http://visidata.org/man/>`_.)

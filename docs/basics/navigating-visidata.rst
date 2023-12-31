@@ -54,7 +54,7 @@ In VisiData you can hop between columns using `regular expressions <http://2017.
 
 .. note::
 
-    Searches in VisiData are, by default, *case-insensitive*. You can change this in `VisiData's options <../../advanced/configuring-visidata>`_.
+    Searches in VisiData are, by default, *case-insensitive*. You can change this in `VisiData's options <../../advanced/configuring-visidata>`_ by setting the ``regex_flags`` value to an empty string (instead of the default ``I``).
 
 To **find a row**, type these commands, followed by :kbd:`Enter`:
 

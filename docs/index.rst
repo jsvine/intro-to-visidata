@@ -38,7 +38,7 @@ Advanced Usage         How to bend VisiData to your whims   Four chapters drafte
 Practical Examples     Step-by-step walkthroughs            Two examples drafted
 ====================== ==================================== ================
 
-To be notified of new material and/or major updates, `sign up here <https://tinyletter.com/intro-to-visidata/>`_.
+To be notified of new material and/or major updates, `sign up here <https://buttondown.email/intro-to-visidata>`_.
 
 Tutorial Status
 ^^^^^^^^^^^^^^^

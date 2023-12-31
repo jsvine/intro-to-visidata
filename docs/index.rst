@@ -61,7 +61,7 @@ Feedback / questions / corrections?
 Acknowledgments
 ---------------
 
-Many thanks to the following people for their feedback, suggestions, and fixes: `Saul Pwanson <http://saul.pw/>`_, `Anja Kefala <https://github.com/anjakefala>`_, `John Templon <https://twitter.com/jtemplon>`_, `Scott Pham <https://twitter.com/scottpham>`_, `Andrea Borruso <https://github.com/aborruso>`_, `Felix Rosencrantz <https://github.com/frosencrantz>`_, `Ram Rachum <https://github.com/cool-RR>`_, `Ezequiel Garzon <https://github.com/ezequiel-garzon>`_.
+Many thanks to the following people for their feedback, suggestions, and fixes: `Saul Pwanson <http://saul.pw/>`_, `Anja Kefala <https://github.com/anjakefala>`_, `John Templon <https://twitter.com/jtemplon>`_, `Scott Pham <https://twitter.com/scottpham>`_, `Andrea Borruso <https://github.com/aborruso>`_, `Felix Rosencrantz <https://github.com/frosencrantz>`_, `Ram Rachum <https://github.com/cool-RR>`_, `Ezequiel Garzon <https://github.com/ezequiel-garzon>`_, `Joseph Reagle <https://github.com/reagle>`_, `David Wales <https://github.com/daviewales>`_, `@rschwiebert <https://github.com/rschwiebert>`_.
 
 
 .. toctree::

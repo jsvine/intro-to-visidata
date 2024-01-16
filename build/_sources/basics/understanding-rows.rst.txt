@@ -106,8 +106,8 @@ You can move the position of row up or down using the following commands:
 ==================  ============
 Keystroke(s)        Action
 ==================  ============
-:kbd:`Shift-J`      Move row up one spot
-:kbd:`Shift-K`      Move row down one spot
+:kbd:`Shift-K`      Move row up one spot
+:kbd:`Shift-J`      Move row down one spot
 ==================  ============
 
 

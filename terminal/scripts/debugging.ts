@@ -21,14 +21,14 @@ CAPTURE terminal/output/debugging-01-cell-error.output
 SEND q
 
 SEND gh
-SEND "|("
+SEND "=("
 ENTER
-AWAIT 'unterminated' --start-line -1
-CAPTURE terminal/output/debugging-02-general-error-status.output --start-line -3
+AWAIT 'never closed' --start-line -4
+CAPTURE terminal/output/debugging-02-general-error-status.output --start-line -6
 
 SEND 
 PAUSE 0.1
 SEND G
-AWAIT 'subpattern' --start-line -2
+AWAIT 'compiledExpr'
 CAPTURE terminal/output/debugging-03-general-error-sheet.output
 SEND q

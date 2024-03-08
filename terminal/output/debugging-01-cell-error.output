@@ -1,24 +1,24 @@
-[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp     Ctrl+H for help menu[39m                 [49m 
-[1;4;7m[37m[40m text                                                                            [0m[38;5;246m[40m║[39m                  
-[1;7m[37m Traceback (most recent call last):                                              [0;7m[37m[40m║[0m[39m[40m                  
-[1m[37m   File "lib/python3.8/site-packages/visidata/wrappers.py", line 108, in wrapply [0m[38;5;246m[40m║[39m                  
-    [1m[37m return func(*args, **kwargs)                  [0m[39m[40m                              [38;5;246m║[39m                  
-[1m[37m ValueError: invalid literal for int() with base 10: ''[0m[39m[40m                          [38;5;246m║[39m                  
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-[1m[30m[48;5;110mzCtrl+E› faa-wildlife-strikes_cell_error|[0m[39m[48;5;110m                      [1m[30m      zCtrl+E            4 lines  •0[0m[39m[40m 
+[30m[48;5;68m  [4mF[0m[30m[48;5;68mile  [4mE[0m[30m[48;5;68mdit  [4mV[0m[30m[48;5;68miew  [4mC[0m[30m[48;5;68molumn  [4mR[0m[30m[48;5;68mow  [4mD[0m[30m[48;5;68mata  [4mP[0m[30m[48;5;68mlot  [4mS[0m[30m[48;5;68mystem  [4mH[0m[30m[48;5;68melp     | VisiData 3.0.2 | Alt+H for help men
+[1;4;7m[37m[40m text                                                                           [0m[38;5;246m[40m║[39m                  
+[1;7m[37m Traceback (most recent call last):                                             [0;7m[37m[40m║[0m[40m                   
+[1m[37m File "lib/python3.10/site-packages/visidata/wrappers.py", line 105, in wrapply [0m[38;5;246m[40m║[39m                   
+[1m[37m return func(*args, **kwargs)[0m[40m               [1m[37m       [0m[40m                             [38;5;246m║[39m                   
+[1m[37m ValueError: invalid literal for int() with base 10: ''[0m[40m                         [38;5;246m║[39m                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[4m[30m[48;5;68mzCtrl+E› faa-wildlife-strikes_cell_error[0m[30m[48;5;68m|[39m                     [30m         [1m[37m[48;5;237mzCtrl+E[0m[30m[48;5;68m    [39m      [30m   4 lines 

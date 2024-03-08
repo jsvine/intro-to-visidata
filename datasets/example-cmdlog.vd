@@ -1,5 +1,0 @@
-sheet	col	row	longname	input	keystrokes	comment
-			open-file	faa-wildlife-strikes.csv	o	
-faa-wildlife-strikes			rename-sheet	strikes		Rename current sheet
-strikes	AIRPORT		freq-col		Shift+F	open Frequency Table grouped on current column, with aggregations of other columns
-strikes_AIRPORT_freq		キMEMPHIS INTL	select-row		s	select current row

@@ -1,24 +1,24 @@
-[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp     Ctrl+H for help menu[39m                 [49m 
-[1;4;7m[37m[40m text                                                                                              [0m[39m[40m 
-[1m[37m   File "lib/python3.8/site-packages/visidata/threads.py", line 206, in _toplevelTryFunc           [0m[39m[40m 
-[1m[37m     t.status = func(*args, **kwargs)[0m[39m[40m                                                               
-[1m[37m   File "lib/python3.8/site-packages/visidata/selection.py", line 50, in select[0m[39m[40m                     
-[1m[37m     for r in (Progress(rows, 'selecting') if progress else rows):[0m[39m[40m                                  
-[1m[37m   File "lib/python3.8/site-packages/visidata/selection.py", line 73, in <genexpr>[0m[39m[40m                  
-[1m[37m     self.select((self.rows[i] for i in rowIdxs), progress=False)[0m[39m[40m                                   
-[1m[37m   File "lib/python3.8/site-packages/visidata/search.py", line 26, in searchRegex[0m[39m[40m                   
-[1m[37m     vd.searchContext["regex"] = re.compile(regex, sheet.regex_flags()) or vd.error('invalid regex…[0m[39m[40m 
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/re.py", line 250, in compile[0m[39m[40m                           
-[1m[37m     return _compile(pattern, flags)[0m[39m[40m                                                                
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/re.py", line 302, in _compile[0m[39m[40m                          
-[1m[37m     p = sre_compile.compile(pattern, flags)[0m[39m[40m                                                        
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/sre_compile.py", line 764, in compile[0m[39m[40m                  
-[1m[37m     p = sre_parse.parse(p, flags)[0m[39m[40m                                                                  
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/sre_parse.py", line 948, in parse[0m[39m[40m                      
-[1m[37m     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)[0m[39m[40m                                     
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/sre_parse.py", line 443, in _parse_sub[0m[39m[40m                 
-[1m[37m     itemsappend(_parse(source, state, verbose, nested + 1,[0m[39m[40m                                         
-[1m[37m   File ".pyenv/versions/3.8.1/lib/python3.8/sre_parse.py", line 836, in _parse[0m[39m[40m                     
-[1m[37m     raise source.error("missing ), unterminated subpattern",[0m[39m[40m                                       
-[1;7m[37m re.error: missing ), unterminated subpattern at position 0                                        [0m[39m[40m 
-[1m[30m[48;5;110mCtrl+E› errors_recent|         [0m[39m[48;5;110m                             [1m[30mShift+G   go-bottom        22 lines  •0[0m[39m[40m 
+[30m[48;5;68m  [4mF[0m[30m[48;5;68mile  [4mE[0m[30m[48;5;68mdit  [4mV[0m[30m[48;5;68miew  [4mC[0m[30m[48;5;68molumn  [4mR[0m[30m[48;5;68mow  [4mD[0m[30m[48;5;68mata  [4mP[0m[30m[48;5;68mlot  [4mS[0m[30m[48;5;68mystem  [4mH[0m[30m[48;5;68melp     | VisiData 3.0.2 | Alt+H for help men
+[1;4;7m[37m[40m text                                                                                [0m[38;5;246m[40m║[39m             
+[1m[37m Traceback (most recent call last):[0m[40m                                                  [38;5;246m║[39m              
+[1m[37m File "lib/python3.10/site-packages/visidata/basesheet.py", line 211, in execCommand [0m[38;5;246m[40m║[39m              
+[1m[37m escaped = super().execCommand2(cmd, vdglobals=vdglobals)[0m[40m                            [38;5;246m║[39m              
+[1m[37m File "lib/python3.10/site-packages/visidata/extensible.py", line 79, in wrappedfunc [0m[38;5;246m[40m║[39m              
+[1m[37m r = oldfunc(*args, **kwargs)[0m[40m                                                        [38;5;246m║[39m              
+[1m[37m File "lib/python3.10/site-packages/visidata/basesheet.py", line 76, in execCommand2 [0m[38;5;246m[40m║[39m              
+[1m[37m exec(code, vdglobals, LazyChainMap(vd, self))[0m[40m                                       [38;5;246m║[39m              
+[1m[37m File "addcol-expr", line 1, in <module>[0m[40m                                             [38;5;246m║[39m              
+[1m[37m 'VisiData: a curses interface for exploring and arranging tabular data'             [0m[38;5;246m[40m║[39m              
+[1m[37m File "lib/python3.10/site-packages/visidata/column.py", line 544, in __init__       [0m[38;5;246m[40m║[39m              
+[1m[37m self.expr = expr or name[0m[40m                                                            [38;5;246m║[39m              
+[1m[37m File "lib/python3.10/site-packages/visidata/column.py", line 570, in expr           [0m[38;5;246m[40m║[39m              
+[1m[37m self.compiledExpr = compile(expr, '<expr>', 'eval') if expr else None[0m[40m               [38;5;246m║[39m              
+[1m[37m File "<expr>", line 1[0m[40m                                                               [38;5;246m║[39m              
+[1m[37m (                  [0m[40m                                                                 [38;5;246m║[39m              
+[1m[37m ^                  [0m[40m                                                                 [38;5;246m║[39m              
+[1;7m[37m SyntaxError: '(' was never closed                                                   [0;7m[37m[40m║[0m[40m              
+
+
+
+
+[4m[30m[48;5;68mCtrl+E› errors_recent[0m[30m[48;5;68m|  [39m                                     [30m [1m[37m[48;5;237mShift+G[0m[30m[48;5;68m   [1m[38;5;52m[48;5;114mgo-bottom[0m[30m[48;5;68m [39m      [30m  17 lines 

@@ -6,16 +6,12 @@ AWAIT "73448 rows" --start-line -1
 CAPTURE terminal/output/faa-opened.output
 
 SEND F
-AWAIT "282 bins\s+•0 $" --start-line -1
+AWAIT "282 bins\s+$" --start-line -1
 CAPTURE terminal/output/faa-operator-frequency.output
 
 SEND 
-AWAIT "sysopen-help"
+AWAIT "menu-help"
 CAPTURE terminal/output/faa-menu.output
-
-ENTER
-AWAIT "a terminal utility"
-CAPTURE terminal/output/faa-manpage.output
 
 SEND q
 PAUSE 0.1
@@ -23,5 +19,5 @@ SEND q
 AWAIT "VERO BEACH"
 
 SEND S
-AWAIT "2 sheets\s+•0 $" --start-line -1
+AWAIT "2 sheets\s+$" --start-line -1
 CAPTURE terminal/output/faa-simple-sheets-sheet.output

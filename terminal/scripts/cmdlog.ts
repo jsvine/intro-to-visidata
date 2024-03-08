@@ -12,39 +12,38 @@ SEND cAIRPORT
 ENTER
 PAUSE 0.1
 SEND F
-AWAIT "1512 bins\s+•0 $" --start-line -1
+AWAIT "1512 bins\s+$" --start-line -1
 SEND jjjjjs
 PAUSE 0.1
 CAPTURE terminal/output/cmdlog-00-freq.output
 
 SEND D
-AWAIT "logged commands\s+•0 $" --start-line -1
+AWAIT "logged commands\s+$" --start-line -1
 AWAIT "faa-wildlife-stri" --end-line 3
 CAPTURE terminal/output/cmdlog-01-simple-log.output
 
 SEND 
-AWAIT "_cmdlog\.vd\s+" --start-line -1
+AWAIT "_cmdlog\.vdj\s+" --start-line -1
 CAPTURE terminal/output/cmdlog-02-save-ctrl-s.output
-SEND example-cmdlog.vd
+SEND example-cmdlog.vdj
 ENTER
 SEND y
-ENTER
 
 SEND q
 AWAIT "1512 bins\s+•1 $" --start-line -1
 SEND 
-AWAIT "_freq\.vd\s+" --start-line -1
+AWAIT "_freq\.vdj\s+" --start-line -1
 # CAPTURE terminal/output/cmdlog-03-save-ctrl-d.output
 SEND 
 
 SEND gq
 AWAIT "\$\s+$"
-SEND "vd --play example-cmdlog.vd\n"
+SEND "vd --play example-cmdlog.vdj\n"
 AWAIT "1512 bins\s+•1 $" --start-line -1
 CAPTURE terminal/output/cmdlog-03-replay-all.output
 
 # SEND gq
-# SEND "vd example-cmdlog.vd\n"
+# SEND "vd example-cmdlog.vdj\n"
 # AWAIT "4 logged commands"
 # CAPTURE terminal/output/cmdlog-05-load-cmdlog.output
 # 

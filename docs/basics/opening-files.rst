@@ -22,7 +22,9 @@ Let's break it down:
 
 - **Top row** (directly below the menu): This displays your dataset's columns — at least as many as can fit on your screen.
 
-- **Bottom row**: This tells you what dataset you're viewing (``faa-wildlife-strikes`` on the far left), some status information, the number of rows loaded (73,448), and (after the ``•`` character) the number of rows selected (zero).
+- **Sidebar** (the green box): This contains status messages based on what you have just done or usage guidance for multi-step commands.
+
+- **Bottom row**: This tells you what dataset you're viewing (``faa-wildlife-strikes`` on the far left), often some status information, the number of rows loaded (73,448).
 
 - **Highlighted column and row**: These indicate your current position in the dataset.
 

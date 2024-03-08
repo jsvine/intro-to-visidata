@@ -18,22 +18,22 @@ AWAIT '"\s+47460 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-03-filtered.output
 
 SEND " rename-sheet" --enter
+AWAIT "rename sheet to" --start-line -1
 SEND known_species
 CAPTURE terminal/output/practical-distinctive-04-edit-sheet-name.output --start-line -4
 ENTER
 
 SEND cSTATE --enter
-AWAIT '"STATE"' --start-line -1
+AWAIT '<STATE' --end-line 2
 CAPTURE terminal/output/practical-distinctive-05-on-state-col.output
 
 SEND F
-AWAIT "F\s+63 bins\s+•0 $" --start-line -1
+AWAIT "LA\s+║\s+737\s+" --start-line -3
 CAPTURE terminal/output/practical-distinctive-06-state-freq.output
 
 SEND ccount --enter
-SEND ^state_total --enter
-SEND _l--
-AWAIT "state_total♯║\s*$"
+SEND l--
+AWAIT "count♯║\s*$"
 CAPTURE terminal/output/practical-distinctive-07-state-freq-trimmed.output
 
 SEND S
@@ -48,7 +48,7 @@ AWAIT "!" --start-line -1
 CAPTURE terminal/output/practical-distinctive-08-known-keyed.output
 
 SEND gF
-AWAIT "5135 bins\s+•0 $" --start-line -1
+AWAIT "5135 bins\s+$" --start-line -1
 CAPTURE terminal/output/practical-distinctive-09-state-species-freq.output
 
 SEND lll--
@@ -66,7 +66,7 @@ AWAIT "5 sheets"
 CAPTURE terminal/output/practical-distinctive-12-sheets-sheet.output
 
 SEND jsjs
-AWAIT "selected 1 more sheets" --start-line -1
+AWAIT "•2" --start-line -1
 CAPTURE terminal/output/practical-distinctive-13-sheets-selected.output
 
 SEND &
@@ -79,7 +79,11 @@ CAPTURE terminal/output/practical-distinctive-15-sheets-joined.output
 SEND " rename-sheet" --enter
 SEND joined --enter
 
-SEND gl
+SEND glh
+SEND ^count --enter
+SEND l^state_total --enter
+SEND _
+CAPTURE terminal/output/practical-distinctive-15b-columns-renamed.output
 SEND "=count * 100 / state_total" --enter
 AWAIT 'addcol-expr\s+5135 rows' --start-line -1
 CAPTURE terminal/output/practical-distinctive-16-new-col.output
@@ -99,7 +103,7 @@ AWAIT "z|count >= 20" --start-line -1
 CAPTURE terminal/output/practical-distinctive-18-select-expr-input.output
 
 ENTER
-AWAIT 'selected' --start-line -1
+AWAIT 'selected 498' --start-line -3
 CAPTURE terminal/output/practical-distinctive-19-select-expr-result.output
 
 SEND '"'

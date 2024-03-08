@@ -1164,3 +1164,9 @@ kbd {
 .inv38-255 { background: #eeeeee; }
 .ansi48-255 { background: #eeeeee; }
 .inv48-255 { color: #eeeeee; }
+
+/* OVERRIDES */
+.ansi48-68 { background: #4696de; }
+.inv48-68 { color: #4696de; }
+
+.ansi38-215 { color: #ff9900; }

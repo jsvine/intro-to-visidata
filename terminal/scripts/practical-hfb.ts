@@ -13,7 +13,7 @@ SEND z|HEIGHT > 0
 CAPTURE terminal/output/practical-hfb-02-select-expr-input.output
 
 ENTER
-AWAIT 'selected' --start-line -1
+AWAIT 'selected 22883' --start-line -3
 CAPTURE terminal/output/practical-hfb-03-select-expr-result.output
 
 SEND '"'
@@ -42,7 +42,7 @@ CAPTURE terminal/output/practical-hfb-08-select-expr-input.output
 
 ENTER
 AWAIT '•75 $' --start-line -1
-CAPTURE terminal/output/practical-hfb-09-select-expr-result.output --start-line -3
+CAPTURE terminal/output/practical-hfb-09-select-expr-result.output
 
 SEND '"'
 AWAIT "75 bins"

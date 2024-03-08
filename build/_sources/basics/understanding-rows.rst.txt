@@ -25,7 +25,7 @@ For instance, pressing :kbd:`s` while on the second row of the FAA dataset shoul
 .. raw:: html
    :file: ../../terminal/output/rows-00-select-single.output.html
 
-VisiData has highlighted that row and incremented the selection indicator (in the bottom-right corner) from ``•0`` to ``•1``.
+VisiData has highlighted that row and indicated the number of selected rows (the ``•1`` in the bottom-right corner).
 
 All rows at the same time
 ^^^^^^^^^^^^^^^^^^^^^^^^^

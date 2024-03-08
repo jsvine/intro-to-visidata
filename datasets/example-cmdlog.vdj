@@ -1,0 +1,5 @@
+#!vd -p
+{"sheet": null, "col": null, "row": null, "longname": "open-file", "input": "faa-wildlife-strikes.csv", "keystrokes": "o", "comment": null}
+{"sheet": "faa-wildlife-strikes", "col": "", "row": "", "longname": "rename-sheet", "input": "strikes", "comment": "Rename current sheet"}
+{"sheet": "strikes", "col": "AIRPORT", "row": "", "longname": "freq-col", "input": "", "keystrokes": "Shift+F", "comment": "open Frequency Table grouped on current column, with aggregations of other columns"}
+{"sheet": "strikes_AIRPORT_freq", "col": "", "row": "\u30adMEMPHIS INTL", "longname": "select-row", "input": "", "keystrokes": "s", "comment": "select current row"}

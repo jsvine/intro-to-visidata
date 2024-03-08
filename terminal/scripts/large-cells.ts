@@ -18,7 +18,7 @@ AWAIT "BIRD STRUCK THE RIGHT WING"
 CAPTURE terminal/output/large-cells-01-multiline.output
 
 SEND v
-AWAIT "Aircraft reported bird strike" --start-line -2 --end-line -1
+AWAIT "Aircraft reported bird strike" --start-line -3 --end-line -1
 CAPTURE terminal/output/large-cells-02-before-scroll.output
 
 SEND zl

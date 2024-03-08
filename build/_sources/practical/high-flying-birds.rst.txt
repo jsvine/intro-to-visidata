@@ -113,7 +113,7 @@ First, type :kbd:`z|` to raise the "select by expression" prompt. Then, type ``c
 .. raw:: html
 	:file: ../../terminal/output/practical-hfb-08-select-expr-input.output.html
 
-Next, press :kbd:`Enter` to complete the action. Because there are no high-count species in the visible part of the sheet, you won't notice much of effect at first; just a confirmation in the status bar at the bottom: 
+Next, press :kbd:`Enter` to complete the action. Because there are no high-count species in the visible part of the sheet, you won't notice much of effect at first; just some status messages in the sidebar:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-hfb-09-select-expr-result.output.html

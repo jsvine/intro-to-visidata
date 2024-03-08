@@ -1,24 +1,24 @@
-[30m[48;5;110m  [4mF[0m[30m[48;5;110mile  [4mE[0m[30m[48;5;110mdit  [4mV[0m[30m[48;5;110miew  [4mC[0m[30m[48;5;110molumn  [4mR[0m[30m[48;5;110mow  [4mD[0m[30m[48;5;110mata  [4mP[0m[30m[48;5;110mlot  [4mS[0m[30m[48;5;110mystem  [4mH[0m[30m[48;5;110melp     Ctrl+H for help menu[39m                 [49m 
-[1;4;7m[38;5;81m[40m option             [0m[38;5;246m[40m║[1;4m[37m global_value       [0m[38;5;246m[40m|[1;4m[37m default            [0m[38;5;246m[40m|[1;4m[37m description                       [0m[38;5;246m[40m>[39m 
-[1;7m[37m visidata_dir       [0;7m[37m[40m║ ~/.visidata/       | ~/.visidata/       | directory to load and store additi…[0m[39m[40m 
-[1m[38;5;81m disp_splitwin_pct  [0m[38;5;246m[40m║[37m        [39m      [37m      [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m height of second sheet on screen[39m    
-[1m[38;5;81m mouse_interval     [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m 1[39m                 [38;5;226m#[38;5;246m|[37m max time between press/release for…[39m 
-[1m[38;5;81m null_value         [0m[38;5;246m[40m║[39m                    [38;5;246m|[39m                   [38;5;226m⌀[38;5;246m|[37m a value to be counted as null[39m       
-[1m[38;5;81m undo[0m[39m[40m               [38;5;246m║[39m                    [38;5;246m|[37m True[39m               [38;5;246m|[37m enable undo/redo[39m                    
-[1m[38;5;81m disp_currency_fmt  [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m %.02f[39m              [38;5;246m|[37m default fmtstr to format for curre…[39m 
-[1m[38;5;81m disp_float_fmt     [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m {:.02f}            [38;5;246m|[37m default fmtstr to format for float…[39m 
-[1m[38;5;81m disp_int_fmt       [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m {:.0f}             [38;5;246m|[37m default fmtstr to format for int v…[39m 
-[1m[38;5;81m disp_date_fmt      [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m %Y-%m-%d           [38;5;246m|[37m default fmtstr to strftime for dat…[39m 
-[1m[38;5;81m col_cache_size     [0m[38;5;246m[40m║[37m        [39m      [37m      [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m max number of cache entries in eac…[39m 
-[1m[38;5;81m clean_names        [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m clean column/sheet names to be val…[39m 
-[1m[38;5;81m default_width      [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 20[39m                [38;5;226m#[38;5;246m|[37m default column width[39m                
-[1m[38;5;81m default_height     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 4[39m                 [38;5;226m#[38;5;246m|[37m default column height[39m               
-[1m[38;5;81m textwrap_cells     [0m[38;5;246m[40m║[39m                    [38;5;246m|[37m True[39m               [38;5;246m|[37m wordwrap text for multiline rows[39m    
-[1m[38;5;81m quitguard          [0m[38;5;246m[40m║[37m       [39m       [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m confirm before quitting modified s…[39m 
-[1m[38;5;81m debug[0m[39m[40m              [38;5;246m║[39m                    [38;5;246m|[37m False        [39m      [38;5;246m|[37m exit on error and display stacktra…[39m 
-[1m[38;5;81m skip[0m[39m[40m               [38;5;246m║[37m      [39m        [37m      [38;5;246m|[37m 0[39m                 [38;5;226m#[38;5;246m|[37m skip N rows before header[39m           
-[1m[38;5;81m header             [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m 1[39m                 [38;5;226m#[38;5;246m|[37m parse first N rows as column names[39m  
-[1m[38;5;81m load_lazy          [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m load subsheets always (False) or l…[39m 
-[1m[38;5;81m force_256_colors   [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m False[39m              [38;5;246m|[37m use 256 colors even if curses repo…[39m 
-[1m[38;5;81m disp_note_none     [0m[38;5;246m[40m║[37m      [39m        [37m      [38;5;246m|[37m ⌀[39m                  [38;5;246m|[37m visible contents of a cell whose v…[39m 
-[1m[30m[48;5;110mShift+O› global_options|[0m[39m[48;5;110m                                 [1m[30mShift+O   quit-sheet       168 options  •0[0m[39m[40m 
+[30m[48;5;68m  [4mF[0m[30m[48;5;68mile  [4mE[0m[30m[48;5;68mdit  [4mV[0m[30m[48;5;68miew  [4mC[0m[30m[48;5;68molumn  [4mR[0m[30m[48;5;68mow  [4mD[0m[30m[48;5;68mata  [4mP[0m[30m[48;5;68mlot  [4mS[0m[30m[48;5;68mystem  [4mH[0m[30m[48;5;68melp     | VisiData 3.0.2 | Alt+H for help men
+[1;4;7m[38;5;81m[40m option             [0m[38;5;246m[40m║[1;4m[37m global_value       [0m[38;5;246m[40m│[1;4m[37m default            [0m[38;5;246m[40m│[1;4m[37m description                        
+[0;1;7m[38;5;81m[40m visidata_dir       [0;7m[37m[40m║ ~/.visidata/       │ ~/.visidata/       │ directory to load and store additi…[0m[40m 
+[1m[38;5;81m debug[0m[40m              [38;5;246m║[37m                    [38;5;246m│[37m False[39m              [38;5;246m│[37m exit on error and display stacktra…[39m 
+[1m[38;5;81m disp_menu          [0m[38;5;246m[40m║[39m                    [38;5;246m│[37m True[39m               [38;5;246m│[37m show menu on top line when not act…[39m 
+[1m[38;5;81m disp_menu_keys     [0m[38;5;246m[40m║[39m                    [38;5;246m│[37m True[39m               [38;5;246m│[37m show keystrokes inline in submenus[39m  
+[1m[38;5;81m color_menu         [0m[38;5;246m[40m║[39m                    [38;5;246m│[30m[48;5;68m black on 68 blue   [38;5;246m[40m│[37m color of menu items in general[39m      
+[1m[38;5;81m color_menu_active  [0m[38;5;246m[40m║[37m                    [38;5;246m│[38;5;223m 223 yellow on black[38;5;246m│[37m color of active menu items[39m          
+[1m[38;5;81m color_menu_spec    [0m[38;5;246m[40m║[39m                    [38;5;246m│[30m[48;5;34m black on 34 green  [38;5;246m[40m│[37m color of sheet-specific menu items[39m  
+[1m[38;5;81m color_menu_help    [0m[38;5;246m[40m║[37m                    [38;5;246m│[30m[48;5;68m black italic on 68…[38;5;246m[40m│[37m color of helpbox[39m                    
+[1m[38;5;81m disp_menu_boxchars [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m ││──┌┐└┘├┤         [38;5;246m│[37m box characters to use for menus[39m     
+[1m[38;5;81m disp_menu_more     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m »[39m                  [38;5;246m│[37m command submenu indicator[39m           
+[1m[38;5;81m disp_menu_push     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m ⎘[39m                  [38;5;246m│[37m indicator if command pushes sheet …[39m 
+[1m[38;5;81m disp_menu_input    [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m …[39m                  [38;5;246m│[37m indicator if input required for co…[39m 
+[1m[38;5;81m disp_menu_fmt      [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m | VisiData {vd.ver…[38;5;246m│[37m right-side menu format string[39m       
+[1m[38;5;81m undo[0m[40m               [38;5;246m║[39m                    [38;5;246m│[37m True[39m               [38;5;246m│[37m enable undo/redo[39m                    
+[1m[38;5;81m disp_float_fmt     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m {:.02f}            [38;5;246m│[37m default fmtstr to format float val…[39m 
+[1m[38;5;81m disp_int_fmt       [0m[38;5;246m[40m║[39m                    [38;5;246m│[37m {:d}               [38;5;246m│[37m default fmtstr to format int values[39m 
+[1m[38;5;81m col_cache_size     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m 0[39m                 [38;5;226m#[38;5;246m│[37m max number of cache entries in eac…[39m 
+[1m[38;5;81m disp_formatter     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m generic            [38;5;246m│[37m formatter to create the text in ea…[39m 
+[1m[38;5;81m disp_displayer     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m generic            [38;5;246m│[37m displayer to render the text in ea…[39m 
+[1m[38;5;81m disp_splitwin_pct  [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m 0[39m                 [38;5;226m#[38;5;246m│[37m height of second sheet on screen[39m    
+[1m[38;5;81m disp_note_none     [0m[38;5;246m[40m║[37m                    [38;5;246m│[37m ⌀[39m                  [38;5;246m│[37m visible contents of a cell whose v…[39m 
+[4m[30m[48;5;68mShift+O› global_options[0m[30m[48;5;68m|[39m                                  [30m [1m[37m[48;5;237mShift+O[0m[30m[48;5;68m   [1m[38;5;52m[48;5;114mquit-sheet[0m[30m[48;5;68m        242 options 

@@ -69,7 +69,7 @@ Keystroke(s)         Action
 
 Some VisiData commands, like the ones directly above, will prompt you to enter some text.
 
-To demonstrate, move to the first column of the FAA dataset (if you're not already there) and type :kbd:`/`. At the bottom-left of the screen, you'll see a ``/``:
+To demonstrate, move to the first column of the FAA dataset (if you're not already there) and type :kbd:`/`. At the bottom-left of the screen, you'll see a prompt that says ``search regex:``:
 
 .. raw:: html
     :file: ../../terminal/output/navigation-02-search-prompt.output.html

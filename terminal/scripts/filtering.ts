@@ -17,7 +17,7 @@ AWAIT "73448 rows" --start-line -1
 SEND gu
 SEND cSTATE --enter
 SEND F
-AWAIT "63 bins\s+•0 $" --start-line -1
+AWAIT "63 bins\s+$" --start-line -1
 SEND jj
 PAUSE 0.25
 CAPTURE terminal/output/filtering-02-freq-before.output

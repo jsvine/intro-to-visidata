@@ -22,3 +22,5 @@ def stacktrace(e=None):
 
 visidata.wrappers.stacktrace = stacktrace
 visidata.errors.stacktrace = stacktrace
+# visidata.options.disp_menu = False
+visidata.options.disp_sidebar = False

@@ -4,21 +4,11 @@ Extending VisiData With Plugins
 
 VisiData allows users to extend the program's functionality through plugins. You can `write your own <https://www.visidata.org/docs/api/>`_, or use plugins other people have written. This chapter focuses on incorporating already-written plugins.
 
-Using VisiData's plugin installer
----------------------------------
 
-VisiData provides an interface for installing certain plugins. To open the interface, press :kbd:`Space` to raise the longname-command prompt, type ``open-plugins``, and press :kbd:`Enter`:
+How to install a plugin
+-----------------------
 
-.. raw:: html
-    :file: ../../terminal/output/extending-03-installer.output.html
-
-To install and *activate* any of these plugins, navigate to its row and press :kbd:`a`. To *deactivate* a plugin, navigate to its row and press :kbd:`d`.
-
-
-How to install a plugin manually
---------------------------------
-
-You can also manually install plugins that are not available through the installer. Doing so involves two steps:
+Installing a plugin so involves two steps:
 
 - First, make the plugin available to VisiData. Depending on the plugin, you'll do this either by saving the plugin file to your ``~/.visidata/`` directory, or by running ``pip install [plugin_package_name]``.
 
@@ -59,7 +49,7 @@ Press :kbd:`Enter` to execute the command. Now you should see a new copy of the 
 Where to find plugins
 ---------------------
 
-Plugin support is a relatively new feature of VisiData, so there aren't many public plugins yet available. Here is a (likely incomplete) list of resources:
+Here is a (likely incomplete) list of resources:
 
 - `jsvine/visidata-plugins <https://github.com/jsvine/visidata-plugins>`_
 - `ajkerrigan/visidata-plugins <https://github.com/ajkerrigan/visidata-plugins>`_

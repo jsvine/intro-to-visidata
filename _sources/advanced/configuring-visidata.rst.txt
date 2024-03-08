@@ -21,7 +21,7 @@ For instance, to tell VisiData to ignore the first three lines of your input fil
    vd my-spreadsheet.csv --skip 3
    
 
-To see the full list of configurable options, run ``vd -h``:
+To see the full list of configurable options, run ``vd -h | less``:
 
 
 .. raw:: html

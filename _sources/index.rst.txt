@@ -44,8 +44,8 @@ Tutorial Status
 ^^^^^^^^^^^^^^^
 
 ======================  ================
-Tutorial last updated   ``2022-03-30``
-VisiData version        ``2.8``
+Tutorial last updated   ``2024-03-08``
+VisiData version        ``3.0.2``
 ======================  ================
 
 About the author

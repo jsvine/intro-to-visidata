@@ -54,14 +54,14 @@ The error sheet is like any other sheet in VisiData, so you can quit it and retu
 Examining general errors
 ------------------------
 
-Let's try creating a general error on purpose. Say we want to find all ``OPERATOR`` values with parentheses in them. We might navigate over to that column, press :kbd:`|` to select rows by a pattern, and type ``(`` at the prompt. If we did so, we'd be greeted by an error message at the bottom of the screen:
+Let's try creating a general error on purpose. Let's press :kbd:`=` to create a new column, and type ``(`` at the prompt, and then :kbd:`Enter`. We'll be greeted by an error message at the bottom of the screen:
 
 
 .. raw:: html
     :file: ../../terminal/output/debugging-02-general-error-status.output.html
 
 
-Why's that? In Python, these patterns ("regular expressions") treat parentheses as special characters that group other characters, rather than literal parentheses. For every opening parenthesis, valid patterns require a closing parenthesis to match it. Hence, the error message we see at the bottom of the screen, suggesting that we have an "unterminated" pattern that lacks a closing parenthesis. (Python's built-in module for processing regular expressions is named ``re``, hence the ``re.error`` in the message.)
+Why's that? In Python, all open parentheses need to be closed.
 
 To examine this general error in greater detail, we can press :kbd:`Control-e` — now, or at any point until you trigger another error — to reveal its full traceback in a VisiData text sheet:
 

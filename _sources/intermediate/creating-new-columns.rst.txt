@@ -79,9 +79,11 @@ Once you do that, you should see something like this:
 .. raw:: html
     :file: ../../terminal/output/newcols-02-split.output.html
 
-.. note::
+Each value in the new column is a list of the pieces that resulted from the split. But you probably want them each piece in its own column. To do that press :kbd:`(`, which is the "expand column" command. Now you should see something like this:
 
-   The number of new columns created will be determined by split-size of the values in the 100 rows surrounding the cursor. (That 100 number is `configurable <../../advanced/configuring-visidata/>`_ via the ``default_sample_size`` option.)
+.. raw:: html
+    :file: ../../terminal/output/newcols-02a-split-expanded.output.html
+
 
 
 How to create a new column by "capturing" it from another column
@@ -98,6 +100,7 @@ For instance, if you want to extract the first string of numbers from each aircr
 - Navigate to the ``ATYPE`` column
 - Press :kbd:`;`
 - At the prompt, type ``(\d+)`` (with one set of parentheses for each capture group), and then hit :kbd:`Enter`
+- Press :kbd:`(` to expand the new column's lists
 
 Once you do that, you should see something like this:
 

@@ -96,13 +96,9 @@ Then, to create a frequency table for the column, press :kbd:`Shift-F`. Once you
 Spruce up the frequency table
 -----------------------------
 
-Because we'll later be joining this sheet to another sheet, let's spruce it up a bit by doing the following:
+Because we'll later be joining this sheet to another sheet, let's hide the ``percent`` and ``histogram`` columns by navigating to each and pressing :kbd:`-`.
 
-- Navigate to the ``count`` column. Rename it by pressing :kbd:`^`, typing ``state_total``, and then pressing :kbd:`Enter`
-- Press :kbd:`_` to resize column slightly, so that the full column name can be seen
-- Hide the ``percent`` and ``histogram`` columns by navigating to each and pressing :kbd:`-`.
-
-After those steps, the sheet should look something like this:
+Now the sheet should look something like this:
 
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-07-state-freq-trimmed.output.html
@@ -170,7 +166,12 @@ Type ``inner`` and press :kbd:`Enter` to complete the action. After that, you sh
 .. raw:: html
 	:file: ../../terminal/output/practical-distinctive-15-sheets-joined.output.html
 
-Finally, give the sheet a shorter name:
+The columns that had previously been called ``count`` in both sheets have been auto-prefixed with the name of their source sheet. Let's clarify things by using the :kbd:`^` shortcut to rename them to ``count`` and ``state_total``, respectively. On the ``state_total`` column, press :kbd:`_` to expand the width to see the full name:
+
+.. raw:: html
+	:file: ../../terminal/output/practical-distinctive-15b-columns-renamed.output.html
+
+Finally, let's give the sheet a shorter name:
 
 - Press :kbd:`Space` to raise the type-a-command prompt
 - Type ``rename-sheet`` and press :kbd:`Enter`

@@ -206,12 +206,12 @@
 <div class="section" id="from-the-command-line">
 <h3>From the command-line<a class="headerlink" href="#from-the-command-line" title="Permalink to this headline">¶</a></h3>
 <p>If you’re working with a simple CSV file, you can accomplish this by using <code class="docutils literal notranslate"><span class="pre">head</span></code> on the command-line, combined with <code class="docutils literal notranslate"><span class="pre">vd</span> <span class="pre">-f</span> <span class="pre">csv</span></code> e.g.,:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>head -n <span class="m">1000</span> faa-wildlife-strikes.csv <span class="p">|</span> vd -f csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>head<span class="w"> </span>-n<span class="w"> </span><span class="m">1000</span><span class="w"> </span>faa-wildlife-strikes.csv<span class="w"> </span><span class="p">|</span><span class="w"> </span>vd<span class="w"> </span>-f<span class="w"> </span>csv
 </pre></div>
 </div>
 <p>That will load the first 1,000 lines of the file. (Because the <code class="docutils literal notranslate"><span class="pre">REMARKS</span></code> column contains some newline characters, the 1,000 lines correspond to slightly fewer than 1,000 rows.)</p>
 <p>Alternatively, you can use a written-for-speed tool, such as <a class="reference external" href="https://github.com/BurntSushi/xsv">xsv</a>, to slice or filter the file before loading it into VisiData. E.g.,:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>xsv search <span class="s2">&quot;CHICAGO&quot;</span> faa-wildlife-strikes.csv <span class="p">|</span> vd -f csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>xsv<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;CHICAGO&quot;</span><span class="w"> </span>faa-wildlife-strikes.csv<span class="w"> </span><span class="p">|</span><span class="w"> </span>vd<span class="w"> </span>-f<span class="w"> </span>csv
 </pre></div>
 </div>
 </div>

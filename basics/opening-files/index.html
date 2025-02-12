@@ -203,7 +203,7 @@
 <div class="section" id="how-to-open-a-file">
 <h2>How to open a file<a class="headerlink" href="#how-to-open-a-file" title="Permalink to this headline">¶</a></h2>
 <p>The easiest way to open a dataset in VisiData is to specify it directly when invoking <code class="docutils literal notranslate"><span class="pre">vd</span></code>, like so:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd faa-wildlife-strikes.csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>faa-wildlife-strikes.csv
 </pre></div>
 </div>
 <p>If you’ve downloaded the <a class="reference download internal" download="" href="../../_downloads/a61d9b28e9a942e1254bffeb8289a447/faa-wildlife-strikes.csv"><code class="xref download docutils literal notranslate"><span class="pre">faa-wildlife-strikes.csv</span></code></a> file, and you run the command above, you should see this:</p>
@@ -255,11 +255,11 @@
 <div class="section" id="how-to-specify-the-file-s-format">
 <h2>How to specify the file’s format<a class="headerlink" href="#how-to-specify-the-file-s-format" title="Permalink to this headline">¶</a></h2>
 <p>VisiData guesses which kind of file you’re trying to open based on the file’s extension. For instance, it will try to open <code class="docutils literal notranslate"><span class="pre">my-csv-data.xlsx</span></code> as an Excel file. To override that default, specify the filetype with the <code class="docutils literal notranslate"><span class="pre">--filetype</span></code> flag. For instance:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd my-csv-data.xlsx --filetype csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>my-csv-data.xlsx<span class="w"> </span>--filetype<span class="w"> </span>csv
 </pre></div>
 </div>
 <p>You can also use the shorter <code class="docutils literal notranslate"><span class="pre">-f</span></code> flag:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd my-csv-data.xlsx -f csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>my-csv-data.xlsx<span class="w"> </span>-f<span class="w"> </span>csv
 </pre></div>
 </div>
 </div>

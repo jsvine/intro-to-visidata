@@ -51,7 +51,7 @@ VisiData version        ``3.0.2``
 About the author
 ----------------
 
-`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is a journalist, computer programmer, and data editor based in New York City. From 2014 until early 2022, he served as the founding `data editor <https://github.com/BuzzFeedNews/everything>`_ for `BuzzFeed News <https://www.buzzfeednews.com/>`_. He also publishes `Data Is Plural <https://tinyletter.com/data-is-plural>`_, a weekly newsletter of useful/curious datasets.
+`Jeremy Singer-Vine <https://www.jsvine.com/>`_ is a journalist, computer programmer, and data editor based in New York City. 
 
 Feedback / questions / corrections?
 -----------------------------------

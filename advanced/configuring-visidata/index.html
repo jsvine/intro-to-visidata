@@ -203,7 +203,7 @@
 <h2><code class="docutils literal notranslate"><span class="pre">vd</span></code> command-line arguments<a class="headerlink" href="#vd-command-line-arguments" title="Permalink to this headline">¶</a></h2>
 <p>When you launch <code class="docutils literal notranslate"><span class="pre">vd</span></code>, you can specify certain behaviors via arguments on the command-line.</p>
 <p>For instance, to tell VisiData to ignore the first three lines of your input file, you’d run the following:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd my-spreadsheet.csv --skip <span class="m">3</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>my-spreadsheet.csv<span class="w"> </span>--skip<span class="w"> </span><span class="m">3</span>
 </pre></div>
 </div>
 <p>To see the full list of configurable options, run <code class="docutils literal notranslate"><span class="pre">vd</span> <span class="pre">-h</span> <span class="pre">|</span> <span class="pre">less</span></code>:</p>
@@ -339,9 +339,9 @@ DESCRIPTION
 <p>To persist your customizations from session to session, you can specify them in your computer’s <code class="docutils literal notranslate"><span class="pre">~/.visidatarc</span></code> file.</p>
 <p>Open that file in the editor of your choosing and, for each option you wish to modify, write <code class="docutils literal notranslate"><span class="pre">options.my_example_option</span> <span class="pre">=</span> <span class="pre">my_custom_value</span></code>.</p>
 <p>For instance:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>options.default_width <span class="o">=</span> <span class="m">10</span>
-options.encoding <span class="o">=</span> <span class="s2">&quot;latin-1&quot;</span>
-options.bulk_select_clear <span class="o">=</span> True
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>options.default_width<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span>
+options.encoding<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;latin-1&quot;</span>
+options.bulk_select_clear<span class="w"> </span><span class="o">=</span><span class="w"> </span>True
 </pre></div>
 </div>
 <p>… and then save the file. Next time you run VisiData, these options will take effect.</p>

@@ -310,7 +310,7 @@
 <div class="section" id="replaying-the-full-command-log">
 <h2>Replaying the full command log<a class="headerlink" href="#replaying-the-full-command-log" title="Permalink to this headline">¶</a></h2>
 <p>To fully replay the <code class="docutils literal notranslate"><span class="pre">example-cmdlog.vd</span></code> log we saved in the section above, run the following command from your computer’s terminal:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd --play example-cmdlog.vd
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>--play<span class="w"> </span>example-cmdlog.vd
 </pre></div>
 </div>
 <p>Note that, this time, we don’t point VisiData to the dataset itself, since that information (the path to the dataset) is now specified within the command log. If the replay worked, you should see VisiData advance through each step (some more quickly than others), ultimately arriving at the result you previously obtained manually:</p>
@@ -343,11 +343,11 @@
 </pre>
 </div>
 <p>You can adjust the replay behavior via various command line arguments, such as:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd --play example-cmdlog.vd --replay-wait <span class="m">2</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>--play<span class="w"> </span>example-cmdlog.vd<span class="w"> </span>--replay-wait<span class="w"> </span><span class="m">2</span>
 </pre></div>
 </div>
 <p>… which will pause two seconds between each of the logged steps. And:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd --play example-cmdlog.vd --batch --output cmdlog-results.csv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>vd<span class="w"> </span>--play<span class="w"> </span>example-cmdlog.vd<span class="w"> </span>--batch<span class="w"> </span>--output<span class="w"> </span>cmdlog-results.csv
 </pre></div>
 </div>
 <p>… which will replay the command log in “batch” mode (displaying status messages but not the full VisiData interface) and, when complete, will save the final sheet to <code class="docutils literal notranslate"><span class="pre">cmdlog-results.csv</span></code>.</p>
